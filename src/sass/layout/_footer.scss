@@ -1,0 +1,10 @@
+@use '../utils/variables';
+
+footer {
+    background-color: variables.$background-secondary;
+    color: variables.$alpha-color-rev;
+    width: 100vw;
+
+    padding: 20px;
+    font-size: 0.9rem;
+}
