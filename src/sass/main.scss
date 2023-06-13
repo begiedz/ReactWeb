@@ -1,7 +1,8 @@
 @use './utils/imports';
 @use './utils/variables';
-@use './utils/reset';
 @use './utils/mixins';
+
+@use './layout/global';
 
 @use './layout/navbar';
 @use './layout/header';
