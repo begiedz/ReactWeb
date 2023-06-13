@@ -14,7 +14,7 @@ header {
         flex-direction: column;
         align-items: center;
         font-size: 3rem;
-        // font-feature-settings: 'kern';
+        color: rgba($color: #fff, $alpha: 0.92);
         @media screen and (max-width: 450px) {
             font-size: 2.5rem;
         }
@@ -25,11 +25,11 @@ header {
         font-size: 10rem;
         font-family: 'pacifico';
 
-        background: -webkit-linear-gradient(#4a00ff, #4a00ff, #4a00ff, #330099, #330099);
+        background: -webkit-linear-gradient(#3a00ce, #3a00ce, #3a00ce, #330099, #330099);
         background-clip: text;
         -webkit-text-fill-color: transparent;
 
-        line-height: 1.4;
+        // line-height: 1.4;
         @media screen and (max-width: 450px) {
             font-size: 7rem;
         }
@@ -43,36 +43,43 @@ header {
             font-size: 1.5rem;
         }
     }
-
-    .gifWrapper {
+    .headerBackground {
         position: absolute;
-        width: 100%;
-        height: calc(100% + 70px);
-        overflow: hidden;
+        top: 0;
+        background-color: variables.$accent-color;
+        height: 100vh;
+        width: 100vw;
         z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
 
-        img {
-            position: absolute;
+        overflow: hidden;
+    }
+    .headerBackground::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
 
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            filter: blur(7px);
-            height: 100%;
-            width: calc(100vw + 1rem);
-            @media screen and (max-width: 750px) {
-                width: auto;
-                height: 100%;
-            }
+        border-top: 100px solid transparent;
+        border-right: calc(100vw - 400px) solid variables.$body-color;
+        @media screen and (max-width: 450px) {
+            border-right: calc(100vw - 200px) solid variables.$body-color;
         }
-
-        .gifFilter {
-            position: absolute;
-            left: -25px;
-            z-index: 1;
-            height: calc(100%);
-            width: calc(100% + 50px);
-            box-shadow: 0 -30px 25px rgb(236, 236, 236) inset;
-        }
+    }
+    img {
+        // aspect-ratio: 16/ 9;
+        min-width: 100%;
+        transform: translate(0, 20%);
+        // height: 100%;
+    }
+    .imgFilter {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: variables.$accent-color;
+        // background-color: red;
+        opacity: 0.9;
     }
 }

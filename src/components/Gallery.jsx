@@ -5,12 +5,20 @@ const Gallery = () => {
         <div className="gallery">
             <h2> My work</h2>
             <div className="buttonWrapper">
+                <button>All</button>
                 <button>JS</button>
                 <button>PHP</button>
                 <button>React</button>
                 <button>React Natvie</button>
             </div>
-            <div className="output">xd</div>
+            <div className="output">
+                <div className="item">item</div>
+                <div className="item">item</div>
+                <div className="item">item</div>
+                <div className="item">item</div>
+                <div className="item">item</div>
+                <div className="item">item</div>
+            </div>
         </div>
     );
 };

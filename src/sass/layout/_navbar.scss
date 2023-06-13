@@ -13,9 +13,11 @@ nav {
     width: 100vw;
     // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(30px);
-    background-color: variables.$nav-color;
+    background-color: variables.$accent-color;
 
     color: variables.$nav-text;
+
+    z-index: 2;
 
     div.logoWrapper {
         display: flex;
@@ -23,7 +25,7 @@ nav {
         gap: 1rem;
     }
     span.logo {
-        font-weight: bold;
+        // font-weight: bold;
         font-size: 1.5rem;
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     }
@@ -34,7 +36,7 @@ nav {
         width: 100px;
     }
     #bgdzLogo {
-        fill: #4a00ff;
+        fill: white;
         height: 35px;
     }
 }
