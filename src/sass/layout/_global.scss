@@ -15,15 +15,14 @@ body {
     background-color: rgb(236, 236, 236);
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
 #root {
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 /* Fix Safari overflow issue */
@@ -32,6 +31,7 @@ code {
 // body {
 // width: 100vw;
 // width: 100%;
+
 // overflow-x: hidden;
 // position: relative;
 // height: 100%;

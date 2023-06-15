@@ -1,5 +1,4 @@
 import React from 'react';
-import avatar from '../img/IMG_0002.JPG';
 const Main = () => {
     return (
         <main>
@@ -25,7 +24,6 @@ const Main = () => {
                             have it, I realized that these paths weren't my true calling.
                         </p>
                     </div>
-                    {/* <img src={avatar} alt="begiedz photo" /> */}
                 </div>
 
                 <div className="paragraphWrapper">
