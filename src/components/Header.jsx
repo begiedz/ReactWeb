@@ -16,13 +16,13 @@ const Greeting = () => {
                 /> */}
                 <div className="imgFilter"></div>
             </div>
-
-            <h1>
+            <div className="titleWrapper">
+                {' '}
                 <span className="hello">hey!</span>
-                I'm Dariusz
-            </h1>
-            <h3>Beginner Web Developer</h3>
-            <span>React</span>
+                <h1>I'm Dariusz</h1>
+                <h2>Beginner Web Developer</h2>
+                {/* <span>React</span> */}
+            </div>
         </header>
     );
 };

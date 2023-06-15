@@ -1,8 +1,22 @@
+header .hello {
+    opacity: 0;
+    animation: reveal 1000ms ease-in-out 0ms 1 normal forwards;
+}
+header h1 {
+    opacity: 0;
+    animation: reveal 1000ms ease-in-out 300ms 1 normal forwards;
+}
+header h2 {
+    opacity: 0;
+    animation: reveal 1000ms ease-in-out 600ms 1 normal forwards;
+}
 @keyframes reveal {
-    0% {
-        background-color: black;
+    from {
+        opacity: 0;
+        transform: translateY(50%);
     }
-    100% {
-        background-color: transparent;
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

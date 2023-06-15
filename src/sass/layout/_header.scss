@@ -5,14 +5,74 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(100vh + 50px);
+    height: calc(100vh);
     color: variables.$text-color-rev;
 
+    .headerBackground {
+        position: absolute;
+        top: 0;
+        background-color: variables.$accent-color;
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        overflow: hidden;
+    }
+
+    .headerBackground::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        border-top: 100px solid transparent;
+        border-right: calc(100vw - 400px) solid variables.$body-color;
+        @media screen and (max-width: 450px) {
+            border-right: calc(100vw - 200px) solid variables.$body-color;
+        }
+    }
+
+    .headerBackground::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        border-top: 100px solid transparent;
+        border-left: calc(100vw - 20px) solid variables.$body-color;
+
+        z-index: 1;
+        @media screen and (max-width: 450px) {
+            border-right: calc(100vw - 200px) solid variables.$body-color;
+        }
+    }
+
+    img {
+        // aspect-ratio: 16/ 9;
+        min-width: 100%;
+        transform: translate(0, 20%);
+        // height: 100%;
+    }
+
+    .imgFilter {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: variables.$accent-color;
+        // background-color: red;
+        opacity: 0.9;
+    }
+}
+
+.titleWrapper {
+    transform: translateY(-15%);
+    width: 100%;
     h1 {
         margin-top: -50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
         font-size: 3rem;
         color: rgba($color: #fff, $alpha: 0.92);
         @media screen and (max-width: 450px) {
@@ -21,6 +81,7 @@ header {
     }
 
     .hello {
+        text-align: center;
         display: block;
         font-size: 10rem;
         font-family: 'pacifico';
@@ -35,51 +96,12 @@ header {
         }
     }
 
-    h3 {
+    h2 {
         font-size: 2rem;
         color: variables.$alpha-color-rev;
         // opacity: 0.6;
         @media screen and (max-width: 450px) {
             font-size: 1.5rem;
         }
-    }
-    .headerBackground {
-        position: absolute;
-        top: 0;
-        background-color: variables.$accent-color;
-        height: 100vh;
-        width: 100vw;
-        z-index: -1;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-
-        overflow: hidden;
-    }
-    .headerBackground::after {
-        content: '';
-        position: absolute;
-        right: 0;
-        bottom: 0;
-
-        border-top: 100px solid transparent;
-        border-right: calc(100vw - 400px) solid variables.$body-color;
-        @media screen and (max-width: 450px) {
-            border-right: calc(100vw - 200px) solid variables.$body-color;
-        }
-    }
-    img {
-        // aspect-ratio: 16/ 9;
-        min-width: 100%;
-        transform: translate(0, 20%);
-        // height: 100%;
-    }
-    .imgFilter {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: variables.$accent-color;
-        // background-color: red;
-        opacity: 0.9;
     }
 }

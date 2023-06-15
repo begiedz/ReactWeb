@@ -3,52 +3,49 @@
 
 main {
     max-width: variables.$tablet;
-    padding: 0 1rem;
+
+    margin-top: 5rem;
+    padding: 0 2rem;
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
         Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    // @media (max-width: 750px) {
-    //     text-align: center;
-    // }
     article {
-        // display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .paragraphWrapper {
-        margin-top: 5rem;
+        .paragraphWrapper {
+            margin-top: 5rem;
 
-        // p::first-letter {
-        //     margin-left: 4rem;
-        // }
-        p {
-            line-height: 1.4;
-            // max-width: variables.$mobile;
+            // p::first-letter {
+            //     margin-left: 4rem;
+            // }
+            p {
+                line-height: 1.4;
+                color: rgba(0, 0, 0, 0.75);
+                // max-width: variables.$mobile;
+            }
         }
-    }
-    .firstWrapper {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
+        .firstWrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
 
-        img {
-            width: 250px;
-            height: 250px;
-            order: 1;
-            border-right: 5px solid variables.$accent-color;
-            border-bottom: 5px solid variables.$accent-color;
-            border-radius: 1rem;
+            img {
+                width: 250px;
+                height: 250px;
+                order: 1;
+                border-right: 5px solid variables.$accent-color;
+                border-bottom: 5px solid variables.$accent-color;
+                border-radius: 1rem;
+            }
+            @include mixins.tablet {
+                flex-direction: column-reverse;
+            }
         }
-        @include mixins.tablet {
-            flex-direction: column-reverse;
+        p,
+        h2 {
+            margin-bottom: 1rem;
         }
-    }
-    p,
-    h2 {
-        margin-bottom: 1rem;
-    }
-    h2 {
-        font-size: 2rem;
+        h2 {
+            font-size: 2rem;
+        }
     }
 }
