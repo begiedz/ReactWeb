@@ -1,6 +1,8 @@
 *,
 *:before,
 *:after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,9 +12,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
     background-color: rgb(236, 236, 236);
 }
 
@@ -24,14 +23,16 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // width: calc(100% + 1px);
+    overflow-x: hidden;
 }
 
 /* Fix Safari overflow issue */
-/* #root,
-html,
-body {
-    overflow-x: hidden;
-    position: relative;
-    height: 100%;
-} */
+// #root,
+// html,
+// body {
+// width: 100vw;
+// width: 100%;
+// overflow-x: hidden;
+// position: relative;
+// height: 100%;
+// }

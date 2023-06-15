@@ -8,12 +8,10 @@ footer {
 
     width: 100vw;
     padding: 20px;
-    font-size: 0.9rem;
+    font-size: 12px;
 
     background-color: variables.$background-secondary;
     color: rgb(110, 110, 110);
-
-    font-size: 12px;
 
     @include mixins.mobile {
         flex-direction: column;
