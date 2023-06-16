@@ -33,7 +33,33 @@ nav {
         display: flex;
         list-style: none;
         justify-content: space-between;
-        width: 100px;
+        gap: 20px;
+        // width: 100px;
+        li {
+            a {
+                svg {
+                    // scale: 2;
+                    // size: 1;
+                    color: white;
+                }
+            }
+        }
+        button {
+            height: 35px;
+            width: 35px;
+            background-color: transparent;
+            border: none;
+            border-radius: 5px;
+
+            cursor: pointer;
+            transition: background-color 300ms;
+            svg {
+                color: white;
+            }
+        }
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
     }
     #bgdzLogo {
         fill: white;
