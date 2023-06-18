@@ -1,6 +1,8 @@
 @use '../utils/variables';
+@use '../utils/mixins';
 nav {
-    position: fixed;
+    font-weight: bold;
+    position: sticky;
     top: 0;
     left: 0;
 
@@ -8,8 +10,8 @@ nav {
     align-items: center;
     justify-content: space-between;
 
-    padding: 0 20px 0;
-    height: 50px;
+    padding: 10px 20px;
+    // height: 50px;
     width: 100vw;
     // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(30px);
@@ -17,27 +19,40 @@ nav {
 
     color: variables.$nav-text;
 
+    // border-radius: 0 0 10px 10px;
     z-index: 2;
+    @include mixins.tablet {
+        flex-direction: column;
+    }
 
     div.logoWrapper {
         display: flex;
+        align-self: flex-start;
         align-items: center;
+        // justify-content: flex-start;
         gap: 1rem;
     }
     span.logo {
         color: rgba(195, 135, 255, 1);
-        // font-weight: bold;
+
         font-size: 1.5rem;
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     }
     ul {
         display: flex;
         list-style: none;
-        justify-content: space-between;
-        gap: 20px;
+        // justify-content: space-between;
+        gap: 1rem;
         // width: 100px;
+        @include mixins.tablet {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            font-size: 2rem;
+        }
         li {
             display: flex;
+
             a,
             a:visited {
                 padding: 0.5rem;
@@ -54,22 +69,33 @@ nav {
                 background-color: rgba(195, 135, 255, 0.13);
             }
         }
-        button {
-            height: 35px;
-            width: 35px;
-            background-color: transparent;
-            border: none;
-            border-radius: 5px;
+    }
+    ul.active {
+        display: flex;
+    }
+    button {
+        position: absolute;
+        right: 1rem;
+        padding: 0.3rem;
+        background-color: transparent;
+        border: none;
+        border-radius: 5px;
 
-            cursor: pointer;
-            transition: background-color 300ms;
-            svg {
-                color: white;
-            }
+        cursor: pointer;
+        transition: background-color 300ms;
+        @include mixins.beyond-tablet {
+            display: none;
         }
-        button:hover {
-            background-color: rgba(0, 0, 0, 0.5);
+        svg {
+            fill: rgba(195, 135, 255, 1);
+            height: 25px;
+            width: auto;
+            // height: 25px;
+            // size: ;
         }
+    }
+    button:hover {
+        background-color: rgba(195, 135, 255, 0.13);
     }
     #bgdzLogo {
         fill: rgba(195, 135, 255, 1);

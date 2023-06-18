@@ -1,7 +1,12 @@
-import React from 'react';
+import { React, useRef } from 'react';
 import { IconContext } from 'react-icons';
 import { FaGithub, FaCodepen, FaLinkedin, FaBars } from 'react-icons/fa';
 const Navbar = () => {
+    const navRef = useRef();
+
+    const openMenu = () => {
+        navRef.current.classList.toggle('active');
+    };
     return (
         <nav>
             <div className="logoWrapper">
@@ -23,29 +28,29 @@ const Navbar = () => {
                 <span className="logo">begiedz</span>
             </div>
 
-            <ul>
-                <IconContext.Provider value={{ size: 35 }}>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Resume</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    {/* <FaBars /> */}
-                </IconContext.Provider>
+            <ul ref={navRef}>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Skills</a>
+                </li>
+                <li>
+                    <a href="#">My Work</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
             </ul>
+            <button onClick={openMenu}>
+                <FaBars />
+            </button>
         </nav>
     );
 };

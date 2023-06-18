@@ -1,5 +1,6 @@
 import React from 'react';
 import avatar from '../img/avatarApple.jpeg';
+import { FaGithub, FaCodepen, FaLinkedin } from 'react-icons/fa';
 
 const Greeting = () => {
     return (
@@ -18,6 +19,23 @@ const Greeting = () => {
                     to collaborate and embark on transformative journeys, bringing digital dreams to
                     life. Let's create wonders together!
                 </p>
+                <ul>
+                    <li>
+                        <a href="">
+                            <FaGithub />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <FaCodepen />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <FaLinkedin />
+                        </a>
+                    </li>
+                </ul>
             </div>
             <img src={avatar} alt="avatar begiedz" />
         </header>

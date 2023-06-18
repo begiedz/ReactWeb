@@ -5,20 +5,32 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    // gap: 2rem;
-    justify-content: space-evenly;
+    padding: 1rem;
+    gap: 1rem;
+    // margin-top: 10px;
 
     align-items: center;
-    // justify-content: center;
-    height: calc(100vh);
+    justify-content: space-evenly;
+
+    min-height: calc(100vh);
     color: variables.$text-color-rev;
-    width: 100vw;
+    // width: 100vw;
     overflow-x: hidden;
 
+    @include mixins.laptop {
+        // margin-top: 50px;
+        // flex-direction: column-reverse;
+    }
     .headerBackground {
         position: absolute;
         top: 0;
+        // background-color: variables.$accent-color;
         background-color: variables.$accent-color;
+        background-image: linear-gradient(
+            variables.$accent-color 0%,
+            variables.$accent-color 25%,
+            variables.$accent-color-shadow 100%
+        );
         height: 100vh;
         width: 100vw;
         z-index: -1;
@@ -58,51 +70,84 @@ header {
             border-right: calc(100vw - 200px) solid variables.$body-color;
         }
     }
-}
-img {
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    // box-shadow: 2px 2px 10px black;
-}
-.titleWrapper {
-    color: variables.$acceent-color-secondary;
-    // transform: translateY(-15%);
-    // text-align: center;
 
-    h1 {
-        // margin-top: -50px;
-        font-size: 3rem;
-        color: rgba($color: #fff, $alpha: 0.9);
+    img {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        // box-shadow: 2px 2px 10px black;
         @include mixins.mobile {
-            font-size: 2.5rem;
+            height: 250px;
+            width: auto;
         }
     }
+    .titleWrapper {
+        // display: flex;
+        // flex-direction: column;
+        // gap: 0.2rem;
+        // padding: 1rem;
+        color: variables.$accent-color-secondary;
+        // transform: translateY(-15%);
+        // text-align: center;
 
-    .hello {
-        font-size: 2rem;
-        color: variables.$acceent-color-secondary;
-        // font-family: 'pacifico';
-
-        // background: -webkit-linear-gradient(#3a00ce, #3a00ce, #3a00ce, #330099, #330099);
-        // background-clip: text;
-        // -webkit-text-fill-color: transparent;
-
-        // @include mixins.mobile {
-        // font-size: 7rem;
-        // }
-    }
-
-    h2 {
-        font-size: 2rem;
-
-        // color: variables.$alpha-color-rev;
-
-        @include mixins.mobile {
-            font-size: 1.5rem;
+        h1 {
+            // margin-top: -50px;
+            font-size: 3rem;
+            color: rgba($color: #fff, $alpha: 0.9);
+            @include mixins.mobile {
+                font-size: 2.5rem;
+            }
         }
-    }
-    p {
-        margin-top: 1rem;
-        max-width: variables.$mobile;
-        line-height: 1.3rem;
+
+        .hello {
+            font-size: 2rem;
+            color: variables.$accent-color-secondary;
+            // font-family: 'pacifico';
+
+            // background: -webkit-linear-gradient(#3a00ce, #3a00ce, #3a00ce, #330099, #330099);
+            // background-clip: text;
+            // -webkit-text-fill-color: transparent;
+
+            // @include mixins.mobile {
+            // font-size: 7rem;
+            // }
+        }
+
+        h2 {
+            font-size: 2rem;
+
+            // color: variables.$alpha-color-rev;
+
+            @include mixins.mobile {
+                font-size: 1.5rem;
+            }
+        }
+        p {
+            margin-top: 1rem;
+            max-width: variables.$mobile;
+            line-height: 1.3rem;
+
+            font-size: 0.9rem;
+        }
+        ul {
+            display: flex;
+            gap: 1rem;
+            display: flex;
+            margin: 1rem;
+            color: white;
+
+            list-style: none;
+            li {
+                transition: scale ease 150ms;
+                a {
+                    color: variables.$accent-color-secondary;
+                    svg {
+                        height: 2rem;
+                        width: auto;
+                    }
+                }
+            }
+            li:hover {
+                scale: 1.2;
+            }
+        }
     }
 }
