@@ -36,12 +36,21 @@ nav {
         gap: 20px;
         // width: 100px;
         li {
-            a {
-                svg {
-                    // scale: 2;
-                    // size: 1;
-                    color: white;
-                }
+            display: flex;
+            a,
+            a:visited {
+                padding: 0.5rem;
+
+                color: rgba(195, 135, 255, 1);
+                text-decoration: none;
+                border-radius: 5px;
+                // transition: background-color 200ms;
+                // svg {
+                // }
+            }
+            a:hover,
+            a:hover:visited {
+                background-color: rgba(195, 135, 255, 0.12);
             }
         }
         button {
