@@ -1,5 +1,18 @@
-import { React, useRef } from 'react';
+import { React, useImperativeHandle, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+
+const CustomLink = ({ to, children }) => {
+    // const path = window.location.pathname;
+    const resolvedPath = useResolvedPath(to);
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+    return (
+        <li className={isActive ? 'active' : ''}>
+            <Link to={to}>{children}</Link>
+        </li>
+    );
+};
+
 const Navbar = () => {
     const navRef = useRef();
     const openMenu = () => {
@@ -27,24 +40,14 @@ const Navbar = () => {
             </div>
 
             <ul ref={navRef}>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Skills</a>
-                </li>
-                <li>
-                    <a href="#">My Work</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                {/* <li>
+                    <a to="#">Home</a>
+                </li> */}
+                <CustomLink to="/">Home</CustomLink>
+                <CustomLink to="/about">About</CustomLink>
+                <CustomLink to="/skills">Skills</CustomLink>
+                <CustomLink to="/mywork">My work</CustomLink>
+                <CustomLink to="/contact">Contact</CustomLink>
             </ul>
             <button onClick={openMenu}>
                 <FaBars />

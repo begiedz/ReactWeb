@@ -74,6 +74,9 @@ nav {
                 background-color: rgba(195, 135, 255, 0.13);
             }
         }
+        li.active {
+            background-color: rgba(195, 135, 255, 0.13);
+        }
     }
     ul.active {
         display: flex;
