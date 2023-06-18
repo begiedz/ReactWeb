@@ -25,6 +25,7 @@ nav {
         gap: 1rem;
     }
     span.logo {
+        color: rgba(195, 135, 255, 1);
         // font-weight: bold;
         font-size: 1.5rem;
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -44,13 +45,13 @@ nav {
                 color: rgba(195, 135, 255, 1);
                 text-decoration: none;
                 border-radius: 5px;
-                // transition: background-color 200ms;
+                transition: background-color 150ms;
                 // svg {
                 // }
             }
             a:hover,
             a:hover:visited {
-                background-color: rgba(195, 135, 255, 0.12);
+                background-color: rgba(195, 135, 255, 0.13);
             }
         }
         button {
@@ -71,7 +72,7 @@ nav {
         }
     }
     #bgdzLogo {
-        fill: white;
+        fill: rgba(195, 135, 255, 1);
         height: 35px;
     }
 }
