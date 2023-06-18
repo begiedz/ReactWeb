@@ -1,14 +1,18 @@
 import { React, useImperativeHandle, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+// import CV from '../img/DariuszBegiedzaCV.pdf';
 
-const CustomLink = ({ to, children }) => {
+const CustomLink = ({ to, children, ...props }) => {
     // const path = window.location.pathname;
     const resolvedPath = useResolvedPath(to);
     const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+
     return (
         <li className={isActive ? 'active' : ''}>
-            <Link to={to}>{children}</Link>
+            <Link to={to} {...props}>
+                {children}
+            </Link>
         </li>
     );
 };
@@ -40,14 +44,24 @@ const Navbar = () => {
             </div>
 
             <ul ref={navRef}>
-                {/* <li>
-                    <a to="#">Home</a>
-                </li> */}
-                <CustomLink to="/">Home</CustomLink>
-                <CustomLink to="/about">About</CustomLink>
-                <CustomLink to="/skills">Skills</CustomLink>
-                <CustomLink to="/mywork">My work</CustomLink>
-                <CustomLink to="/contact">Contact</CustomLink>
+                <CustomLink to="/" onClick={openMenu}>
+                    Home
+                </CustomLink>
+                <CustomLink to="/about" onClick={openMenu}>
+                    About
+                </CustomLink>
+                <CustomLink to="/skills" onClick={openMenu}>
+                    Skills
+                </CustomLink>
+                <CustomLink to="/mywork" onClick={openMenu}>
+                    My work
+                </CustomLink>
+                {/* <CustomLink to={CV} target="_blank">
+                    Resume
+                </CustomLink> */}
+                <CustomLink to="/contact" onClick={openMenu}>
+                    Contact
+                </CustomLink>
             </ul>
             <button onClick={openMenu}>
                 <FaBars />

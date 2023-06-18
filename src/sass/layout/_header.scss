@@ -7,25 +7,20 @@ header {
     flex-wrap: wrap;
     padding: 0 1rem;
     gap: 1rem;
-    // height: 100vh;
-    // margin-top: 10px;
 
     align-items: center;
     justify-content: space-evenly;
 
-    min-height: calc(100vh);
+    // min-height: calc(100vh);
+    height: calc(100vh - 155px);
     color: variables.$text-color-rev;
-    // width: 100vw;
+    width: 100vw;
     overflow-x: hidden;
 
-    // @include mixins.laptop {
-    // margin-top: 50px;
-    // flex-direction: column-reverse;
-    // }
     .headerBackground {
         position: absolute;
         top: 0;
-        // background-color: variables.$accent-color;
+
         background-color: variables.$accent-color;
         background-image: linear-gradient(
             variables.$accent-color 0%,
@@ -40,37 +35,34 @@ header {
         align-items: flex-end;
 
         overflow-x: hidden;
-        // @include mixins.tablet {
-        //     width: 101vw;
-        // }
     }
 
-    .headerBackground::after {
-        content: '';
-        position: absolute;
-        right: 0;
-        bottom: 0;
+    // .headerBackground::after {
+    //     content: '';
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: 0;
 
-        border-top: 100px solid transparent;
-        border-right: calc(100vw - 400px) solid variables.$body-color;
-        @include mixins.mobile {
-            border-right: calc(100vw - 200px) solid variables.$body-color;
-        }
-    }
-    .headerBackground::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
+    //     border-top: 100px solid transparent;
+    //     border-right: calc(100vw - 400px) solid variables.$body-color;
+    //     @include mixins.mobile {
+    //         border-right: calc(100vw - 200px) solid variables.$body-color;
+    //     }
+    // }
+    // .headerBackground::before {
+    //     content: '';
+    //     position: absolute;
+    //     left: 0;
+    //     bottom: 0;
 
-        border-top: 100px solid transparent;
-        border-left: calc(100vw - 20px) solid variables.$body-color;
+    //     border-top: 100px solid transparent;
+    //     border-left: calc(100vw - 20px) solid variables.$body-color;
 
-        z-index: 1;
-        @include mixins.mobile {
-            border-right: calc(100vw - 200px) solid variables.$body-color;
-        }
-    }
+    //     z-index: 1;
+    //     @include mixins.mobile {
+    //         border-right: calc(100vw - 200px) solid variables.$body-color;
+    //     }
+    // }
 
     img {
         height: 350px;
@@ -103,22 +95,10 @@ header {
         .hello {
             font-size: 2rem;
             color: variables.$accent-color-secondary;
-            // font-family: 'pacifico';
-
-            // background: -webkit-linear-gradient(#3a00ce, #3a00ce, #3a00ce, #330099, #330099);
-            // background-clip: text;
-            // -webkit-text-fill-color: transparent;
-
-            // @include mixins.mobile {
-            // font-size: 7rem;
-            // }
         }
 
         h2 {
             font-size: 2rem;
-
-            // color: variables.$alpha-color-rev;
-
             @include mixins.mobile {
                 font-size: 1.5rem;
             }
