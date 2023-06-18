@@ -4,7 +4,7 @@ nav {
     font-weight: bold;
     position: sticky;
     top: 0;
-    left: 0;
+    // left: 0;
 
     display: flex;
     align-items: center;
@@ -45,6 +45,11 @@ nav {
         gap: 1rem;
         // width: 100px;
         @include mixins.tablet {
+            position: absolute;
+            top: 100%;
+            // height: 250px;
+            background-color: inherit;
+            width: 100vw;
             display: none;
             flex-direction: column;
             align-items: center;

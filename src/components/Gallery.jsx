@@ -9,7 +9,7 @@ const Gallery = () => {
                 <button>JS</button>
                 <button>PHP</button>
                 <button>React</button>
-                <button>React Natvie</button>
+                <button>React Native</button>
             </div>
             <div className="output">
                 <div className="item">item</div>

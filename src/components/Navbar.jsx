@@ -1,9 +1,7 @@
 import { React, useRef } from 'react';
-import { IconContext } from 'react-icons';
-import { FaGithub, FaCodepen, FaLinkedin, FaBars } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 const Navbar = () => {
     const navRef = useRef();
-
     const openMenu = () => {
         navRef.current.classList.toggle('active');
     };

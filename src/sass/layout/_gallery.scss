@@ -1,6 +1,7 @@
 @use '../utils/variables';
 
 .gallery {
+    margin-top: 5rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -22,8 +23,10 @@
             padding: 5px;
             font-size: 1rem;
 
-            background-color: variables.$accent-color;
-            color: white;
+            // background-color: variables.$accent-color;
+            // color: white;
+            color: black;
+            background-color: lightgray;
             border: 2px solid transparent;
             border-radius: 5px;
             box-shadow: 2px 2px 2px transparent;

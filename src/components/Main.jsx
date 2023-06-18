@@ -2,8 +2,8 @@ import React from 'react';
 const Main = () => {
     return (
         <main>
+            <h2>Welcome to my corner of the digital realm!</h2>
             <article>
-                <h2>Welcome to my corner of the digital realm!</h2>
                 <div className=" firstWrapper paragraphWrapper">
                     <div className="textWrapper">
                         <p>

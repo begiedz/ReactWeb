@@ -21,17 +21,17 @@ const Greeting = () => {
                 </p>
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/begiedz">
                             <FaGithub />
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://codepen.io/begiedz">
                             <FaCodepen />
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/dariusz-begiedza-602054272/">
                             <FaLinkedin />
                         </a>
                     </li>

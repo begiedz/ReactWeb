@@ -5,8 +5,9 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 0 1rem;
     gap: 1rem;
+    // height: 100vh;
     // margin-top: 10px;
 
     align-items: center;
@@ -17,10 +18,10 @@ header {
     // width: 100vw;
     overflow-x: hidden;
 
-    @include mixins.laptop {
-        // margin-top: 50px;
-        // flex-direction: column-reverse;
-    }
+    // @include mixins.laptop {
+    // margin-top: 50px;
+    // flex-direction: column-reverse;
+    // }
     .headerBackground {
         position: absolute;
         top: 0;
@@ -28,7 +29,7 @@ header {
         background-color: variables.$accent-color;
         background-image: linear-gradient(
             variables.$accent-color 0%,
-            variables.$accent-color 25%,
+            variables.$accent-color 50%,
             variables.$accent-color-shadow 100%
         );
         height: 100vh;
@@ -72,6 +73,8 @@ header {
     }
 
     img {
+        height: 350px;
+        width: auto;
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
         // box-shadow: 2px 2px 10px black;
         @include mixins.mobile {
@@ -84,8 +87,8 @@ header {
         // flex-direction: column;
         // gap: 0.2rem;
         // padding: 1rem;
-        color: variables.$accent-color-secondary;
         // transform: translateY(-15%);
+        color: variables.$accent-color-secondary;
         // text-align: center;
 
         h1 {
