@@ -6,7 +6,7 @@ const Home = () => {
     return (
         //rafce
         <header>
-            <div className="headerBackground"></div>
+            {/* <div className="headerBackground"></div> */}
             <div className="titleWrapper">
                 <div className="hello">hello,</div>
                 <h1>I'm Dariusz</h1>
