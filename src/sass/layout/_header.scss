@@ -4,72 +4,35 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
     flex-direction: row;
     flex-wrap: wrap;
+
+    // min-height: 100vh;
+    width: 100%;
+    // min-height: 100vh;
+    min-height: 100vh;
 
     padding: 0 1rem;
     gap: 1rem;
     font-size: 1rem;
 
-    color: variables.$text-color-rev;
-    overflow: hidden;
+    z-index: 1;
+
+    background-color: variables.$accent-color;
+    background-image: linear-gradient(
+        variables.$accent-color 0%,
+        variables.$accent-color 50%,
+        variables.$accent-color-shadow 100%
+    );
+    // color: variables.$text-color-rev;
+    // overflow: hidden;
 
     @include mixins.mobile {
-        gap: 0;
-        // font-size: 0.9rem;
+        // gap: 0;
+        font-size: 0.9rem;
     }
-    /* 
-    .headerBackground {
-        position: absolute;
-        top: 0;
-
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-
-        height: 100%;
-        width: 100vw;
-        z-index: -1;
-
-        overflow-x: hidden;
-        overflow-y: hidden;
-
-        background-color: variables.$accent-color;
-        background-image: linear-gradient(
-            variables.$accent-color 0%,
-            variables.$accent-color 50%,
-            variables.$accent-color-shadow 100%
-        );
-    } */
-
-    // .headerBackground::after {
-    //     content: '';
-    //     position: absolute;
-    //     right: 0;
-    //     bottom: 0;
-
-    //     border-top: 100px solid transparent;
-    //     border-right: calc(100vw - 400px) solid variables.$body-color;
-    //     @include mixins.mobile {
-    //         border-right: calc(100vw - 200px) solid variables.$body-color;
-    //     }
-    // }
-    // .headerBackground::before {
-    //     content: '';
-    //     position: absolute;
-    //     left: 0;
-    //     bottom: 0;
-
-    //     border-top: 100px solid transparent;
-    //     border-left: calc(100vw - 20px) solid variables.$body-color;
-
-    //     z-index: 1;
-    //     @include mixins.mobile {
-    //         border-right: calc(100vw - 200px) solid variables.$body-color;
-    //     }
-    // }
 
     img {
         height: 350px;
@@ -83,11 +46,16 @@ header {
     .titleWrapper {
         display: flex;
         flex-direction: column;
+
+        // align-self: flex-start;
+
         color: variables.$accent-color-secondary;
 
         h1 {
             font-size: 3em;
             color: rgba($color: #fff, $alpha: 0.9);
+            mix-blend-mode: luminosity;
+
             @include mixins.mobile {
                 font-size: 2.5rem;
             }
@@ -99,20 +67,18 @@ header {
         }
 
         // h2 {
-
         // }
         p {
             margin-top: 1rem;
             max-width: variables.$mobile;
             line-height: 1.3rem;
-
             font-size: 0.9em;
         }
         ul {
             display: flex;
             gap: 1rem;
             display: flex;
-            margin: 1rem;
+            margin-top: 1rem;
             color: white;
 
             list-style: none;
@@ -127,43 +93,21 @@ header {
                 }
             }
             li:hover {
-                scale: 1.2;
+                scale: 1.3;
             }
         }
     }
 }
 
-#root:has(header) {
-    background-color: variables.$accent-color;
-    background-image: linear-gradient(
-        variables.$accent-color 0%,
-        variables.$accent-color 50%,
-        variables.$accent-color-shadow 100%
-    );
-}
+// Background color
+// #root:has(header) {
+//     background-color: variables.$accent-color;
+//     background-image: linear-gradient(
+//         variables.$accent-color 0%,
+//         variables.$accent-color 50%,
+//         variables.$accent-color-shadow 100%
+//     );
 
-// Footer styling for homepage
-
-header + footer {
-    // position: absolute;
-    // bottom: 0;
-    background-color: transparent;
-    // background-color: variables.$accent-color-shadow;
-
-    color: variables.$accent-color-secondary;
-
-    ul {
-        color: inherit;
-        li {
-            color: variables.$accent-color-secondary;
-            a,
-            a:visited {
-                color: rgba($color: #ffffff, $alpha: 0.5);
-            }
-            a:hover,
-            a:visited:hover {
-                color: rgba($color: #ffffff, $alpha: 0.7);
-            }
-        }
-    }
-}
+//     justify-content: space-between;
+//     min-height: 100vh;
+// }
