@@ -1,0 +1,22 @@
+[
+    {
+        "appName": "stopwatch",
+        "language": ["js"],
+        "imgPath": "../img/"
+    },
+    {
+        "appName": "codegenerator",
+        "language": ["js"],
+        "imgPath": "../img/"
+    },
+    {
+        "appName": "php-notes",
+        "language": ["php"],
+        "imgPath": "../img/"
+    },
+    {
+        "appName": "react-chat",
+        "language": ["js", "react"],
+        "imgPath": "../img/"
+    }
+]
