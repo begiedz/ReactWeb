@@ -18,5 +18,15 @@
         "appName": "react-chat",
         "language": ["js", "react"],
         "imgPath": "../img/"
+    },
+    {
+        "appName": "nodejs-blog",
+        "language": ["js", "nodeJS"],
+        "imgPath": "../img/"
+    },
+    {
+        "appName": "Workout buddy",
+        "language": ["js", "react", "nodeJS", "mongodb"],
+        "imgPath": "../img/"
     }
 ]
