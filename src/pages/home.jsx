@@ -12,12 +12,7 @@ const Home = () => {
                 <h1>I'm Dariusz</h1>
                 <h2>Beginner Web Developer</h2>
                 <p>
-                    Welcome to my corner of the digital world! I'm a budding web developer fueled by
-                    a passion for creating captivating online experiences. With a background in
-                    graphic design and a newfound love for coding, I strive to craft visually
-                    appealing and functional interfaces that leave a lasting impression. I'm eager
-                    to collaborate and embark on transformative journeys, bringing digital dreams to
-                    life. Let's create wonders together!
+                    Welcome to my corner of the digital world! I'm a budding web developer fueled by a passion for creating captivating online experiences. With a background in   graphic design and a newfound love for coding, I strive to craft visually appealing and functional interfaces that leave a lasting impression. I'm eager to collaborate and embark on transformative journeys, bringing digital dreams to life. Let's create wonders together!
                 </p>
                 <ul>
                     <li>

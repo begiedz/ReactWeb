@@ -1,8 +1,10 @@
 [
     {
-        "appName": "stopwatch",
+        "appName": "Simple JS Stopwatch",
         "language": ["js"],
-        "imgPath": "../img/"
+        "imgPath": "../img/",
+        "githubURL":"https://github.com/begiedz/stopwatchApp",
+        "previewURL":"src/projects/stopwatchApp/html/index.html"
     },
     {
         "appName": "codegenerator",
