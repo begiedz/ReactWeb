@@ -11,7 +11,7 @@ const MyWork = () => {
         <div className="gallery">
             <h2> My work</h2>
             <div className='searchUI'>
-                <input type="search" />
+                <input type="search" placeholder='Search...' />
                 <div className="buttonWrapper">
                     <button>All</button>
                     <button>JS</button>
@@ -23,13 +23,12 @@ const MyWork = () => {
             <div className="output">
                 {projects.map(project => {
                     return (<div className='item'>
-                        <img src={project.imgPath} alt="" />
+                        <img src={project.imgPath} alt={project.appName} />
                         <p>{project.appName}</p>
                         <ul>
-                            <li><a href={project.githubURL}><FaGithub /></a></li>
-                            {project.previewURL ?
-                                <li><Link to={project.previewURL}>Preview</Link></li> : null}
-
+                            <li>
+                                <a href={project.githubURL}><FaGithub /></a></li>
+                            {project.previewURL ? <li><Link to={project.previewURL}>Preview</Link></li> : null}
                         </ul>
                     </div>
                     )

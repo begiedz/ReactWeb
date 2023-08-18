@@ -1,0 +1,61 @@
+@use '../utils/variables';
+.contact {
+  // padding: 5rem;
+  margin: 1rem;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 300px;
+
+    margin: 1rem;
+
+    font-size: 1.2rem;
+
+    width: 480px;
+
+    // .inputWrapper {
+    //   display: flex;
+    //   gap: 1rem;
+
+    //   width: inherit;
+
+    // label {
+    //   width: 5rem;
+    //   color: variables.$accent-color;
+    //   // font-weight: bold;
+    input,
+    textarea {
+      padding: 0.5rem;
+
+      border: 2px solid transparent;
+      border-radius: 0.2rem;
+      outline: none;
+    }
+    textarea {
+      border: 2px solid variables.$accent-color;
+    }
+    input[type='text'],
+    input[type='email'] {
+      width: inherit;
+
+      font-size: 1.1rem;
+
+      border-bottom: 2px solid variables.$accent-color;
+
+      transition: 250ms;
+    }
+    input:focus {
+      border: 2px solid variables.$accent-color;
+    }
+  }
+  input[type='submit'] {
+    font-size: 1.1rem;
+    background-color: variables.$accent-color;
+    border: 2px solid transparent;
+  }
+}
+
+// }
+// }
