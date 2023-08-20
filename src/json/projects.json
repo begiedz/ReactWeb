@@ -2,33 +2,38 @@
     {
         "appName": "Simple JS Stopwatch",
         "language": ["js"],
+        "description":"Stopwatch made in vanilla JS. UI inspired by Apple",
         "imgPath": "images/stopwatch.png",
-        "githubURL":"https://github.com/begiedz/stopwatchApp",
-        "previewURL":"src/projects/stopwatchApp/html/index.html"
+        "githubURL":"https://github.com/begiedz/stopwatchApp"
     },
     {
-        "appName": "codegenerator",
+        "appName": "Code Generator",
         "language": ["js"],
+        "description":"",
         "imgPath": "../img/"
     },
     {
-        "appName": "php-notes",
+        "appName": "PHP Notes",
         "language": ["php"],
+        "description":"",
         "imgPath": "../img/"
     },
     {
-        "appName": "react-chat",
+        "appName": "React Chat",
         "language": ["js", "react"],
+        "description":"",
         "imgPath": "../img/"
     },
     {
-        "appName": "nodejs-blog",
+        "appName": "NodeJS Blog",
         "language": ["js", "nodeJS"],
+        "description":"",
         "imgPath": "../img/"
     },
     {
         "appName": "Workout buddy",
         "language": ["js", "react", "nodeJS", "mongodb"],
+        "description":"",
         "imgPath": "../img/"
     }
 ]

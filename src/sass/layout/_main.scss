@@ -2,30 +2,24 @@
 @use '../utils/mixins';
 
 main {
-    max-width: variables.$tablet;
-    // color: variables.$accent-color;
+  max-width: variables.$tablet;
 
-    margin-top: 5rem;
-    padding: 0 1rem;
-    // width: 80vw;
+  margin-top: 5rem;
+  padding: 0 1rem;
 
-    article {
-        width: inherit;
-        // height: 450px;
-        // border: 2px solid black;
+  article {
+    width: inherit;
 
-        .paragraphWrapper {
-            margin-top: 5rem;
-            width: 100%;
-            p {
-                // max-width: 600px;
-                line-height: 1.4;
-                // color: rgba(0, 0, 0, 0.75);
-                margin-bottom: 2rem;
-            }
-        }
-        .firstWrapper {
-            margin-top: 2rem;
-        }
+    .paragraphWrapper {
+      margin-top: 5rem;
+      width: 100%;
+      p {
+        line-height: 1.4;
+        margin-bottom: 2rem;
+      }
     }
+    .firstWrapper {
+      margin-top: 2rem;
+    }
+  }
 }

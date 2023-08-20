@@ -10,7 +10,7 @@ const MyWork = () => {
 
     }
     return (
-        <div className="gallery">
+        <div className="myWork">
             <h2>My work</h2>
 
             <div className='searchUI'>
@@ -23,19 +23,23 @@ const MyWork = () => {
                     <button>Node.js</button>
                 </div>
             </div>
-            <div className="output">
+            <div className="gallery">
                 {
                     projects &&
                     projects.map(project => {
-                        return (<div className='item'>
-                            <img src={project.imgPath} alt={project.appName} />
-                            <p>{project.appName}</p>
-                            <ul>
-                                <li>
-                                    <a href={project.githubURL}><FaGithub /></a></li>
-                                {project.previewURL && <li><Link to={project.previewURL}>Preview</Link></li>}
-                            </ul>
-                        </div>
+                        return (
+                            <div className='card'>
+                                <a href={project.githubURL}>
+                                    <img src={project.imgPath} alt={project.appName} />
+                                    <h3>{project.appName}</h3>
+                                    <p>{project.description}</p>
+                                    <ul>
+                                        <li>
+                                            {project.previewURL && <li><Link to={project.previewURL}>Preview</Link></li>}
+                                        </li>
+                                    </ul>
+                                </a>
+                            </div>
                         )
                     })
 

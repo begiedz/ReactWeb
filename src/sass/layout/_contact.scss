@@ -47,7 +47,8 @@
 
       transition: 250ms;
     }
-    input:focus {
+    input:focus,
+    input:hover {
       border: 2px solid variables.$accent-color;
     }
   }
