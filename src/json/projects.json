@@ -2,7 +2,7 @@
     {
         "appName": "Simple JS Stopwatch",
         "language": ["js"],
-        "imgPath": "../img/",
+        "imgPath": "images/stopwatch.png",
         "githubURL":"https://github.com/begiedz/stopwatchApp",
         "previewURL":"src/projects/stopwatchApp/html/index.html"
     },
