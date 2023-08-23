@@ -1,39 +1,51 @@
 [
     {
+        "appName": "Clouder",
+        "language": ["js", "ts", "react"],
+        "description":"API weather app.",
+        "imgPath": "../images/clouder.png",
+        "githubURL":"https://github.com/begiedz/Clouder-WeatherApp"
+    },
+    {
+        "appName": "PHP Notes",
+        "language": ["php"],
+        "description":"CRUD PHP App.",
+        "imgPath": "../images/phpnotes.png",
+        "githubURL":"https://github.com/begiedz/php-notes"
+    },
+    {
+        "appName": "React Chat",
+        "language": ["js", "react", "firebase"],
+        "description":"Chat app using SaaS Firebase + React",
+        "imgPath": "../images/reactchat.png",
+        "githubURL":"https://github.com/begiedz/ReactChat"
+    },
+    {
+        "appName": "NodeJS Blog",
+        "language": ["js", "nodejs", "express"],
+        "description":"CRUD NodeJS app.",
+        "imgPath": "../images/nodejsblog.png",
+        "githubURL":"https://github.com/begiedz/Blog-nodeJS"
+    },
+    {
+        "appName": "Workout buddy",
+        "language": ["js", "react", "nodejs", "mongodb"],
+        "description":"Fullstack MERN CRUD App.",
+        "imgPath": "../images/workoutbuddy.png",
+        "githubURL":"https://github.com/begiedz/Fullstack-MERN-App"
+    },
+    {
         "appName": "Simple JS Stopwatch",
         "language": ["js"],
-        "description":"Stopwatch made in vanilla JS. UI inspired by Apple",
+        "description":"Stopwatch made in vanilla JS. UI inspired by Apple.",
         "imgPath": "images/stopwatch.png",
         "githubURL":"https://github.com/begiedz/stopwatchApp"
     },
     {
         "appName": "Code Generator",
         "language": ["js"],
-        "description":"",
-        "imgPath": "../img/"
-    },
-    {
-        "appName": "PHP Notes",
-        "language": ["php"],
-        "description":"",
-        "imgPath": "../img/"
-    },
-    {
-        "appName": "React Chat",
-        "language": ["js", "react"],
-        "description":"",
-        "imgPath": "../img/"
-    },
-    {
-        "appName": "NodeJS Blog",
-        "language": ["js", "nodeJS"],
-        "description":"",
-        "imgPath": "../img/"
-    },
-    {
-        "appName": "Workout buddy",
-        "language": ["js", "react", "nodeJS", "mongodb"],
-        "description":"",
-        "imgPath": "../img/"
+        "description":"Random code generator.",
+        "imgPath": "../img/",
+        "githubURL":""
     }
 ]
