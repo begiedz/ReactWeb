@@ -10,6 +10,7 @@
   gap: 1rem;
 
   max-width: variables.$tablet;
+  margin-bottom: 1rem;
   .searchUI {
     display: flex;
     flex-direction: column;
@@ -39,6 +40,7 @@
     align-items: center;
     gap: 1rem;
 
+    margin-bottom: 2rem;
     button {
       padding: 5px;
       font-size: 1rem;
@@ -69,8 +71,13 @@
 
     a {
       text-decoration: none;
+      color: black;
+
+      @include mixins.mobile {
+        width: 100%;
+      }
       .card {
-        align-self: flex-start;
+        // align-self: flex-start;
 
         display: flex;
         flex-direction: column;
@@ -87,8 +94,12 @@
 
         text-align: center;
         cursor: pointer;
-        transition: scale ease-in-out 250ms;
+        transition: scale ease 200ms;
 
+        @include mixins.mobile {
+          width: 100%;
+          // height: auto;
+        }
         img {
           width: 200px;
           aspect-ratio: 2/1;
@@ -107,10 +118,12 @@
           flex-wrap: wrap;
           gap: 1rem;
           li {
-            // background-color: variables.$accent-color;
-            color: variables.$accent-color-secondary;
+            background-color: white;
+            // color: variables.$accent-color-secondary;
             padding: 0.5rem;
             border-radius: 2rem;
+
+            font-family: monospace;
           }
         }
       }
