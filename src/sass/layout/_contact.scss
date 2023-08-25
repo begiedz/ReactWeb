@@ -34,8 +34,13 @@
       outline: none;
     }
     textarea {
+      border: 2px solid lightgray;
+      transition: 250ms ease-in;
+      height: 5rem;
+    }
+    textarea:focus,
+    textarea:hover {
       border: 2px solid variables.$accent-color;
-      height: 200px;
     }
     input[type='text'],
     input[type='email'] {
@@ -45,7 +50,7 @@
 
       border-bottom: 2px solid variables.$accent-color;
 
-      transition: 250ms;
+      transition: 250ms ease-in;
     }
     input:focus,
     input:hover {
@@ -58,5 +63,7 @@
     border: 2px solid transparent;
     color: white;
     font-weight: bold;
+
+    cursor: pointer;
   }
 }
