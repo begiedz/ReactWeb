@@ -2,112 +2,88 @@
 @use '../utils/mixins';
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    flex-direction: row;
-    flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-    // min-height: 100vh;
-    width: 100%;
-    // min-height: 100vh;
-    min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 
-    padding: 0 1rem;
-    gap: 1rem;
-    font-size: 1rem;
+  padding: 0 1rem;
+  gap: 1rem;
+  font-size: 1rem;
 
-    z-index: 1;
+  z-index: 1;
 
-    background-color: variables.$accent-color;
-    background-image: linear-gradient(
-        variables.$accent-color 0%,
-        variables.$accent-color 50%,
-        variables.$accent-color-shadow 100%
-    );
-    // color: variables.$text-color-rev;
-    // overflow: hidden;
+  background-color: variables.$accent-color;
+  background-image: linear-gradient(
+    variables.$accent-color 0%,
+    variables.$accent-color 50%,
+    variables.$accent-color-shadow 100%
+  );
 
+  @include mixins.mobile {
+    font-size: 0.9rem;
+  }
+
+  img {
+    height: 350px;
+    width: auto;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     @include mixins.mobile {
-        // gap: 0;
-        font-size: 0.9rem;
+      height: 200px;
+    }
+  }
+  .titleWrapper {
+    display: flex;
+    flex-direction: column;
+
+    color: variables.$accent-color-secondary;
+
+    h1 {
+      font-size: 3em;
+      color: rgba($color: #fff, $alpha: 0.9);
+      mix-blend-mode: luminosity;
+
+      @include mixins.mobile {
+        font-size: 2.5rem;
+      }
     }
 
-    img {
-        height: 350px;
-        width: auto;
-        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-        // box-shadow: 2px 2px 10px black;
-        @include mixins.mobile {
-            height: 200px;
-        }
+    .hello {
+      font-size: 2em;
+      color: variables.$accent-color-secondary;
     }
-    .titleWrapper {
-        display: flex;
-        flex-direction: column;
-
-        // align-self: flex-start;
-
-        color: variables.$accent-color-secondary;
-
-        h1 {
-            font-size: 3em;
-            color: rgba($color: #fff, $alpha: 0.9);
-            mix-blend-mode: luminosity;
-
-            @include mixins.mobile {
-                font-size: 2.5rem;
-            }
-        }
-
-        .hello {
-            font-size: 2em;
-            color: variables.$accent-color-secondary;
-        }
-
-        // h2 {
-        // }
-        p {
-            margin-top: 1rem;
-            max-width: variables.$mobile;
-            line-height: 1.3rem;
-            font-size: 0.9em;
-        }
-        ul {
-            display: flex;
-            gap: 1rem;
-            display: flex;
-            margin-top: 1rem;
-            color: white;
-
-            list-style: none;
-            li {
-                transition: scale ease 150ms;
-                a {
-                    color: variables.$accent-color-secondary;
-                    svg {
-                        height: 2rem;
-                        width: auto;
-                    }
-                }
-            }
-            li:hover {
-                scale: 1.3;
-            }
-        }
+    p {
+      margin-top: 1rem;
+      max-width: variables.$mobile;
+      line-height: 1.3rem;
+      font-size: 0.9em;
     }
+    ul {
+      display: flex;
+      gap: 1rem;
+      display: flex;
+      margin-top: 1rem;
+      color: white;
+
+      list-style: none;
+      li {
+        transition: scale ease 150ms;
+        a {
+          color: variables.$accent-color-secondary;
+          svg {
+            height: 2rem;
+            width: auto;
+          }
+        }
+      }
+      li:hover {
+        scale: 1.3;
+      }
+    }
+  }
 }
-
-// Background color
-// #root:has(header) {
-//     background-color: variables.$accent-color;
-//     background-image: linear-gradient(
-//         variables.$accent-color 0%,
-//         variables.$accent-color 50%,
-//         variables.$accent-color-shadow 100%
-//     );
-
-//     justify-content: space-between;
-//     min-height: 100vh;
-// }

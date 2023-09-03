@@ -5,10 +5,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  // justify-content: center;
 
   gap: 1rem;
-  // height: 100px;
 
   width: 100vw;
   padding: 20px;
@@ -28,11 +26,9 @@ footer {
     li {
       font-weight: 400;
       list-style: none;
-      // color: rgb(250, 250, 250);
       a,
       a:visited {
         text-decoration: none;
-        // color: rgb(160, 160, 160);
         color: rgba(255, 255, 255, 0.5);
       }
       a:hover,
@@ -46,8 +42,6 @@ footer {
 // Footer styling for homepage
 
 header + footer {
-  //     background-color: transparent;
-
   color: variables.$accent-color-secondary;
   background-color: variables.$accent-color-shadow;
   .footerWrapper div,

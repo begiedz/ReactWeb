@@ -2,16 +2,13 @@
 @use '../utils/variables';
 .skills {
   margin-top: 5rem;
-  // width: variables.$tablet;
+  width: 100vw;
   max-width: variables.$tablet;
   padding: 0 1rem;
 
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  // text-align: center;
-  h2 {
-  }
   ul {
     list-style: none;
     p {
