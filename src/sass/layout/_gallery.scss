@@ -28,6 +28,8 @@
       transition: 250ms;
 
       font-size: 1.2rem;
+
+      background-color: transparent;
     }
     input[type='search']:focus {
       border: 2px solid variables.$accent-color;
