@@ -23,7 +23,7 @@ const Contact = () => {
     };
     return (
         <div className="contact">
-            <h2>Contact</h2>
+            <h1>Contact</h1>
 
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name="user_name" placeholder='Your name' />

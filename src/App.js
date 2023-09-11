@@ -9,7 +9,6 @@ import Skills from './pages/Skills';
 import MyWork from './pages/MyWork';
 import Contact from './pages/Contact';
 function App() {
-  //   let Component;
   return (
     <>
       <Navbar />
@@ -21,10 +20,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-      {/* <Header />
-            <Main />
-            <Gallery />
-            <Footer /> */}
     </>
   );
 }

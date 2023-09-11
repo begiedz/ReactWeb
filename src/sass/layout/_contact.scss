@@ -17,6 +17,7 @@
     textarea {
       padding: 0.5rem;
 
+      background-color: transparent;
       border: 2px solid transparent;
       border-radius: 0.2rem;
       outline: none;
@@ -32,8 +33,6 @@
     }
     input[type='text'],
     input[type='email'] {
-      // width: inherit;
-
       font-size: 1.1rem;
 
       border-bottom: 2px solid variables.$accent-color;

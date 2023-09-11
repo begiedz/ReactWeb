@@ -3,13 +3,12 @@ import React from 'react';
 const About = () => {
     return (
         <main>
-            <h2>Welcome to my corner of the digital realm!</h2>
+            <h1>Welcome to my corner of the digital realm!</h1>
             <article>
                 <div className=" firstWrapper paragraphWrapper">
                     <div className="textWrapper">
                         <p>
-                            Allow me to introduce myself—a budding web developer fueled by a{' '}
-                            <b>relentless passion</b> for creating captivating online experiences.
+                            Allow me to introduce myself — a budding web developer fueled by a <b>relentless passion</b> for creating captivating online experiences.
                             While my journey may not follow a straight path, it has been an
                             adventure filled with twists and turns, ultimately leading me to the
                             fascinating world of web development.
@@ -29,9 +28,7 @@ const About = () => {
 
                 <div className="paragraphWrapper">
                     <p>
-                        It was during this introspective period that I stumbled upon{' '}
-                        <b>web development</b>—an enchanting fusion of artistry and technical
-                        wizardry. Intrigued by the power to shape the digital landscape, I decided
+                        It was during this introspective period that I stumbled upon <b>web development</b>—an enchanting fusion of artistry and technical wizardry. Intrigued by the power to shape the digital landscape, I decided
                         to redirect my efforts and delve into the realm of web development.
                     </p>
 

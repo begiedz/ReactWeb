@@ -11,7 +11,7 @@ const MyWork = () => {
     }
     return (
         <div className="myWork">
-            <h2>My work</h2>
+            <h1>My work</h1>
 
             <div className='searchUI'>
                 <input type="search" placeholder='Search...' onInput={handleInput()} />
@@ -30,7 +30,10 @@ const MyWork = () => {
                         return (
                             <a href={project.githubURL}>
                                 <div className='card'>
-                                    <img src={project.imgPath} alt={project.appName} />
+                                    <div className='img-wrapper'>
+                                        <img src={project.imgPath} alt={project.appName} />
+                                        <div className='img-overlay' />
+                                    </div>
                                     <h3>{project.appName}</h3>
                                     <p>{project.description}</p>
                                     <ul>

@@ -60,3 +60,8 @@ header + footer {
     }
   }
 }
+
+.contact + footer {
+  position: absolute;
+  bottom: 0;
+}
