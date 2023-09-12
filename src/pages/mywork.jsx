@@ -30,10 +30,7 @@ const MyWork = () => {
                         return (
                             <a href={project.githubURL}>
                                 <div className='card'>
-                                    <div className='img-wrapper'>
-                                        <img src={project.imgPath} alt={project.appName} />
-                                        <div className='img-overlay' />
-                                    </div>
+                                    <img src={project.imgPath} alt={project.appName} />
                                     <h3>{project.appName}</h3>
                                     <p>{project.description}</p>
                                     <ul>

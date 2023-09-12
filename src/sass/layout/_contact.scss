@@ -1,6 +1,7 @@
 @use '../utils/variables';
 
 main.contact {
+  max-width: variables.$tablet;
   form {
     margin-top: 1rem;
     display: flex;
