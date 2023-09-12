@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <main>
+        <main className='about'>
             <h1>Welcome to my corner of the digital realm!</h1>
             <article>
                 <div className=" firstWrapper paragraphWrapper">

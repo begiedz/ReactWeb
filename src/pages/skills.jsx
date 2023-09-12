@@ -27,7 +27,7 @@ const Skills = () => {
     //     </div>
     // );
     return (
-        <div className="skills">
+        <main className="skills">
             <h1>My Skills</h1>
 
             <h2><BiLogoHtml5 />HTML <span className='light-font'>(Hypertext Markup Language)</span></h2>
@@ -93,7 +93,7 @@ const Skills = () => {
                 <li>Utilizing developer tools and the debugger.</li>
                 <li>Integrating with version control systems like Git.</li>
             </ul>
-            {/* <h2><BiLogoDocker /> Docker</h2>
+            <h2><BiLogoDocker /> Docker</h2>
             <ul>
                 <li>Creating and managing containers using Docker.</li>
                 <li>Building containerized applications for easy deployment.</li>
@@ -123,8 +123,8 @@ const Skills = () => {
                 <li>Creating and optimizing database schemas and queries.</li>
                 <li>Integrating MySQL with backend applications for data storage and retrieval.</li>
                 <li>Implementing database security and performance tuning.</li>
-            </ul> */}
-        </div>
+            </ul>
+        </main>
     )
 };
 

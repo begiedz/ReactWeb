@@ -22,7 +22,7 @@ const Contact = () => {
             });
     };
     return (
-        <div className="contact">
+        <main className="contact">
             <h1>Contact</h1>
 
             <form ref={form} onSubmit={sendEmail}>
@@ -31,7 +31,7 @@ const Contact = () => {
                 <textarea name="message" placeholder='Message' />
                 <input type="submit" value="Send" />
             </form>
-        </div>
+        </main>
     );
 };
 

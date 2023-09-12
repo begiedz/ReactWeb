@@ -1,6 +1,6 @@
 import React from 'react';
 import projects from '../json/projects.json'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import { FaGithub } from 'react-icons/fa';
 
 const MyWork = () => {
@@ -10,7 +10,7 @@ const MyWork = () => {
 
     }
     return (
-        <div className="myWork">
+        <main className="my_work">
             <h1>My work</h1>
 
             <div className='searchUI'>
@@ -53,7 +53,7 @@ const MyWork = () => {
 
 
             </div>
-        </div>
+        </main>
     );
 };
 

@@ -1,12 +1,7 @@
 @use '../utils/variables';
 @use '../utils/mixins';
 
-main {
-  max-width: variables.$tablet;
-
-  margin-top: 5rem;
-  padding: 0 1rem;
-
+main.about {
   article {
     width: inherit;
 

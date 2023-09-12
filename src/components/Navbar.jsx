@@ -1,4 +1,4 @@
-import { React, useImperativeHandle, useRef } from 'react';
+import { React, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 // import CV from '../img/DariuszBegiedzaCV.pdf';

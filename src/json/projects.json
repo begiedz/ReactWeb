@@ -22,14 +22,14 @@
     },
     {
         "appName": "NodeJS Blog",
-        "language": ["js", "nodejs", "express"],
+        "language": ["js", "node.js", "express"],
         "description":"CRUD NodeJS app.",
         "imgPath": "../images/nodejsblog.png",
         "githubURL":"https://github.com/begiedz/Blog-nodeJS"
     },
     {
-        "appName": "Workout buddy",
-        "language": ["js", "react", "nodejs", "mongodb"],
+        "appName": "Workout Buddy",
+        "language": ["js", "react", "node.js", "mongodb"],
         "description":"Fullstack MERN CRUD App.",
         "imgPath": "../images/workoutbuddy.png",
         "githubURL":"https://github.com/begiedz/Fullstack-MERN-App"

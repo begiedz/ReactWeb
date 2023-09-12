@@ -1,11 +1,6 @@
 @use '../utils/variables';
 
-.contact {
-  margin-top: 5rem;
-  width: 100vw;
-  max-width: 500px;
-  padding: 0rem 1rem 1rem 1rem;
-
+main.contact {
   form {
     margin-top: 1rem;
     display: flex;

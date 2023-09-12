@@ -24,7 +24,7 @@ header {
     variables.$accent-color 50%,
     variables.$accent-color-shadow 100%
   );
-  font-family: 'Roboto Mono', monospace;
+  // font-family: 'Roboto Mono', monospace;
 
   @include mixins.mobile {
     font-size: 0.9rem;
