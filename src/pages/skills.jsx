@@ -44,7 +44,6 @@ const SkillIcon = ({ category }) => {
 const Skills = () => {
     return (
         <main className="skills">
-            <button>button</button>
             <h1>My skills</h1>
             <section>
                 {skillsData && skillsData.map((skill, index) => {
