@@ -1,29 +1,69 @@
 import React from 'react';
+import about from '../json/aboutData.json'
+
+// const RenderJSON = (json) => {
+
+
+
+// if (Array.isArray(json)) {
+//     return json.map((item, index) => {
+//         <div key={index}>{RenderJSON(item)}</div>
+//     })
+
+// } else if (typeof json === 'object') {
+//     return Object.entries(json).map(([key, value], index) => {
+//         <div key={index}>
+//             <strong>{key}:</strong> {RenderJSON(value)}
+//         </div>
+//     })
+
+// } else {
+//         return json
+//     }
+// }
 
 const About = () => {
     return (
         <main className='about'>
             <h1>Welcome to my corner of the digital realm!</h1>
             <article>
-                <div className=" firstWrapper paragraphWrapper">
-                    <div className="textWrapper">
-                        <p>
-                            Allow me to introduce myself — a budding web developer fueled by a <b>relentless passion</b> for creating captivating online experiences.
-                            While my journey may not follow a straight path, it has been an
-                            adventure filled with twists and turns, ultimately leading me to the
-                            fascinating world of web development.
-                        </p>
+                {about && about.map((item, index) => {
+                    if (typeof item.paragraph === 'string') {
+                        return (
+                            <p key={index}>{item.paragraph}</p>)
+                    } else if (Array.isArray(item.paragraph)) {
+                        return (
+                            <p key={index}>{item.paragraph.map((paragraphItem, paragraphIndex) => {
+                                if (typeof paragraphItem === 'string') {
+                                    return paragraphItem
+                                }
+                                else {
+                                    const tag = Object.keys(paragraphItem)[0];
+                                    const content = paragraphItem[tag]
+                                    return React.createElement(tag, { key: paragraphIndex }, content)
 
-                        <p>
-                            In the early days, I immersed myself in the <b>art of graphic design</b>
-                            , attending a high school focused on this creative discipline. The
-                            allure of visual storytelling captivated me, inspiring dreams of
-                            crafting stunning visuals that would captivate audiences. Eager to
-                            explore my artistic inclinations further, I pursued studies in sculpture
-                            and computer graphics during my college years. However, as fate would
-                            have it, I realized that these paths weren't my true calling.
-                        </p>
-                    </div>
+                                }
+                            })}</p>
+                        )
+                    }
+                })}
+                {/* <div className="paragraphWrapper">
+                    <p>
+                        Allow me to introduce myself — a budding web developer fueled by a <b>relentless passion</b> for creating captivating online experiences.
+                        While my journey may not follow a straight path, it has been an
+                        adventure filled with twists and turns, ultimately leading me to the
+                        fascinating world of web development.
+                    </p>
+
+                    <p>
+                        In the early days, I immersed myself in the <b>art of graphic design</b>
+                        , attending a high school focused on this creative discipline. The
+                        allure of visual storytelling captivated me, inspiring dreams of
+                        crafting stunning visuals that would captivate audiences. Eager to
+                        explore my artistic inclinations further, I pursued studies in sculpture
+                        and computer graphics during my college years. However, as fate would
+                        have it, I realized that these paths weren't my true calling.
+                    </p>
                 </div>
 
                 <div className="paragraphWrapper">
@@ -68,7 +108,7 @@ const About = () => {
                     </p>
 
                     <p>Let's bring our digital dreams to life!</p>
-                </div>
+                </div> */}
             </article>
         </main>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiLogoTypescript, BiLogoMongodb, BiLogoDocker, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoGithub, BiLogoSass } from 'react-icons/bi'
+import { BiLogoTypescript, BiLogoMongodb, BiLogoDocker, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoSass } from 'react-icons/bi'
 import { DiLinux, DiMysql } from 'react-icons/di'
 
 import skillsData from '../json/skillsData.json'
@@ -36,7 +36,6 @@ const SkillIcon = ({ category }) => {
             return <BiLogoReact />;
         case 'Visual Studio Code':
             return <BiLogoVisualStudio />
-
         default:
             return null;
     }
@@ -45,7 +44,7 @@ const SkillIcon = ({ category }) => {
 const Skills = () => {
     return (
         <main className="skills">
-            <h1>My Skills</h1>
+            <h1>My skills</h1>
             <section>
                 {skillsData && skillsData.map(skill => {
                     return (
@@ -54,9 +53,10 @@ const Skills = () => {
                                 <SkillIcon category={skill.category} />
                                 <span>
                                     {skill.category}
-                                    {skill.sub && <span className='light-font'>
-                                        {skill.sub}
-                                    </span>}
+                                    {skill.sub &&
+                                        <span className='light-font'>
+                                            {skill.sub}
+                                        </span>}
                                 </span>
                             </h2>
 

@@ -3,16 +3,11 @@
 
 main.about {
   article {
-    .paragraphWrapper {
-      margin-top: 5rem;
-      width: 100%;
-      p {
-        line-height: 1.4;
-        margin-bottom: 2rem;
-      }
-    }
-    .firstWrapper {
+    p {
       margin-top: 2rem;
+      width: 100%;
+      line-height: 1.4;
+      margin-bottom: 2rem;
     }
   }
 }

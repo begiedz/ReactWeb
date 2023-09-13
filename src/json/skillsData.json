@@ -18,7 +18,8 @@
         "Using CSS preprocessors such as SASS or LESS for increased efficiency.",
         "Understanding selector specificity and the cascading nature of CSS styles."
       ]
-    },{
+    },
+    {
       "category": "SCSS",
       "sub":" (Sassy CSS)",
       "list": [
