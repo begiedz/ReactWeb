@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiLogoTypescript, BiLogoMongodb, BiLogoDocker, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoGithub } from 'react-icons/bi'
+import { BiLogoTypescript, BiLogoMongodb, BiLogoDocker, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoGithub, BiLogoSass } from 'react-icons/bi'
 import { DiLinux, DiMysql } from 'react-icons/di'
 
 import skillsData from '../json/skillsData.json'
@@ -10,6 +10,8 @@ const SkillIcon = ({ category }) => {
             return <BiLogoHtml5 />
         case 'CSS':
             return <BiLogoCss3 />
+        case "SCSS":
+            return <BiLogoSass />
         case 'JavaScript':
             return <BiLogoJavascript />
         case 'TypeScript':

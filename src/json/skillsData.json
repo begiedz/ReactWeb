@@ -18,6 +18,15 @@
         "Using CSS preprocessors such as SASS or LESS for increased efficiency.",
         "Understanding selector specificity and the cascading nature of CSS styles."
       ]
+    },{
+      "category": "SCSS",
+      "sub":" (Sassy CSS)",
+      "list": [
+        "Using SCSS to write more maintainable and modular CSS code.",
+        "Leveraging variables, mixins, and nesting in SCSS.",
+        "Compiling SCSS to standard CSS for browser compatibility.",
+        "Integrating SCSS into frontend projects for improved styling."
+      ]
     },
     {
       "category": "JavaScript",
@@ -38,6 +47,15 @@
       ]
     },
     {
+      "category": "React",
+      "list": [
+        "Building modern user interfaces using the React library.",
+        "Managing state using React Hooks and Redux.",
+        "Routing with React Router.",
+        "Integrating with external APIs and server communication."
+      ]
+    },
+    {
       "category": "PHP",
       "sub": "(Hypertext Preprocessor)",
       "list": [
@@ -48,48 +66,12 @@
       ]
     },
     {
-      "category": "React",
-      "list": [
-        "Building modern user interfaces using the React library.",
-        "Managing state using React Hooks and Redux.",
-        "Routing with React Router.",
-        "Integrating with external APIs and server communication."
-      ]
-    },
-    {
       "category": "Node.js",
       "list": [
         "Creating servers and backend applications in the Node.js environment.",
         "Using Express.js to build RESTful APIs.",
         "Working with WebSockets and real-time communication.",
         "Efficiently managing resources using npm or yarn."
-      ]
-    },
-    {
-      "category": "Git and GitHub",
-      "list": [
-        "Version control of source code using Git.",
-        "Branching and merging code.",
-        "Resolving conflicts and applying best practices in collaborative work.",
-        "Creating and managing repositories on the GitHub platform."
-      ]
-    },
-    {
-      "category": "Docker",
-      "list": [
-        "Creating and managing containers using Docker.",
-        "Building containerized applications for easy deployment.",
-        "Orchestrating containers with tools like Docker Compose and Kubernetes.",
-        "Understanding containerization concepts and best practices."
-      ]
-    },
-    {
-      "category": "Linux",
-      "list": [
-        "Proficient in Linux operating systems, including Ubuntu, CentOS, and Debian.",
-        "Working with the command line for system administration and development tasks.",
-        "Configuring and securing Linux servers for web hosting and application deployment.",
-        "Scripting and automation using Bash and Shell."
       ]
     },
     {
@@ -108,6 +90,42 @@
         "Creating and optimizing database schemas and queries.",
         "Integrating MySQL with backend applications for data storage and retrieval.",
         "Implementing database security and performance tuning."
+      ]
+    },
+    {
+      "category": "Git and GitHub",
+      "list": [
+        "Version control of source code using Git.",
+        "Branching and merging code.",
+        "Resolving conflicts and applying best practices in collaborative work.",
+        "Creating and managing repositories on the GitHub platform."
+      ]
+    },
+    {
+      "category": "Visual Studio Code",
+      "list": [
+        "Efficiently using Visual Studio Code as a code editor.",
+        "Installing and configuring extensions for improved productivity.",
+        "Customizing keybindings and settings for a personalized coding environment.",
+        "Utilizing VS Code's debugging and version control features."
+      ]
+    },
+    {
+      "category": "Docker",
+      "list": [
+        "Creating and managing containers using Docker.",
+        "Building containerized applications for easy deployment.",
+        "Orchestrating containers with tools like Docker Compose and Kubernetes.",
+        "Understanding containerization concepts and best practices."
+      ]
+    },
+    {
+      "category": "Linux",
+      "list": [
+        "Proficient in Linux operating systems, including Ubuntu, CentOS, and Debian.",
+        "Working with the command line for system administration and development tasks.",
+        "Configuring and securing Linux servers for web hosting and application deployment.",
+        "Scripting and automation using Bash and Shell."
       ]
     },
     {
