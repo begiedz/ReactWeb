@@ -102,6 +102,7 @@ main.my_work {
           object-position: top;
 
           opacity: 0.8;
+          align-self: center;
         }
         // .img-overlay {
         //   display: block;
@@ -146,6 +147,9 @@ main.my_work {
     }
     .card:hover {
       scale: 1.1;
+      @include mixins.mobile {
+        scale: 1;
+      }
       img {
         opacity: 1;
       }

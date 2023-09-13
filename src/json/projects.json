@@ -8,7 +8,7 @@
     },
     {
         "appName": "PHP Notes",
-        "language": ["php"],
+        "language": ["php", "mysql"],
         "description":"CRUD PHP App.",
         "imgPath": "../images/phpnotes.png",
         "githubURL":"https://github.com/begiedz/php-notes"

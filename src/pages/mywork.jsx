@@ -34,13 +34,11 @@ const MyWork = () => {
                                     <h3>{project.appName}</h3>
                                     <p>{project.description}</p>
                                     <ul>
-                                        {
-                                            project.language && project.language.map(language => {
-                                                return (
-                                                    <li>{language}</li>
-                                                )
-                                            })
-                                        }
+                                        {project.language && project.language.map(language => {
+                                            return (
+                                                <li>{language}</li>
+                                            )
+                                        })}
                                     </ul>
                                 </div>
                             </a>

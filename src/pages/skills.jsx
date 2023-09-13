@@ -44,11 +44,14 @@ const SkillIcon = ({ category }) => {
 const Skills = () => {
     return (
         <main className="skills">
+            <button>button</button>
             <h1>My skills</h1>
             <section>
-                {skillsData && skillsData.map(skill => {
+                {skillsData && skillsData.map((skill, index) => {
                     return (
-                        <div key={skill.category}>
+                        <div key={skill.category} className='reveal' style={
+                            { animationDelay: index * 200 + 'ms' }
+                        }>
                             <h2>
                                 <SkillIcon category={skill.category} />
                                 <span>

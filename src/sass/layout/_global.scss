@@ -1,4 +1,5 @@
 @use '../utils/variables';
+@use '../utils/mixins';
 
 *,
 *:before,
@@ -29,7 +30,7 @@ code {
 }
 
 main {
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 5rem;
   width: 100vw;
   max-width: variables.$tablet;
