@@ -1,7 +1,7 @@
 [
   {
       "category": "HTML",
-      "sub": "(Hypertext Markup Language)",
+      "sub": " (Hypertext Markup Language)",
       "list": [
         "Creating semantically correct web pages.",
         "Handling various types of elements such as headers, lists, forms, and multimedia.",
@@ -11,7 +11,7 @@
     },
     {
       "category": "CSS",
-      "sub": "(Cascading Style Sheets)",
+      "sub": " (Cascading Style Sheets)",
       "list": [
         "Designing attractive and responsive user interfaces.",
         "Creating animation effects and transitions using CSS3.",

@@ -14,7 +14,7 @@ const MyWork = () => {
             <h1>My work</h1>
 
             <div className='searchUI'>
-                <input type="search" placeholder='Search...' onInput={handleInput()} />
+                <input type="search" placeholder='Search for project...' onInput={handleInput()} />
                 <div className="buttonWrapper">
                     <button>All</button>
                     <button>JS</button>

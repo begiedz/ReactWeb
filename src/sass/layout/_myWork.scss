@@ -70,11 +70,10 @@ main.my_work {
       }
       .card {
         transform-origin: bottom;
-        // align-self: flex-start;
 
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
 
         gap: 0.5rem;
 
@@ -104,19 +103,10 @@ main.my_work {
           opacity: 0.8;
           align-self: center;
         }
-        // .img-overlay {
-        //   display: block;
-        //   position: absolute;
-        //   top: 0;
-        //   left: 0;
-        //   width: 100%;
-        //   height: 100%;
-        //   background-color: rgba($color: black, $alpha: 0.2);
 
-        //   transition: color 200ms ease;
-        // }
         h3 {
-          opacity: 0.8;
+          opacity: 0.6;
+          margin-top: 0.5rem;
         }
         ul {
           list-style: none;
@@ -130,17 +120,17 @@ main.my_work {
 
           li {
             // background-color: white;
-            background-color: rgba($color: #000000, $alpha: 0.2);
+            background-color: rgba($color: #000000, $alpha: 0.1);
             padding: 0.5rem;
             border-radius: 2rem;
             border-radius: 0.5rem;
 
             font-family: monospace;
 
-            opacity: 0.8;
+            opacity: 0.6;
           }
           p {
-            opacity: 0.8;
+            opacity: 0.6;
           }
         }
       }
@@ -153,6 +143,7 @@ main.my_work {
       img {
         opacity: 1;
       }
+      h3,
       p,
       ul li {
         opacity: 1;
