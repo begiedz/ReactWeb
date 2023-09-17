@@ -110,5 +110,32 @@
         "Customizing keybindings and settings for a personalized coding environment.",
         "Utilizing VS Code's debugging and version control features."
       ]
+    },
+    {
+      "category": "Docker",
+      "list": [
+        "Creating and managing containers using Docker.",
+        "Building containerized applications for easy deployment.",
+        "Orchestrating containers with tools like Docker Compose and Kubernetes.",
+        "Understanding containerization concepts and best practices."
+      ]
+    },
+    {
+      "category": "Linux",
+      "list": [
+        "Proficient in Linux operating systems, including Ubuntu, CentOS, and Debian.",
+        "Working with the command line for system administration and development tasks.",
+        "Configuring and securing Linux servers for web hosting and application deployment.",
+        "Scripting and automation using Bash and Shell."
+      ]
+    },
+    {
+      "category": "React Native",
+      "list": [
+        "Developing cross-platform mobile applications using React Native.",
+        "Building native user interfaces and components for iOS and Android.",
+        "Accessing device features and APIs with React Native modules.",
+        "Debugging and testing mobile applications for optimal performance."
+      ]
     }
   ]

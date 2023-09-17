@@ -1,5 +1,6 @@
 import React from 'react';
-import avatar from '../img/avatarApple.jpeg';
+// import avatar from '../img/avatarApple.jpeg';
+import bgdzImg from '../img/IMG_0002.jpg'
 import { FaGithub, FaCodepen, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
@@ -30,7 +31,9 @@ const Home = () => {
                     </li>
                 </ul>
             </div>
-            <img src={avatar} alt="avatar begiedz" />
+            {/* <img src={avatar} alt="avatar begiedz" /> */}
+            <img src={bgdzImg} alt="bgdz img" />
+
         </header>
     );
 };

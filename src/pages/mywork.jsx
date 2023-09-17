@@ -1,52 +1,38 @@
-import React from 'react';
-import projects from '../json/projects.json'
-// import { Link } from 'react-router-dom';
-// import { FaGithub } from 'react-icons/fa';
+import React, { useState } from 'react';
+import Gallery from '../components/Gallery';
+import FilterButtons from '../components/FilterButtons';
 
 const MyWork = () => {
-    console.log(projects);
+    const [selectedTechnology, setSelectedTechnology] = useState('All');
+    const [searchText, setSearchText] = useState('');
 
-    const handleInput = () => {
+    const handleFilterChange = (tech) => {
+        setSelectedTechnology(tech);
+    };
 
-    }
+    const handleSearchChange = (e) => {
+        setSearchText(e.target.value);
+    };
+
     return (
-        <main className="my_work">
+        <main className="myWork">
             <h1>My work</h1>
 
             <div className='searchUI'>
-                <input type="search" placeholder='Search for project...' onInput={handleInput()} />
-                <div className="buttonWrapper">
-                    <button>All</button>
-                    <button>JS</button>
-                    <button>PHP</button>
-                    <button>React</button>
-                    <button>Node.js</button>
-                </div>
-            </div>
-            <div className="gallery">
-                {
-                    projects &&
-                    projects.map(project => {
-                        return (
-                            <a href={project.githubURL}>
-                                <div className='card'>
-                                    <img src={project.imgPath} alt={project.appName} />
-                                    <h3>{project.appName}</h3>
-                                    <p>{project.description}</p>
-                                    <ul>
-                                        {project.language && project.language.map(language => {
-                                            return (
-                                                <li>{language}</li>
-                                            )
-                                        })}
-                                    </ul>
-                                </div>
-                            </a>
-                        )
-                    })
-                }
-
-
+                <input
+                    type="search"
+                    placeholder='Search for project...'
+                    value={searchText}
+                    onChange={handleSearchChange}
+                />
+                <FilterButtons
+                    selectedTechnology={selectedTechnology}
+                    onFilterChange={handleFilterChange}
+                />
+                <Gallery
+                    selectedTechnology={selectedTechnology}
+                    searchText={searchText}
+                />
             </div>
         </main>
     );

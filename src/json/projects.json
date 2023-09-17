@@ -1,49 +1,49 @@
 [
     {
         "appName": "Clouder",
-        "language": ["js", "ts", "react"],
+        "technologies": ["js", "ts", "react"],
         "description":"API weather app.",
         "imgPath": "../images/clouder.png",
         "githubURL":"https://github.com/begiedz/Clouder-WeatherApp"
     },
     {
         "appName": "PHP Notes",
-        "language": ["php", "mysql"],
+        "technologies": ["php", "mysql"],
         "description":"CRUD PHP App.",
         "imgPath": "../images/phpnotes.png",
         "githubURL":"https://github.com/begiedz/php-notes"
     },
     {
         "appName": "React Chat",
-        "language": ["js", "react", "firebase"],
+        "technologies": ["js", "react", "firebase"],
         "description":"Chat app using SaaS Firebase + React",
         "imgPath": "../images/reactchat.png",
         "githubURL":"https://github.com/begiedz/ReactChat"
     },
     {
         "appName": "NodeJS Blog",
-        "language": ["js", "node.js", "express"],
+        "technologies": ["js", "node.js", "express"],
         "description":"CRUD NodeJS app.",
         "imgPath": "../images/nodejsblog.png",
         "githubURL":"https://github.com/begiedz/Blog-nodeJS"
     },
     {
         "appName": "Workout Buddy",
-        "language": ["js", "react", "node.js", "mongodb"],
+        "technologies": ["js", "react", "node.js", "mongodb"],
         "description":"Fullstack MERN CRUD App.",
         "imgPath": "../images/workoutbuddy.png",
         "githubURL":"https://github.com/begiedz/Fullstack-MERN-App"
     },
     {
         "appName": "Simple JS Stopwatch",
-        "language": ["js"],
+        "technologies": ["js"],
         "description":"Stopwatch made in vanilla JS. UI inspired by Apple.",
         "imgPath": "images/stopwatch.png",
         "githubURL":"https://github.com/begiedz/stopwatchApp"
     },
     {
         "appName": "Code Generator",
-        "language": ["js"],
+        "technologies": ["js"],
         "description":"Random code generator.",
         "imgPath": "../img/",
         "githubURL":""

@@ -48,9 +48,11 @@ const Skills = () => {
             <section>
                 {skillsData && skillsData.map((skill, index) => {
                     return (
-                        <div key={skill.category} className='reveal' style={
-                            { animationDelay: index * 200 + 'ms' }
-                        }>
+                        <div
+                            key={skill.category}
+                            className='reveal'
+                            style={{ animationDelay: index * 200 + 'ms' }}
+                        >
                             <h2>
                                 <SkillIcon category={skill.category} />
                                 <span>
@@ -64,7 +66,7 @@ const Skills = () => {
 
                             <ul>
                                 {skill.list.map(list => {
-                                    return (<li>{list}</li>)
+                                    return <li>{list}</li>
                                 })}
                             </ul>
                         </div>)
