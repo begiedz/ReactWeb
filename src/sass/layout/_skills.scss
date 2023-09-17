@@ -4,10 +4,7 @@ main.skills {
   h1 {
     margin-bottom: 2rem;
   }
-  h2 .light-font {
-    font-weight: 300;
-    font-size: 1rem;
-  }
+
   section {
     display: flex;
     flex-direction: column;
@@ -24,16 +21,31 @@ main.skills {
       h2 {
         display: flex;
         align-items: center;
+
         margin-bottom: 0.5rem;
         svg {
           scale: 1.6;
           margin: 0 0.6rem;
         }
+        span {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.3rem;
+
+          // @include mixins.mobile {
+          //   gap: 0;
+          // }
+        }
+      }
+      h2 .light-font {
+        font-weight: 300;
+        font-size: 1rem;
+        align-self: center;
       }
       ul {
-        // list-style: none;
         li {
           list-style-position: inside;
+          line-height: 1.3rem;
         }
       }
     }

@@ -1,0 +1,31 @@
+[
+  {
+    "en":{
+      "hello":"I'm Dariusz",
+      "profession":"Beginner Web Developer",
+      "description":"Welcome to my corner of the digital world! I'm a budding web developer fueled by a passion for creating captivating online experiences. With a background in graphic design and a newfound love for coding, I strive to craft visually appealing and functional interfaces that leave a lasting impression. I'm eager to collaborate and embark on transformative journeys, bringing digital dreams to life. Let's create wonders together!"
+    }
+  },
+  {
+    "pl": {
+      "hello": "Jestem Dariusz",
+      "profession": "Początkujący Programista Webowy",
+      "description": "Witaj w moim zakątku cyfrowego świata! Jestem początkującym programistą webowym, napędzanym pasją do tworzenia fascynujących doświadczeń online. Dzięki doświadczeniu w projektowaniu graficznym i nowo odkrytej miłości do kodowania, staram się tworzyć wizualnie atrakcyjne i funkcjonalne interfejsy, które pozostawiają trwałe wrażenie. Jestem gotów do współpracy i wyruszenia w transformacyjne podróże, ożywiając cyfrowe marzenia. Twórzmy razem cuda!"
+    }
+  },
+  {
+    "de": {
+      "hello": "Ich bin Dariusz",
+      "profession": "Anfänger Webentwickler",
+      "description": "Willkommen in meiner Ecke der digitalen Welt! Ich bin ein aufstrebender Webentwickler, befeuert von der Leidenschaft, fesselnde Online-Erlebnisse zu schaffen. Mit einer grafischen Design-Vergangenheit und einer neu entdeckten Liebe zum Codieren, bemühe ich mich, optisch ansprechende und funktionale Benutzeroberflächen zu gestalten, die einen bleibenden Eindruck hinterlassen. Ich bin gespannt auf die Zusammenarbeit und darauf, transformative Reisen anzutreten, um digitale Träume zum Leben zu erwecken. Lass uns zusammen Wunder erschaffen!"
+    }
+  },
+  {
+    "nl": {
+      "hello": "Ik ben Dariusz",
+      "profession": "Beginnende Webontwikkelaar",
+      "description": "Welkom in mijn hoekje van de digitale wereld! Ik ben een beginnende webontwikkelaar, gedreven door een passie voor het creëren van boeiende online ervaringen. Met een achtergrond in grafisch ontwerp en een nieuw ontdekte liefde voor coderen, streef ik ernaar visueel aantrekkelijke en functionele interfaces te ontwerpen die een blijvende indruk achterlaten. Ik sta klaar om samen te werken en op transformerende reizen te gaan om digitale dromen tot leven te brengen. Laten we samen wonderen creëren!"
+    }
+  }
+
+]

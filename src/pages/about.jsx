@@ -1,27 +1,6 @@
 import React from 'react';
 import about from '../json/aboutData.json'
 
-// const RenderJSON = (json) => {
-
-
-
-// if (Array.isArray(json)) {
-//     return json.map((item, index) => {
-//         <div key={index}>{RenderJSON(item)}</div>
-//     })
-
-// } else if (typeof json === 'object') {
-//     return Object.entries(json).map(([key, value], index) => {
-//         <div key={index}>
-//             <strong>{key}:</strong> {RenderJSON(value)}
-//         </div>
-//     })
-
-// } else {
-//         return json
-//     }
-// }
-
 const About = () => {
     return (
         <main className='about'>

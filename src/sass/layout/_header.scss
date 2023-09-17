@@ -33,6 +33,7 @@ header {
     height: 350px;
     width: auto;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
     @include mixins.mobile {
       height: 200px;
     }

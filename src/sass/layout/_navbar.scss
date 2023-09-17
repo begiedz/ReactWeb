@@ -10,27 +10,34 @@ nav {
   align-items: center;
   justify-content: space-between;
 
-  padding: 10px 20px;
+  padding: 0 20px;
+  height: 55px;
   width: 100vw;
+  // height: 55px;
   backdrop-filter: blur(30px);
-  background-color: variables.$accent-color;
+  background-color: #1e1e1e;
 
-  color: variables.$nav-text;
+  color: white;
 
   z-index: 2;
-  // position: relative;
+
   @include mixins.tablet {
     flex-direction: column;
+    justify-content: center;
   }
 
-  div.logoWrapper {
+  .logoWrapper {
     display: flex;
-    align-self: flex-start;
+    // align-self: flex-start;
     align-items: center;
     gap: 1rem;
+    @include mixins.tablet {
+      align-self: flex-start;
+    }
   }
   span.logo {
     color: rgba(195, 135, 255, 1);
+    color: white;
 
     font-size: 1.5rem;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -63,11 +70,14 @@ nav {
     }
     li {
       display: flex;
+      border-radius: 5px;
       a,
       a:visited {
         padding: 0.5rem;
 
         color: rgba(195, 135, 255, 1);
+        color: white;
+
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 150ms;
@@ -75,14 +85,15 @@ nav {
       a:hover,
       a:hover:visited {
         background-color: rgba(195, 135, 255, 0.13);
+        background-color: rgba(255, 255, 255, 0.15);
       }
     }
     li.active {
       background-color: rgba(195, 135, 255, 0.13);
+      background-color: rgba(255, 255, 255, 0.15);
     }
   }
   ul.active {
-    // transform: translateY(0px);
     top: 55px;
     opacity: 1;
   }
@@ -102,11 +113,38 @@ nav {
     }
     svg {
       fill: rgba(195, 135, 255, 1);
+      fill: white;
       height: 25px;
       width: auto;
     }
   }
   button:hover {
+    background-color: rgba(195, 135, 255, 0.13);
+  }
+  #bgdzLogo {
+    fill: white;
+    height: 35px;
+  }
+}
+
+nav.headerNav {
+  background-color: variables.$accent-color;
+  color: variables.$nav-text;
+  span.logo {
+    color: rgba(195, 135, 255, 1);
+  }
+  a,
+  a:visited {
+    color: rgba(195, 135, 255, 1);
+  }
+  svg {
+    fill: rgba(195, 135, 255, 1);
+  }
+  a:hover,
+  a:hover:visited {
+    background-color: rgba(195, 135, 255, 0.13);
+  }
+  li.active {
     background-color: rgba(195, 135, 255, 0.13);
   }
   #bgdzLogo {

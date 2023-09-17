@@ -1,10 +1,9 @@
 import { React, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import { Link, useMatch, useResolvedPath, useLocation } from 'react-router-dom';
 // import CV from '../img/DariuszBegiedzaCV.pdf';
 
 const CustomLink = ({ to, children, ...props }) => {
-    // const path = window.location.pathname;
     const resolvedPath = useResolvedPath(to);
     const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
@@ -22,8 +21,13 @@ const Navbar = () => {
     const openMenu = () => {
         navRef.current.classList.toggle('active');
     };
+
+    const location = useLocation();
+    const isHomePage = location.pathname === '/';
+
+    const navClass = isHomePage ? 'headerNav' : null
     return (
-        <nav>
+        <nav className={navClass}>
             <div className="logoWrapper">
                 <svg
                     id="bgdzLogo"
