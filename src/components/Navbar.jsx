@@ -1,6 +1,7 @@
 import { React, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, useMatch, useResolvedPath, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 // import CV from '../img/DariuszBegiedzaCV.pdf';
 
 const CustomLink = ({ to, children, ...props }) => {
@@ -20,6 +21,12 @@ const Navbar = () => {
     const navRef = useRef();
     const openMenu = () => {
         navRef.current.classList.toggle('active');
+    };
+
+    const { t, i18n } = useTranslation()
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng)
     };
 
     const location = useLocation();
@@ -66,6 +73,12 @@ const Navbar = () => {
                 <CustomLink to="/contact" onClick={openMenu}>
                     Contact
                 </CustomLink>
+                <select onChange={(e) => changeLanguage(e.target.value)} value={i18n.language}>
+                    <option value="en">🇬🇧</option>
+                    <option value="pl">🇵🇱</option>
+                    <option value="de">🇩🇪</option>
+                    <option value="nl">🇳🇱</option>
+                </select>
             </ul>
             <button onClick={openMenu}>
                 <FaBars />

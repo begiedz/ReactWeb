@@ -48,22 +48,18 @@ nav {
     gap: 1rem;
 
     @include mixins.tablet {
-      overflow: hidden;
       position: absolute;
-      top: 100%;
-      background-color: inherit;
+      top: -350px;
+
+      padding: 2rem;
       width: 100vw;
-      // scale: 0;
+      background-color: inherit;
       flex-direction: column;
       align-items: center;
       font-size: 2rem;
+      overflow: hidden;
 
-      // transform: translateY(-400px);
-
-      // transition: transform 200ms ease;
-      position: absolute;
       transition: top 200ms ease, opacity 200ms ease;
-      top: -350px;
       z-index: -1;
 
       opacity: 0;

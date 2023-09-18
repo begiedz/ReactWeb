@@ -23,9 +23,11 @@ main.skills {
         align-items: center;
 
         margin-bottom: 0.5rem;
+        // color: variables.$accent-color;
         svg {
           scale: 1.6;
           margin: 0 0.6rem;
+          fill: variables.$accent-color;
         }
         span {
           display: flex;

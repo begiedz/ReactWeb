@@ -1,18 +1,19 @@
 import React from 'react';
 // import avatar from '../img/avatarApple.jpeg';
 import bgdzImg from '../img/IMG_0002.jpg'
+import { useTranslation } from 'react-i18next';
+
 import { FaGithub, FaCodepen, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
+    const { t } = useTranslation();
     return (
         <header>
             <div className="titleWrapper">
-                <div className="hello">hello,</div>
-                <h1>I'm Dariusz</h1>
-                <h2>Beginner Web Developer</h2>
-                <p>
-                    Welcome to my corner of the digital world! I'm a budding web developer fueled by a passion for creating captivating online experiences. With a background in   graphic design and a newfound love for coding, I strive to craft visually appealing and functional interfaces that leave a lasting impression. I'm eager to collaborate and embark on transformative journeys, bringing digital dreams to life. Let's create wonders together!
-                </p>
+                <div className="hello">{t('hello')}</div>
+                <h1>{t('name')}</h1>
+                <h2>{t('profession')}</h2>
+                <p>{t('description')}</p>
                 <ul>
                     <li>
                         <a href="https://github.com/begiedz">
