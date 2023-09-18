@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from '../json/projects.json';
+import projects from '../data/projects.json';
 
 const Gallery = ({ selectedTechnology, searchText }) => {
   const filteredProjects = projects.filter((project) => {

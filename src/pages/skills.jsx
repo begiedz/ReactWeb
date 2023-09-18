@@ -2,7 +2,7 @@ import React from 'react';
 import { BiLogoTypescript, BiLogoMongodb, BiLogoDocker, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoSass } from 'react-icons/bi'
 import { DiLinux, DiMysql } from 'react-icons/di'
 
-import skillsData from '../json/skillsData.json'
+import skillsData from '../data/skillsData.json'
 
 const SkillIcon = ({ category }) => {
     switch (category) {

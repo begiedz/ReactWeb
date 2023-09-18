@@ -114,6 +114,19 @@ nav {
       width: auto;
     }
   }
+  .selectWrapper {
+    display: flex;
+
+    select {
+      // display: none;
+      font-size: 1.3rem;
+      background-color: rgba($color: #fff, $alpha: 1);
+      padding: 0 8px;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+
   button:hover {
     background-color: rgba(195, 135, 255, 0.13);
   }

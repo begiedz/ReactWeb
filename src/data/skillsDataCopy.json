@@ -1,0 +1,141 @@
+[
+  {
+      "category": "HTML",
+      "sub": " (Hypertext Markup Language)",
+      "list": [
+        "Creating semantically correct web pages.",
+        "Handling various types of elements such as headers, lists, forms, and multimedia.",
+        "Understanding the significance of attributes and their impact on page structure.",
+        "Applying modern HTML5 standards, including canvas and video elements."
+      ]
+    },
+    {
+      "category": "CSS",
+      "sub": " (Cascading Style Sheets)",
+      "list": [
+        "Designing attractive and responsive user interfaces.",
+        "Creating animation effects and transitions using CSS3.",
+        "Using CSS preprocessors such as SASS or LESS for increased efficiency.",
+        "Understanding selector specificity and the cascading nature of CSS styles."
+      ]
+    },
+    {
+      "category": "SCSS",
+      "sub":" (Sassy CSS)",
+      "list": [
+        "Using SCSS to write more maintainable and modular CSS code.",
+        "Leveraging variables, mixins, and nesting in SCSS.",
+        "Compiling SCSS to standard CSS for browser compatibility.",
+        "Integrating SCSS into frontend projects for improved styling."
+      ]
+    },
+    {
+      "category": "JavaScript",
+      "list": [
+        "Programming interactive web applications.",
+        "Utilizing libraries and frameworks like jQuery or Vue.js.",
+        "Asynchronous programming using Promises and async/await.",
+        "Working with ES6 modules and managing dependencies."
+      ]
+    },
+    {
+      "category": "TypeScript",
+      "list": [
+        "Developing type-safe JavaScript applications using TypeScript.",
+        "Creating and using interfaces, types, and generics in TypeScript.",
+        "Transpiling TypeScript to JavaScript for browser compatibility.",
+        "Integrating TypeScript with popular frontend frameworks like React and Angular."
+      ]
+    },
+    {
+      "category": "React",
+      "list": [
+        "Building modern user interfaces using the React library.",
+        "Managing state using React Hooks and Redux.",
+        "Routing with React Router.",
+        "Integrating with external APIs and server communication."
+      ]
+    },
+    {
+      "category": "PHP",
+      "sub": "(Hypertext Preprocessor)",
+      "list": [
+        "Building dynamic web pages and web applications.",
+        "Working with databases, including MySQL and PostgreSQL.",
+        "Developing backends for e-commerce, content management, and other applications.",
+        "Securing applications against attacks such as SQL Injection and XSS."
+      ]
+    },
+    {
+      "category": "Node.js",
+      "list": [
+        "Creating servers and backend applications in the Node.js environment.",
+        "Using Express.js to build RESTful APIs.",
+        "Working with WebSockets and real-time communication.",
+        "Efficiently managing resources using npm or yarn."
+      ]
+    },
+    {
+      "category": "MongoDB",
+      "list": [
+        "Working with NoSQL databases like MongoDB for scalable and flexible data storage.",
+        "Creating and querying MongoDB databases and collections.",
+        "Using Mongoose ODM for Node.js to interact with MongoDB.",
+        "Designing schema-less data structures for various applications."
+      ]
+    },
+    {
+      "category": "MySQL",
+      "list": [
+        "Managing relational databases using MySQL.",
+        "Creating and optimizing database schemas and queries.",
+        "Integrating MySQL with backend applications for data storage and retrieval.",
+        "Implementing database security and performance tuning."
+      ]
+    },
+    {
+      "category": "Git and GitHub",
+      "list": [
+        "Version control of source code using Git.",
+        "Branching and merging code.",
+        "Resolving conflicts and applying best practices in collaborative work.",
+        "Creating and managing repositories on the GitHub platform."
+      ]
+    },
+    {
+      "category": "Visual Studio Code",
+      "list": [
+        "Efficiently using Visual Studio Code as a code editor.",
+        "Installing and configuring extensions for improved productivity.",
+        "Customizing keybindings and settings for a personalized coding environment.",
+        "Utilizing VS Code's debugging and version control features."
+      ]
+    },
+    {
+      "category": "Docker",
+      "list": [
+        "Creating and managing containers using Docker.",
+        "Building containerized applications for easy deployment.",
+        "Orchestrating containers with tools like Docker Compose and Kubernetes.",
+        "Understanding containerization concepts and best practices."
+      ]
+    },
+    {
+      "category": "Linux",
+      "list": [
+        "Proficient in Linux operating systems, including Ubuntu, CentOS, and Debian.",
+        "Working with the command line for system administration and development tasks.",
+        "Configuring and securing Linux servers for web hosting and application deployment.",
+        "Scripting and automation using Bash and Shell."
+      ]
+    },
+    {
+      "category": "React Native",
+      "list": [
+        "Developing cross-platform mobile applications using React Native.",
+        "Building native user interfaces and components for iOS and Android.",
+        "Accessing device features and APIs with React Native modules.",
+        "Debugging and testing mobile applications for optimal performance."
+      ]
+    }
+  ]

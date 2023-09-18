@@ -73,12 +73,14 @@ const Navbar = () => {
                 <CustomLink to="/contact" onClick={openMenu}>
                     Contact
                 </CustomLink>
-                <select onChange={(e) => changeLanguage(e.target.value)} value={i18n.language}>
-                    <option value="en">🇬🇧</option>
-                    <option value="pl">🇵🇱</option>
-                    <option value="de">🇩🇪</option>
-                    <option value="nl">🇳🇱</option>
-                </select>
+                <div className='selectWrapper'>
+                    <select onChange={(e) => changeLanguage(e.target.value)} value={i18n.language}>
+                        <option value="en">🇬🇧</option>
+                        <option value="pl">🇵🇱</option>
+                        <option value="de">🇩🇪</option>
+                        <option value="nl">🇳🇱</option>
+                    </select>
+                </div>
             </ul>
             <button onClick={openMenu}>
                 <FaBars />

@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../json/aboutData.json'
+import about from '../data/aboutData.json'
 
 const About = () => {
     return (
