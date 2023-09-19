@@ -12,6 +12,92 @@
     "myWork": "Mijn Werk",
     "resume": "Curriculum Vitae",
     "contact": "Contact"
+  },
+  "about":{
+    "heading":"Welkom in mijn hoek van het digitale rijk!",
+    "article":[
+      {
+        "paragraph": [
+          "Laat me mezelf voorstellen — een beginnende webontwikkelaar gedreven door een ",
+          {
+            "strong": "onvermoeibare passie"
+          },
+          " voor het creëren van boeiende online ervaringen. Hoewel mijn reis misschien niet rechtlijnig verloopt, is het een avontuur geweest vol wendingen en bochten, dat me uiteindelijk heeft geleid naar de fascinerende wereld van webontwikkeling."
+        ]
+      },
+      {
+        "paragraph": [
+          "In de vroege dagen verdiepte ik me in de ",
+          {
+            "strong": "kunst van grafisch ontwerp"
+          },
+          " en volgde ik een middelbare school die zich richtte op deze creatieve discipline. De aantrekkingskracht van visuele verhalen boeide me, en inspireerde dromen over het maken van verbluffende visuals die het publiek zouden betoveren. Gedreven om mijn artistieke neigingen verder te verkennen, studeerde ik beeldhouwkunst en computergraphics tijdens mijn studententijd. Maar, zoals het lot het zou hebben, besefte ik dat deze paden niet mijn ware roeping waren."
+        ]
+      },
+      {
+        "paragraph": [
+          "Het was tijdens deze introspectieve periode dat ik stuitte op ",
+          {
+            "strong": "webontwikkeling"
+          },
+          "—een betoverende samensmelting van artisticiteit en technische vaardigheid. Intrigerend door de kracht om het digitale landschap te vormgeven, besloot ik mijn inspanningen te heroriënteren en me te verdiepen in de wereld van webontwikkeling."
+        ]
+      },
+      {
+        "paragraph": [
+          "Met vuur en vastberadenheid begon ik aan een reeks intensieve cursussen en online tutorials. Tijdens deze leerervaringen verfijnde ik mijn vaardigheden in ",
+          {
+            "strong": "HTML"
+          },
+          " en ",
+          {
+            "strong": "CSS"
+          },
+          ", waarbij ik de basisprincipes van webdesign omarmde. Maar mijn honger naar kennis hield daar niet op. Ik dook enthousiast in de wereld van ",
+          {
+            "strong": "JavaScript"
+          },
+          ", gefascineerd door zijn veelzijdigheid en de eindeloze mogelijkheden die het bood."
+        ]
+      },
+      {
+        "paragraph": [
+          "Gedreven door de wens om naadloze en boeiende gebruikerservaringen te creëren, waagde ik me in de wereld van ",
+          {
+            "strong": "React"
+          },
+          " en ",
+          {
+            "strong": "React Native"
+          },
+          ". Deze krachtige frameworks werden mijn bondgenoten, waardoor ik leven kon blazen in mijn visies en ze kon verwezenlijken op zowel web- als mobiele platforms."
+        ]
+      },
+      {
+        "paragraph": [
+          "Als webontwikkelaar ligt mijn passie in het creëren van ",
+          {
+            "strong": "functionele en visueel aantrekkelijke interfaces"
+          },
+          " die een blijvende indruk achterlaten bij gebruikers. De samensmelting van mijn achtergrond in grafisch ontwerp en mijn nieuwe technische vaardigheden stelt me in staat harmonieuze digitale ruimtes te creëren die ",
+          {
+            "strong": "esthetiek met gebruiksgemak"
+          },
+          " combineren."
+        ]
+      },
+      {
+        "paragraph": [
+          "Dus, als u een ",
+          {
+            "strong": "vastberaden en aanpasbare"
+          },
+          " webontwikkelaar zoekt om zich bij uw team aan te sluiten, zou ik graag samenwerken. Samen kunnen we een transformerende reis beginnen en buitengewone digitale ervaringen creëren die een stempel drukken op het virtuele landschap."
+        ]
+      },
+      {
+        "paragraph": "Laten we onze digitale dromen tot leven brengen!"
+      }
+    ]
   }
-
 }

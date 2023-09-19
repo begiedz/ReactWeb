@@ -1,12 +1,15 @@
 import React from 'react';
-import about from '../data/aboutData.json'
+// import about from '../data/aboutData.json'
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+    const { t } = useTranslation();
+
     return (
         <main className='about'>
-            <h1>Welcome to my corner of the digital realm!</h1>
+            <h1>{t('about.heading')}</h1>
             <article>
-                {about && about.map((item, index) => {
+                {t('about.article', { returnObjects: true }).map((item, index) => {
                     if (typeof item.paragraph === 'string') {
                         return (
                             <p key={index} className='reveal' style={

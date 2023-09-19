@@ -12,5 +12,92 @@
     "myWork": "Moje projekty",
     "resume": "CV",
     "contact": "Kontakt"
+  },
+  "about":{
+    "heading":"Witaj w moim zakątku cyfrowego świata!",
+    "article":[
+      {
+        "paragraph": [
+          "Pozwól, że się przedstawię — jestem początkującym programistą webowym, napędzanym ",
+          {
+            "strong": "nieustanną pasją"
+          },
+          " do tworzenia fascynujących doświadczeń online. Choć moja droga nie biegnie prosto, to pełna zakrętów przygoda, która ostatecznie zaprowadziła mnie do fascynującego świata tworzenia stron internetowych."
+        ]
+      },
+      {
+        "paragraph": [
+          "W młodych latach zanurzyłem się w ",
+          {
+            "strong": "sztuce projektowania graficznego"
+          },
+          ", uczęszczając do szkoły średniej skoncentrowanej na tej dziedzinie twórczej. Magnesem dla mnie był wizualny storytelling, inspirując mnie do marzeń o tworzeniu oszałamiających wizualizacji, które zachwycą widownię. Chcąc zgłębić moje artystyczne zainteresowania, studiowałem rzeźbę i grafikę komputerową podczas studiów. Jednak, jak to bywa z losem, zdałem sobie sprawę, że te ścieżki nie są moim prawdziwym powołaniem."
+        ]
+      },
+      {
+        "paragraph": [
+          "To w czasie tej introspektywnej fazy natknąłem się na ",
+          {
+            "strong": "tworzenie stron internetowych"
+          },
+          "—zaczarowujące połączenie sztuki i technicznego czarodziejstwa. Zafascynowany potencjałem kształtowania cyfrowego krajobrazu, postanowiłem przekierować swoje wysiłki i zagłębić się w dziedzinę tworzenia stron internetowych."
+        ]
+      },
+      {
+        "paragraph": [
+          "Z pasją i determinacją wziąłem udział w serii intensywnych kursów i samouczków online. Dzięki tym doświadczeniom doskonaliłem swoje umiejętności w zakresie ",
+          {
+            "strong": "HTML"
+          },
+          " i ",
+          {
+            "strong": "CSS"
+          },
+          ", omijając podstawy projektowania stron internetowych. Ale moje pragnienie wiedzy się tu nie zatrzymało. Chętnie zanurzyłem się w świat ",
+          {
+            "strong": "JavaScriptu"
+          },
+          ", zafascynowany jego wszechstronnością i nieskończonymi możliwościami, które oferował."
+        ]
+      },
+      {
+        "paragraph": [
+          "Z motywacją do tworzenia płynnych i angażujących interfejsów użytkownika zapuściłem się w obszar ",
+          {
+            "strong": "Reacta"
+          },
+          " i ",
+          {
+            "strong": "React Native"
+          },
+          ". Te potężne frameworki stały się moimi sojusznikami, umożliwiając ożywienie moich wizji i przekształcenie ich w rzeczywistość na platformach webowych i mobilnych."
+        ]
+      },
+      {
+        "paragraph": [
+          "Jako programista webowy moja pasja tkwi w tworzeniu ",
+          {
+            "strong": "funkcjonalnych i wizualnie atrakcyjnych interfejsów"
+          },
+          ", które pozostawiają trwały ślad u użytkowników. Połączenie mojego tła w projektowaniu graficznym z nowo zdobytą wiedzą techniczną pozwala mi tworzyć harmonijne przestrzenie cyfrowe, które łączą ",
+          {
+            "strong": "estetykę z użytecznością"
+          },
+          "."
+        ]
+      },
+      {
+        "paragraph": [
+          "Jeśli więc szukasz ",
+          {
+            "strong": "zdeterminowanego i elastycznego"
+          },
+          " programisty webowego do współpracy, chętnie się przyłączę. Razem możemy wyruszyć w transformacyjną podróż, tworząc nadzwyczajne doświadczenia cyfrowe, które zostawią ślad na wirtualnym krajobrazie."
+        ]
+      },
+      {
+        "paragraph": "Dajmy życiu naszym cyfrowym marzeniom!"
+      }
+    ]
   }
 }
