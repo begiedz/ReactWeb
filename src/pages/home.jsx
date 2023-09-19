@@ -10,10 +10,10 @@ const Home = () => {
     return (
         <header>
             <div className="titleWrapper">
-                <div className="hello">{t('hello')}</div>
-                <h1>{t('name')}</h1>
-                <h2>{t('profession')}</h2>
-                <p>{t('description')}</p>
+                <div className="hello">{t('header.hello')}</div>
+                <h1>{t('header.name')}</h1>
+                <h2>{t('header.profession')}</h2>
+                <p>{t('header.description')}</p>
                 <ul>
                     <li>
                         <a href="https://github.com/begiedz">

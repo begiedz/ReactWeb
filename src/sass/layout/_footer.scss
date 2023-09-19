@@ -19,7 +19,12 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
-  .footerWrapper div,
+  ul.footerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .footerWrapper li,
   ul {
     color: rgb(250, 250, 250);
     font-weight: 600;
@@ -44,7 +49,7 @@ footer {
 header + footer {
   color: variables.$accent-color-secondary;
   background-color: variables.$accent-color-shadow;
-  .footerWrapper div,
+  .footerWrapper li,
   ul {
     color: inherit;
     li {

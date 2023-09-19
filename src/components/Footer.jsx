@@ -3,15 +3,16 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            <div className="footerWrapper">
-                <div>© 2023 Dariusz Begiedza. All rights reserved.</div>
-                <div>Made with React. The library for web and native user interfaces.</div>
-            </div>
+            <ul className="footerWrapper">
+                <li>© 2023 Dariusz Begiedza. All rights reserved.</li>
+                <li>Made with React. The library for web and native user interfaces.</li>
+                <li>Used i18next. An internationalization-framework written in and for JavaScript.</li>
+            </ul>
 
             <ul>
                 Contact
                 <li>
-                    Phone: <a href="tel:+48782041173">+48 782 041 173</a>
+                    Phone:{' '}<a href="tel:+48782041173">+48 782 041 173</a>
                 </li>
                 <li>
                     Discord:{' '}

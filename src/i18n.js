@@ -2,10 +2,10 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import enTranslation from './data/translations/header/enTranslation.json';
-import plTranslation from './data/translations/header/plTranslation.json';
-import deTranslation from './data/translations/header/deTranslation.json';
-import nlTranslation from './data/translations/header/nlTranslation.json';
+import enTranslation from './data/translations/enTranslation.json';
+import plTranslation from './data/translations/plTranslation.json';
+import deTranslation from './data/translations/deTranslation.json';
+import nlTranslation from './data/translations/nlTranslation.json';
 
 i18n
   .use(LanguageDetector)

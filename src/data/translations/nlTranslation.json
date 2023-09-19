@@ -1,0 +1,17 @@
+{
+  "header":{
+    "hello": "hallo, ",
+    "name": "Ik ben Dariusz",
+    "profession": "Beginnende Webontwikkelaar",
+    "description": "Welkom in mijn hoekje van de digitale wereld! Ik ben een beginnende webontwikkelaar, gedreven door een passie voor het creëren van boeiende online ervaringen. Met een achtergrond in grafisch ontwerp en een nieuw ontdekte liefde voor coderen, streef ik ernaar visueel aantrekkelijke en functionele interfaces te ontwerpen die een blijvende indruk achterlaten. Ik sta klaar om samen te werken en op transformerende reizen te gaan om digitale dromen tot leven te brengen. Laten we samen wonderen creëren!"
+  },
+  "navbar":{
+    "home": "Thuis",
+    "about": "Over",
+    "skills": "Vaardigheden",
+    "myWork": "Mijn Werk",
+    "resume": "Curriculum Vitae",
+    "contact": "Contact"
+  }
+
+}

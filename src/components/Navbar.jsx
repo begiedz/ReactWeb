@@ -1,7 +1,9 @@
 import { React, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, useMatch, useResolvedPath, useLocation } from 'react-router-dom';
+
 import { useTranslation } from 'react-i18next';
+
 // import CV from '../img/DariuszBegiedzaCV.pdf';
 
 const CustomLink = ({ to, children, ...props }) => {
@@ -56,22 +58,22 @@ const Navbar = () => {
 
             <ul ref={navRef}>
                 <CustomLink to="/" onClick={openMenu}>
-                    Home
+                    {t('navbar.home')}
                 </CustomLink>
                 <CustomLink to="/about" onClick={openMenu}>
-                    About
+                    {t('navbar.about')}
                 </CustomLink>
                 <CustomLink to="/skills" onClick={openMenu}>
-                    Skills
+                    {t('navbar.skills')}
                 </CustomLink>
                 <CustomLink to="/mywork" onClick={openMenu}>
-                    My work
+                    {t('navbar.myWork')}
                 </CustomLink>
                 {/* <CustomLink to={CV} target="_blank">
                     Resume
                 </CustomLink> */}
                 <CustomLink to="/contact" onClick={openMenu}>
-                    Contact
+                    {t('navbar.contact')}
                 </CustomLink>
                 <div className='selectWrapper'>
                     <select onChange={(e) => changeLanguage(e.target.value)} value={i18n.language}>

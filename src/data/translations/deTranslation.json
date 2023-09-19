@@ -1,0 +1,16 @@
+{
+  "header":{ 
+    "hello": "Hallo, ",
+    "name": "ich bin Dariusz",
+    "profession": "Anfänger Webentwickler",
+    "description": "Willkommen in meiner Ecke der digitalen Welt! Ich bin ein aufstrebender Webentwickler, befeuert von der Leidenschaft, fesselnde Online-Erlebnisse zu schaffen. Mit einer grafischen Design-Vergangenheit und einer neu entdeckten Liebe zum Codieren, bemühe ich mich, optisch ansprechende und funktionale Benutzeroberflächen zu gestalten, die einen bleibenden Eindruck hinterlassen. Ich bin gespannt auf die Zusammenarbeit und darauf, transformative Reisen anzutreten, um digitale Träume zum Leben zu erwecken. Lass uns zusammen Wunder erschaffen!"
+  },
+  "navbar":{
+      "home": "Startseite",
+      "about": "Über mich",
+      "skills": "Fähigkeiten",
+      "myWork": "Meine Arbeit",
+      "resume": "Lebenslauf",
+      "contact": "Kontakt"
+    }
+}
