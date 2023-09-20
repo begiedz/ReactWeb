@@ -1,8 +1,10 @@
 import React from 'react';
-import { BiLogoTypescript, BiLogoMongodb, BiLogoDocker, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoSass } from 'react-icons/bi'
-import { DiLinux, DiMysql } from 'react-icons/di'
+import { BiLogoTypescript, BiLogoMongodb, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoSass } from 'react-icons/bi'
+import { DiMysql } from 'react-icons/di'
 
-import skillsData from '../data/skillsData.json'
+// import skillsData from '../data/skillsData.json'
+
+import { useTranslation } from 'react-i18next';
 
 const SkillIcon = ({ category }) => {
     switch (category) {
@@ -22,12 +24,8 @@ const SkillIcon = ({ category }) => {
             return <BiLogoReact />
         case 'Node.js':
             return <BiLogoNodejs />;
-        case 'Git and GitHub':
+        case 'Git, GitHub':
             return <BiLogoGit />;
-        case 'Docker':
-            return <BiLogoDocker />;
-        case 'Linux':
-            return <DiLinux />;
         case 'MongoDB':
             return <BiLogoMongodb />;
         case 'MySQL':
@@ -42,11 +40,14 @@ const SkillIcon = ({ category }) => {
 }
 
 const Skills = () => {
+    const { t } = useTranslation()
+    const skills = t('skills.technologies', { returnObjects: true });
+
     return (
         <main className="skills">
-            <h1>My skills</h1>
+            <h1>{t('skills.heading')}</h1>
             <section>
-                {skillsData && skillsData.map((skill, index) => {
+                {skills && skills.map((skill, index) => {
                     return (
                         <div
                             key={skill.category}
@@ -65,8 +66,8 @@ const Skills = () => {
                             </h2>
 
                             <ul>
-                                {skill.list.map(list => {
-                                    return <li>{list}</li>
+                                {skill.list.map((list, listIndex) => {
+                                    return <li key={listIndex}>{list}</li>
                                 })}
                             </ul>
                         </div>)

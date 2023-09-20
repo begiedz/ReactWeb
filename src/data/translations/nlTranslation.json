@@ -99,5 +99,123 @@
         "paragraph": "Laten we onze digitale dromen tot leven brengen!"
       }
     ]
-  }
+  },
+  "skills": {
+    "heading": "Mijn vaardigheden",
+    "technologies": [
+        {
+            "category": "HTML",
+            "sub": " (Hypertext Markup Language)",
+            "list": [
+                "Het creëren van semantisch correcte webpagina's.",
+                "Omgaan met verschillende soorten elementen zoals koppen, lijsten, formulieren en multimedia.",
+                "Begrip van de betekenis van attributen en hun invloed op de paginestructuur.",
+                "Toepassing van moderne HTML5-standaarden, inclusief canvas- en video-elementen."
+            ]
+        },
+        {
+            "category": "CSS",
+            "sub": " (Cascading Style Sheets)",
+            "list": [
+                "Het ontwerpen van aantrekkelijke en responsieve gebruikersinterfaces.",
+                "Het creëren van animatie-effecten en overgangen met CSS3.",
+                "Het gebruik van CSS-preprocessors zoals SASS of LESS voor een verhoogde efficiëntie.",
+                "Begrip van de specificiteit van selectors en de cascade-aard van CSS-stijlen."
+            ]
+        },
+        {
+            "category": "SCSS",
+            "sub": " (Sassy CSS)",
+            "list": [
+                "Het gebruik van SCSS om meer onderhoudsvriendelijke en modulaire CSS-code te schrijven.",
+                "Het benutten van variabelen, mixins en nesten in SCSS.",
+                "Het compileren van SCSS naar standaard CSS voor browsercompatibiliteit.",
+                "Het integreren van SCSS in frontend-projecten voor verbeterde vormgeving."
+            ]
+        },
+        {
+            "category": "JavaScript",
+            "list": [
+                "Het programmeren van interactieve webtoepassingen.",
+                "Het gebruik van bibliotheken en frameworks zoals jQuery of Vue.js.",
+                "Asynchroon programmeren met Promises en async/await.",
+                "Werken met ES6-modules en het beheren van afhankelijkheden."
+            ]
+        },
+        {
+            "category": "TypeScript",
+            "list": [
+                "Het ontwikkelen van typeveilige JavaScript-toepassingen met TypeScript.",
+                "Het maken en gebruiken van interfaces, typen en generieke typen in TypeScript.",
+                "Het transpileren van TypeScript naar JavaScript voor browsercompatibiliteit.",
+                "Het integreren van TypeScript met populaire frontend-frameworks zoals React en Angular."
+            ]
+        },
+        {
+            "category": "React",
+            "list": [
+                "Het bouwen van moderne gebruikersinterfaces met de React-bibliotheek.",
+                "Het beheren van de staat met behulp van React Hooks en Redux.",
+                "Routeren met React Router.",
+                "Het integreren met externe API's en servercommunicatie."
+            ]
+        },
+        {
+            "category": "PHP",
+            "sub": "(Hypertext Preprocessor)",
+            "list": [
+                "Het bouwen van dynamische webpagina's en webtoepassingen.",
+                "Werken met databases, waaronder MySQL en PostgreSQL.",
+                "Het ontwikkelen van back-ends voor e-commerce, contentbeheer en andere toepassingen.",
+                "Het beveiligen van toepassingen tegen aanvallen zoals SQL Injection en XSS."
+            ]
+        },
+        {
+            "category": "Node.js",
+            "list": [
+                "Het creëren van servers en backend-toepassingen in de Node.js-omgeving.",
+                "Het gebruik van Express.js voor het bouwen van RESTful API's.",
+                "Het werken met WebSockets en realtime communicatie.",
+                "Efficiënt beheer van resources met npm of yarn."
+            ]
+        },
+        {
+            "category": "MongoDB",
+            "list": [
+                "Het werken met NoSQL-databases zoals MongoDB voor schaalbare en flexibele gegevensopslag.",
+                "Het maken en bevragen van MongoDB-databases en -collecties.",
+                "Het gebruik van Mongoose ODM voor Node.js om te communiceren met MongoDB.",
+                "Het ontwerpen van schema-loze gegevensstructuren voor verschillende toepassingen."
+            ]
+        },
+        {
+            "category": "MySQL",
+            "list": [
+                "Het beheren van relationele databases met MySQL.",
+                "Het maken en optimaliseren van databaseschema's en query's.",
+                "Het integreren van MySQL met backend-toepassingen voor gegevensopslag en -opvraging.",
+                "Het implementeren van databasebeveiliging en prestatieoptimalisatie."
+            ]
+        },
+        {
+            "category": "Git, GitHub",
+            "list": [
+                "Versiebeheer van broncode met Git.",
+                "Branching en samenvoegen van code.",
+                "Oplossen van conflicten en toepassen van best practices in samenwerking.",
+                "Het maken en beheren van repositories op het GitHub-platform."
+            ]
+        },
+        {
+            "category": "Visual Studio Code",
+            "list": [
+                "Efficiënt gebruik van Visual Studio Code als code-editor.",
+                "Installeren en configureren van extensies voor verbeterde productiviteit.",
+                "Aanpassen van sneltoetsen en instellingen voor een gepersonaliseerde ontwikkelomgeving.",
+                "Gebruik maken van de debugging- en versiebeheerfuncties van VS Code."
+            ]
+        }
+    ]
+}
+
 }

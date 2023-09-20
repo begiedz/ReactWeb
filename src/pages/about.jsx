@@ -4,12 +4,13 @@ import { useTranslation } from 'react-i18next';
 
 const About = () => {
     const { t } = useTranslation();
+    const about = t('about.article', { returnObjects: true })
 
     return (
         <main className='about'>
             <h1>{t('about.heading')}</h1>
             <article>
-                {t('about.article', { returnObjects: true }).map((item, index) => {
+                {about.map((item, index) => {
                     if (typeof item.paragraph === 'string') {
                         return (
                             <p key={index} className='reveal' style={

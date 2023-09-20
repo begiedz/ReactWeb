@@ -99,5 +99,122 @@
         "paragraph": "Dajmy życiu naszym cyfrowym marzeniom!"
       }
     ]
+  },
+    "skills": {
+      "heading": "Moje umiejętności",
+      "technologies": [
+          {
+              "category": "HTML",
+              "sub": " (Hypertext Markup Language)",
+              "list": [
+                  "Tworzenie semantycznie poprawnych stron internetowych.",
+                  "Obsługa różnych rodzajów elementów, takich jak nagłówki, listy, formularze i multimedia.",
+                  "Zrozumienie znaczenia atrybutów i ich wpływu na strukturę strony.",
+                  "Zastosowanie nowoczesnych standardów HTML5, w tym elementów canvas i wideo."
+              ]
+          },
+          {
+              "category": "CSS",
+              "sub": " (Cascading Style Sheets)",
+              "list": [
+                  "Projektowanie atrakcyjnych i responsywnych interfejsów użytkownika.",
+                  "Tworzenie efektów animacyjnych i przejść za pomocą CSS3.",
+                  "Użycie preprocesorów CSS, takich jak SASS lub LESS, dla zwiększenia wydajności.",
+                  "Zrozumienie specyficzności selektorów i kaskadowego charakteru stylów CSS."
+              ]
+          },
+          {
+              "category": "SCSS",
+              "sub": " (Sassy CSS)",
+              "list": [
+                  "Użycie SCSS do pisania bardziej czytelnego i modułowego kodu CSS.",
+                  "Wykorzystywanie zmiennych, miksyn i zagnieżdżania w SCSS.",
+                  "Kompilowanie SCSS do standardowego CSS dla zgodności przeglądarek.",
+                  "Integracja SCSS w projektach frontendowych w celu poprawy stylizacji."
+              ]
+          },
+          {
+              "category": "JavaScript",
+              "list": [
+                  "Programowanie interaktywnych aplikacji internetowych.",
+                  "Wykorzystywanie bibliotek i frameworków takich jak jQuery czy Vue.js.",
+                  "Programowanie asynchroniczne przy użyciu Promises i async/await.",
+                  "Praca z modułami ES6 i zarządzanie zależnościami."
+              ]
+          },
+          {
+              "category": "TypeScript",
+              "list": [
+                  "Rozwijanie bezpiecznych typów aplikacji JavaScript za pomocą TypeScript.",
+                  "Tworzenie i korzystanie z interfejsów, typów i ogólników w TypeScript.",
+                  "Transpilacja TypeScript do JavaScript dla zgodności przeglądarek.",
+                  "Integracja TypeScript z popularnymi frameworkami frontendowymi, takimi jak React i Angular."
+              ]
+          },
+          {
+              "category": "React",
+              "list": [
+                  "Budowanie nowoczesnych interfejsów użytkownika przy użyciu biblioteki React.",
+                  "Zarządzanie stanem za pomocą React Hooks i Redux.",
+                  "Routing za pomocą React Router.",
+                  "Integracja z zewnętrznymi interfejsami API i komunikacja z serwerem."
+              ]
+          },
+          {
+              "category": "PHP",
+              "sub": "(Hypertext Preprocessor)",
+              "list": [
+                  "Tworzenie dynamicznych stron internetowych i aplikacji internetowych.",
+                  "Praca z bazami danych, w tym MySQL i PostgreSQL.",
+                  "Rozwijanie backendów dla e-commerce, zarządzania treścią i innych aplikacji.",
+                  "Zabezpieczanie aplikacji przed atakami takimi jak SQL Injection i XSS."
+              ]
+          },
+          {
+              "category": "Node.js",
+              "list": [
+                  "Tworzenie serwerów i aplikacji backendowych w środowisku Node.js.",
+                  "Używanie Express.js do tworzenia interfejsów API typu RESTful.",
+                  "Praca z WebSockets i komunikacja w czasie rzeczywistym.",
+                  "Efektywne zarządzanie zasobami za pomocą npm lub yarn."
+              ]
+          },
+          {
+              "category": "MongoDB",
+              "list": [
+                  "Praca z bazami danych NoSQL, takimi jak MongoDB, do skalowalnego i elastycznego przechowywania danych.",
+                  "Tworzenie i zapytywanie baz danych i kolekcji MongoDB.",
+                  "Użycie Mongoose ODM dla Node.js do interakcji z MongoDB.",
+                  "Projektowanie struktur danych bez schematu dla różnych aplikacji."
+              ]
+          },
+          {
+              "category": "MySQL",
+              "list": [
+                  "Zarządzanie bazami danych relacyjnymi za pomocą MySQL.",
+                  "Tworzenie i optymalizacja schematów baz danych i zapytań.",
+                  "Integracja MySQL z aplikacjami backendowymi do przechowywania i pobierania danych.",
+                  "Wdrażanie zabezpieczeń baz danych i optymalizacja wydajności."
+              ]
+          },
+          {
+              "category": "Git, GitHub",
+              "list": [
+                  "Kontrola wersji kodu źródłowego za pomocą Git.",
+                  "Tworzenie i łączenie kodu w gałęziach.",
+                  "Rozwiązywanie konfliktów i stosowanie najlepszych praktyk w pracy zespołowej.",
+                  "Tworzenie i zarządzanie repozytoriami na platformie GitHub."
+              ]
+          },
+          {
+              "category": "Visual Studio Code",
+              "list": [
+                  "Efektywne korzystanie z Visual Studio Code jako edytora kodu.",
+                  "Instalowanie i konfigurowanie rozszerzeń dla zwiększenia wydajności.",
+                  "Dostosowywanie skrótów klawiszowych i ustawień dla spersonalizowanego środowiska programistycznego.",
+                  "Wykorzystywanie funkcji debugowania i kontroli wersji w VS Code."
+              ]
+          }
+      ]
   }
 }
