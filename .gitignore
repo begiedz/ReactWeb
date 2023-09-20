@@ -6,8 +6,7 @@
 .pnp.js
 
 # data
-/src/json/emailjs.json
-/src/json/skillsDataCopy.json
+/src/data/emailjs.json
 
 # testing
 /coverage
