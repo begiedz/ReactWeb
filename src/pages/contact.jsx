@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import emjsData from '../data/emailjs.json'
+import emjsData from '../data/emailJS.json'
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
     const form = useRef();
@@ -20,15 +21,17 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
+
     };
+    const { t } = useTranslation()
     return (
         <main className="contact">
-            <h1>Contact</h1>
+            <h1>{t('contact.heading')}</h1>
 
             <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="user_name" placeholder='Your name' />
-                <input type="email" name="user_email" placeholder='Your email' />
-                <textarea name="message" placeholder='Message' />
+                <input type="text" name="user_name" placeholder={t('contact.form.yourName')} />
+                <input type="email" name="user_email" placeholder={t('contact.form.yourEmail')} />
+                <textarea name="message" placeholder={t('contact.form.message')} />
                 <input type="submit" value="Send" />
             </form>
         </main>

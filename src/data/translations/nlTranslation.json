@@ -104,14 +104,14 @@
     "heading": "Mijn vaardigheden",
     "technologies": [
         {
-            "category": "HTML",
-            "sub": " (Hypertext Markup Language)",
-            "list": [
-                "Het creëren van semantisch correcte webpagina's.",
-                "Omgaan met verschillende soorten elementen zoals koppen, lijsten, formulieren en multimedia.",
-                "Begrip van de betekenis van attributen en hun invloed op de paginestructuur.",
-                "Toepassing van moderne HTML5-standaarden, inclusief canvas- en video-elementen."
-            ]
+          "category": "HTML",
+          "sub": " (Hypertext Markup Language)",
+          "list": [
+              "Het creëren van semantisch correcte webpagina's.",
+              "Omgaan met verschillende soorten elementen zoals koppen, lijsten, formulieren en multimedia.",
+              "Begrip van de betekenis van attributen en hun invloed op de paginestructuur.",
+              "Toepassing van moderne HTML5-standaarden, inclusief canvas- en video-elementen."
+          ]
         },
         {
             "category": "CSS",
@@ -216,6 +216,13 @@
             ]
         }
     ]
-}
-
+  },
+  "contact": {
+    "heading": "Contact",
+    "form": {
+        "yourName": "Je naam",
+        "yourEmail": "Je e-mailadres",
+        "message": "Bericht"
+    }
+  }
 }

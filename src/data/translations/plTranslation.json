@@ -216,5 +216,14 @@
               ]
           }
       ]
-  }
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "form": {
+        "yourName": "Twoje imię",
+        "yourEmail": "Twój adres e-mail",
+        "message": "Wiadomość"
+    }
+}
+
 }
