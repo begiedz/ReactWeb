@@ -6,7 +6,7 @@
 .pnp.js
 
 # data
-/src/data/emailjs.json
+/src/data/emailJS.json
 
 # testing
 /coverage
