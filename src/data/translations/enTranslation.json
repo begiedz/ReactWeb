@@ -224,6 +224,35 @@
       "yourEmail":"Your E-mail",
       "message":"Message"
     }
-    
-  }
+  },
+  "projects":[
+    {
+      "id": 0,
+      "description":"API Weather App."
+    },
+    {
+      "id": 1,
+      "description":"CRUD PHP App."
+    },
+    {
+      "id": 2,
+      "description":"Chat app using SaaS Firebase + React"
+    },
+    {
+      "id": 3,
+      "description":"CRUD NodeJS App."
+    },
+    {
+      "id": 4,
+      "description":"Fullstack MERN CRUD App."
+    },
+    {
+      "id": 5,
+      "description":"Stopwatch made in JavaScript. UI inspired by Apple."
+    },
+    {
+      "id": 6,
+      "description":"Random code generator."
+    }
+  ]
 }
