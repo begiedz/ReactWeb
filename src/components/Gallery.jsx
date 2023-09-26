@@ -1,9 +1,10 @@
 import React from 'react';
-import projects from '../data/projects.json';
+import projectsData from '../data/projects.json';
+import { useTranslation } from 'react-i18next';
 
 const Gallery = ({ selectedTechnology, searchText }) => {
-  const filteredProjects = projects.filter((project) => {
 
+  const filteredProjects = projectsData.filter((project) => {
     if (selectedTechnology !== 'All' && !project.technologies.includes(selectedTechnology)) {
       return false;
     }
@@ -13,6 +14,8 @@ const Gallery = ({ selectedTechnology, searchText }) => {
     return true;
   });
 
+  const { t } = useTranslation();
+
   return (
     <div className="gallery">
       {filteredProjects.map((project, index) => (
@@ -20,7 +23,7 @@ const Gallery = ({ selectedTechnology, searchText }) => {
           <div className='card'>
             <img src={project.imgPath} alt={project.appName} />
             <h3>{project.appName}</h3>
-            <p>{project.description}</p>
+            <p>{t(`projects.${project.appName}`)}</p>
             <ul>
               {project.technologies.map((technology, index) => (
                 <li key={index}>{technology}</li>

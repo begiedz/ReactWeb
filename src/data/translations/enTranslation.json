@@ -225,34 +225,12 @@
       "message":"Message"
     }
   },
-  "projects":[
-    {
-      "id": 0,
-      "description":"API Weather App."
-    },
-    {
-      "id": 1,
-      "description":"CRUD PHP App."
-    },
-    {
-      "id": 2,
-      "description":"Chat app using SaaS Firebase + React"
-    },
-    {
-      "id": 3,
-      "description":"CRUD NodeJS App."
-    },
-    {
-      "id": 4,
-      "description":"Fullstack MERN CRUD App."
-    },
-    {
-      "id": 5,
-      "description":"Stopwatch made in JavaScript. UI inspired by Apple."
-    },
-    {
-      "id": 6,
-      "description":"Random code generator."
-    }
-  ]
+  "projects":{
+    "Clouder":"API Weather App.",
+    "PHP Notes":"CRUD PHP App.",
+    "React Chat":"Chat app using SaaS Firebase + React.",
+    "NodeJS Blog":"CRUD NodeJS App.",
+    "Workout Buddy":"Fullstack MERN CRUD App.",
+    "Simple JS Stopwatch":"Stopwatch made in JavaScript. UI inspired by Apple."
+  }
 }

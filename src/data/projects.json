@@ -1,14 +1,11 @@
 [
     {
-        "id": 0,
         "appName": "Clouder",
         "technologies": ["js", "ts", "react"],
-        "description":"API weather app.",
         "imgPath": "../images/clouder.png",
         "githubURL":"https://github.com/begiedz/Clouder-WeatherApp"
     },
     {
-        "id": 1,
         "appName": "PHP Notes",
         "technologies": ["php", "mysql"],
         "description":"CRUD PHP App.",
@@ -16,7 +13,6 @@
         "githubURL":"https://github.com/begiedz/php-notes"
     },
     {
-        "id": 2,
         "appName": "React Chat",
         "technologies": ["js", "react", "firebase"],
         "description":"Chat app using SaaS Firebase + React",
@@ -24,7 +20,6 @@
         "githubURL":"https://github.com/begiedz/ReactChat"
     },
     {
-        "id": 3,
         "appName": "NodeJS Blog",
         "technologies": ["js", "node.js", "express"],
         "description":"CRUD NodeJS app.",
@@ -32,7 +27,6 @@
         "githubURL":"https://github.com/begiedz/Blog-nodeJS"
     },
     {
-        "id": 4,
         "appName": "Workout Buddy",
         "technologies": ["js", "react", "node.js", "mongodb"],
         "description":"Fullstack MERN CRUD App.",
@@ -40,19 +34,10 @@
         "githubURL":"https://github.com/begiedz/Fullstack-MERN-App"
     },
     {
-        "id": 5,
         "appName": "Simple JS Stopwatch",
         "technologies": ["js"],
         "description":"Stopwatch made in vanilla JS. UI inspired by Apple.",
         "imgPath": "images/stopwatch.png",
         "githubURL":"https://github.com/begiedz/stopwatchApp"
-    },
-    {
-        "id": 6,
-        "appName": "Code Generator",
-        "technologies": ["js"],
-        "description":"Random code generator.",
-        "imgPath": "../img/",
-        "githubURL":""
     }
 ]

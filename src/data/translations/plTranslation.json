@@ -224,6 +224,14 @@
         "yourEmail": "Twój adres e-mail",
         "message": "Wiadomość"
     }
-}
-
-}
+  },
+    "projects": {
+      "Clouder": "Aplikacja pogodowa API.",
+      "PHP Notes": "Aplikacja CRUD w PHP.",
+      "React Chat": "Aplikacja czat z użyciem Firebase i React.",
+      "NodeJS Blog": "Aplikacja CRUD w NodeJS.",
+      "Workout Buddy": "Aplikacja Fullstack MERN CRUD.",
+      "Simple JS Stopwatch": "Stoper napisany w JavaScript. Interfejs inspirowany przez Apple."
+    }
+  }
+  

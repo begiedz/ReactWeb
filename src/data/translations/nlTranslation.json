@@ -224,5 +224,13 @@
         "yourEmail": "Je e-mailadres",
         "message": "Bericht"
     }
-  }
+  },
+    "projects": {
+      "Clouder": "API Weer App.",
+      "PHP Notes": "CRUD PHP App.",
+      "React Chat": "Chat-app met Firebase en React.",
+      "NodeJS Blog": "CRUD NodeJS App.",
+      "Workout Buddy": "Fullstack MERN CRUD App.",
+      "Simple JS Stopwatch": "Stopwatch gemaakt in JavaScript. UI geïnspireerd door Apple."
+    } 
 }
