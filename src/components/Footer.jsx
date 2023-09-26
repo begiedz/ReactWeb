@@ -1,25 +1,28 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+    const { t } = useTranslation();
     return (
         <footer>
             <ul className="footerWrapper">
-                <li>© 2023 Dariusz Begiedza. All rights reserved.</li>
-                <li>Made with React. The library for web and native user interfaces.</li>
-                <li>Used i18next. An internationalization-framework written in and for JavaScript.</li>
+                <li>{t('footer.trademark')}</li>
+                <li>{t('footer.react')}</li>
+                <li>{t('footer.i18next')}</li>
             </ul>
 
             <ul>
-                Contact
+                {t('footer.contact.heading')}
                 <li>
-                    Phone:{' '}<a href="tel:+48782041173">+48 782 041 173</a>
+                    {t('footer.contact.phone')}
+                    <a href="tel:+48782041173">+48 782 041 173</a>
                 </li>
                 <li>
-                    Discord:{' '}
+                    {t('footer.contact.discord')}
                     <a href="https://discordapp.com/users/689833947995046039">begiedz#5194</a>
                 </li>
                 <li>
-                    e-mail:{' '}
+                    {t('footer.contact.email')}
                     <a href="mailto:begiedz.developer@gmail.com">begiedz.developer@gmail.com</a>
                 </li>
             </ul>

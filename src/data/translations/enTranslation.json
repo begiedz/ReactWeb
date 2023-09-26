@@ -232,5 +232,16 @@
     "NodeJS Blog":"CRUD NodeJS App.",
     "Workout Buddy":"Fullstack MERN CRUD App.",
     "Simple JS Stopwatch":"Stopwatch made in JavaScript. UI inspired by Apple."
+  },
+  "footer":{
+    "trademark":"© 2023 Dariusz Begiedza. All rights reserved.",
+    "react":"Made with React. The library for web and native user interfaces.",
+    "i18next":"Used i18next. An internationalization-framework written in and for JavaScript.",
+    "contact":{
+      "heading":"Contact",
+      "phone":"Phone: ",
+      "discord":"Discord: ",
+      "email":"e-mail: "
+    }
   }
 }
