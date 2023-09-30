@@ -1,49 +1,49 @@
-header {
-  .hello {
-    opacity: 0;
-    animation: reveal 1000ms ease-in-out 0ms 1 normal forwards;
-  }
-  h1 {
-    opacity: 0;
-    animation: reveal 1000ms ease-in-out 200ms 1 normal forwards;
-  }
-  h2 {
-    opacity: 0;
-    animation: reveal 1000ms ease-in-out 400ms 1 normal forwards;
-  }
-  p {
-    opacity: 0;
-    animation: reveal 1000ms ease-in-out 300ms 1 normal forwards;
-  }
+// header {
+//   .hello {
+//     opacity: 0;
+//     animation: reveal 1000ms ease-out 0ms 1 normal forwards;
+//   }
+//   h1 {
+//     opacity: 0;
+//     animation: reveal 1000ms ease-out 200ms 1 normal forwards;
+//   }
+//   h2 {
+//     opacity: 0;
+//     animation: reveal 1000ms ease-out 400ms 1 normal forwards;
+//   }
+//   p {
+//     opacity: 0;
+//     animation: reveal 1000ms ease-out 300ms 1 normal forwards;
+//   }
 
-  img {
-    opacity: 0;
-    animation: reveal 1000ms ease-in-out 200ms 1 normal forwards;
-  }
-  ul {
-    opacity: 0;
-    animation: reveal 1000ms ease-in-out 300ms 1 normal forwards;
+//   img {
+//     opacity: 0;
+//     animation: reveal 1000ms ease-out 300ms 1 normal forwards;
+//   }
+//   ul {
+//     opacity: 0;
+//     animation: reveal 1000ms ease-out 400ms 1 normal forwards;
 
-    li:nth-child(1) {
-      opacity: 0;
-      animation: reveal 1000ms ease-in-out 300ms 1 normal forwards;
-    }
+//     li:nth-child(1) {
+//       opacity: 0;
+//       animation: reveal 1000ms ease-out 600ms 1 normal forwards;
+//     }
 
-    li:nth-child(2) {
-      opacity: 0;
-      animation: reveal 1000ms ease-in-out 400ms 1 normal forwards;
-    }
+//     li:nth-child(2) {
+//       opacity: 0;
+//       animation: reveal 1000ms ease-out 800ms 1 normal forwards;
+//     }
 
-    li:nth-child(3) {
-      opacity: 0;
-      animation: reveal 1000ms ease-in-out 500ms 1 normal forwards;
-    }
-  }
-}
+//     li:nth-child(3) {
+//       opacity: 0;
+//       animation: reveal 1000ms ease-out 1000ms 1 normal forwards;
+//     }
+//   }
+// }
 
 .reveal {
   opacity: 0;
-  animation: reveal 1000ms ease-in-out 0ms 1 normal forwards;
+  animation: reveal 1000ms ease-out 0ms 1 normal forwards;
 }
 
 @keyframes reveal {

@@ -2,6 +2,8 @@
 
 main.contact {
   max-width: variables.$mobile;
+  min-height: variables.$mobile;
+  // min-height: calc(100vh);
 
   form {
     margin-top: 1rem;
@@ -26,24 +28,23 @@ main.contact {
     }
     textarea:focus,
     textarea:hover {
-      border: 2px solid variables.$accent-color;
+      border: 2px solid variables.$background-secondary;
     }
     input[type='text'],
     input[type='email'] {
       font-size: 1.1rem;
 
-      border-bottom: 2px solid variables.$accent-color;
+      border-bottom: 2px solid variables.$background-secondary;
 
       transition: border 250ms ease-in;
     }
-    input:focus,
-    input:hover {
-      border: 2px solid variables.$accent-color;
+    input:focus {
+      border: 2px solid variables.$background-secondary;
     }
   }
   input[type='submit'] {
     font-size: 1.1rem;
-    background-color: variables.$accent-color;
+    background-color: variables.$background-secondary;
     border: 2px solid transparent;
     color: white;
     font-weight: bold;

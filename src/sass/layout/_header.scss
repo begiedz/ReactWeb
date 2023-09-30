@@ -2,6 +2,7 @@
 @use '../utils/mixins';
 
 header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,29 +11,29 @@ header {
   flex-wrap: wrap;
 
   width: 100%;
-  min-height: 100vh;
+  min-height: 85vh;
 
   padding: 0 1rem;
   gap: 1rem;
   font-size: 1rem;
 
-  z-index: 1;
+  // z-index: 1;
 
-  background-color: variables.$accent-color;
-  background-image: linear-gradient(
-    variables.$accent-color 0%,
-    variables.$accent-color 50%,
-    variables.$accent-color-shadow 100%
-  );
+  background-color: variables.$body-color;
+
+  overflow: hidden;
+
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 
   @include mixins.mobile {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   img {
     height: 350px;
     width: auto;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    border: 1px solid lightgray;
 
     @include mixins.mobile {
       height: 200px;
@@ -42,13 +43,13 @@ header {
     display: flex;
     flex-direction: column;
 
-    color: variables.$accent-color-secondary;
+    // color: variables.$accent-color-secondary;
 
     h1 {
-      font-size: 3em;
-      color: rgba($color: #fff, $alpha: 0.9);
-      mix-blend-mode: luminosity;
-
+      font-size: 3rem;
+      // color: rgba($color: #fff, $alpha: 0.9);
+      // mix-blend-mode: luminosity;
+      font-weight: 900;
       @include mixins.mobile {
         font-size: 2.5rem;
       }
@@ -56,13 +57,19 @@ header {
 
     .hello {
       font-size: 2em;
-      color: variables.$accent-color-secondary;
+      margin-top: 1rem;
+      line-height: 1.5rem;
+    }
+
+    h2 {
+      color: variables.$text-color-transparent;
+      line-height: 1rem;
     }
     p {
-      margin-top: 1rem;
+      margin-top: 2rem;
       max-width: variables.$mobile;
       line-height: 1.3rem;
-      font-size: 0.9em;
+      font-size: 0.9rem;
     }
     ul {
       display: flex;
@@ -75,7 +82,7 @@ header {
       li {
         transition: scale ease 150ms;
         a {
-          color: variables.$accent-color-secondary;
+          color: variables.$text-color;
           svg {
             height: 2rem;
             width: auto;
@@ -87,4 +94,27 @@ header {
       }
     }
   }
+  .underlay {
+    position: absolute;
+    top: -200px;
+    left: 15%;
+    @include mixins.mobile {
+      left: 15%;
+      top: 0;
+    }
+
+    svg {
+      fill: rgba($color: #000000, $alpha: 0.05);
+      height: 1200px;
+      @include mixins.mobile {
+        height: 600px;
+      }
+    }
+  }
+}
+.boxShadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  box-shadow: inset 0px -50px 100px 50px variables.$body-color;
 }

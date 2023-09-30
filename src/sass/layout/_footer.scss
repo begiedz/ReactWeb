@@ -9,6 +9,7 @@ footer {
   gap: 1rem;
 
   width: 100vw;
+  min-height: 115px;
   padding: 20px;
   font-size: 12px;
 
@@ -42,33 +43,4 @@ footer {
       }
     }
   }
-}
-
-// Footer styling for homepage
-
-header + footer {
-  color: variables.$accent-color-secondary;
-  background-color: variables.$accent-color-shadow;
-  .footerWrapper li,
-  ul {
-    color: inherit;
-    li {
-      color: variables.$accent-color-secondary;
-      a,
-      a:visited {
-        color: rgba($color: #ffffff, $alpha: 0.5);
-      }
-      a:hover,
-      a:visited:hover {
-        color: rgba($color: #ffffff, $alpha: 0.7);
-      }
-    }
-  }
-}
-
-// Footer styling for contact
-
-.contact + footer {
-  position: absolute;
-  bottom: 0;
 }
