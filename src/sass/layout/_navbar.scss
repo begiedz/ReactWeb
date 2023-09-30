@@ -69,11 +69,6 @@ nav {
 
       align-items: flex-start;
       border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
-      a,
-      a:visited,
-      a:active {
-        width: 150px;
-      }
     }
     li {
       display: flex;
@@ -100,7 +95,6 @@ nav {
   }
   ul.active {
     top: 54px;
-    // display: block;
     opacity: 1;
   }
   button {

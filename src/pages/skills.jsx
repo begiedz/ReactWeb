@@ -51,9 +51,10 @@ const Skills = () => {
                     return (
                         <div
                             key={skill.category}
-                            className='reveal'
+                            className='card reveal'
                             style={{ animationDelay: index * 200 + 'ms' }}
                         >
+                            <div className="underlay"><SkillIcon category={skill.category} /></div>
                             <h2>
                                 <SkillIcon category={skill.category} />
                                 <span>
