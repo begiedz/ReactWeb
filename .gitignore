@@ -7,6 +7,8 @@
 
 # data
 /src/data/emailJS.json
+/src/data/emailJS.env
+/.env
 
 # testing
 /coverage
