@@ -1,5 +1,4 @@
 import React from 'react';
-// import about from '../data/aboutData.json'
 import { useTranslation } from 'react-i18next';
 
 const About = () => {

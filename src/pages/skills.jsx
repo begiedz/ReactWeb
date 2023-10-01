@@ -2,8 +2,6 @@ import React from 'react';
 import { BiLogoTypescript, BiLogoMongodb, BiLogoVisualStudio, BiLogoGit, BiLogoNodejs, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoPhp, BiLogoSass } from 'react-icons/bi'
 import { DiMysql } from 'react-icons/di'
 
-// import skillsData from '../data/skillsData.json'
-
 import { useTranslation } from 'react-i18next';
 
 const SkillIcon = ({ category }) => {
