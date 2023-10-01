@@ -2,13 +2,19 @@
 @use '../utils/mixins';
 
 main.myWork {
+  h1 {
+    margin-bottom: 5rem;
+  }
   .searchUI {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 
     input[type='search'] {
       padding: 0.5rem;
+
+      width: variables.$mobile;
 
       border: 2px solid transparent;
       border-radius: 0.2rem;
@@ -18,7 +24,7 @@ main.myWork {
 
       transition: 250ms;
       background-color: transparent;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     input[type='search']:focus {
       border: 2px solid black;
@@ -27,14 +33,16 @@ main.myWork {
 
   .buttonWrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 1rem;
 
     margin-bottom: 2rem;
+    // width: variables.$mobile;
     button {
-      padding: 5px;
-      font-size: 1rem;
+      width: 60px;
+      padding: 0.5rem;
+      font-size: 12px;
 
       background-color: rgb(201, 201, 201);
       color: rgb(30, 30, 30);
@@ -72,24 +80,26 @@ main.myWork {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: space-around;
 
         gap: 0.5rem;
 
-        padding: 1rem;
+        padding: 1.5rem;
         min-height: 300px;
         width: 232px;
 
-        transform-origin: bottom;
+        // transform-origin: bottom;
 
-        background-color: variables.$white;
+        background-color: variables.$body-color;
         color: black;
         border-radius: 0.25rem;
 
-        // box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.2);
+        box-shadow: 0px 0px 8px rgba($color: #000000, $alpha: 0.1);
         border: 1px solid variables.$secondary-color;
         cursor: pointer;
 
-        transition: scale ease 200ms, color ease 200ms;
+        transition: transform ease-out 200ms, color ease-out 200ms, border ease-out 200ms,
+          background-color 200ms;
 
         @include mixins.mobile {
           width: 100%;
@@ -100,45 +110,74 @@ main.myWork {
           aspect-ratio: 2/1;
           object-fit: cover;
           object-position: top;
-
           align-self: center;
+
+          padding-right: 1rem;
+          padding-left: 1rem;
+          filter: grayscale(70%);
+          border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+          transition: filter ease-out 200ms;
         }
 
         h3 {
           margin-top: 0.5rem;
-          @include mixins.mobile {
-            font-size: 1.5rem;
-          }
+          color: variables.$text-color-transparent;
+          color: rgba($color: #000000, $alpha: 0.7);
+          transition: color ease-out 200ms;
+          // @include mixins.mobile {
+          // font-size: 1.5rem;
+          // }
         }
         p {
-          @include mixins.mobile {
-            font-size: 1.3rem;
-          }
+          font-size: 14px;
+          color: rgba($color: #000000, $alpha: 0.7);
+
+          transition: color ease-out 200ms;
+          // @include mixins.mobile {
+          //   font-size: 1.3rem;
+          // }
         }
         ul {
           list-style: none;
 
           display: flex;
-          align-items: center;
           flex-wrap: wrap;
-
-          gap: 0.5rem;
+          gap: 1rem;
 
           li {
-            background-color: rgba($color: #000000, $alpha: 0.1);
-            padding: 0.5rem;
-            border-radius: 2rem;
-            border-radius: 0.5rem;
+            font-size: 12px;
+            color: rgba($color: #000000, $alpha: 0.7);
 
             font-family: monospace;
+
+            transition: color ease-out 200ms;
+
+            // border-radius: 8px;
+            // background-color: rgba($color: #000000, $alpha: 0.05);
+            // padding: 0.5rem;
           }
         }
       }
     }
     .card:hover {
-      scale: 1.1;
+      transform: translate(0, -5%);
+      background-color: variables.$white;
+      border: 1px solid rgba($color: #000000, $alpha: 0.3);
+      h3 {
+        color: variables.$text-color;
+      }
+      p {
+        color: variables.$text-color;
+      }
+      ul li {
+        color: variables.$text-color;
+      }
+      img {
+        filter: grayscale(0%);
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
+      }
       @include mixins.mobile {
-        scale: 1;
+        transform: translate(0, 0);
       }
     }
   }

@@ -4,6 +4,10 @@ main.contact {
   max-width: variables.$mobile;
   min-height: calc(100vh - 55px - 227px);
 
+  h1 {
+    margin-bottom: 5rem;
+  }
+
   form {
     margin-top: 1rem;
     display: flex;

@@ -2,15 +2,27 @@
 @use '../utils/mixins';
 
 main.about {
+  h1 {
+    margin-bottom: 5rem;
+  }
   article {
     p {
-      margin-top: 2rem;
       width: 100%;
       line-height: 1.4;
-      margin-bottom: 2rem;
-
-      // strong {
-      // }
+    }
+    p:nth-child(even) {
+      margin-top: 1.25em;
+      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
+      padding-bottom: 3em;
+    }
+    p:nth-child(odd) {
+      margin-top: 3em;
+    }
+    p:nth-last-child(1) {
+      border-bottom: none;
+    }
+    p:nth-child(1) {
+      margin-top: 0;
     }
   }
 }
