@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Gallery from '../components/Gallery';
 import FilterButtons from '../components/FilterButtons';
+import { useTranslation } from 'react-i18next';
 
 const MyWork = () => {
     const [selectedTechnology, setSelectedTechnology] = useState('All');
@@ -14,9 +15,11 @@ const MyWork = () => {
         setSearchText(e.target.value);
     };
 
+
+    const { t } = useTranslation()
     return (
         <main className="myWork">
-            <h1>My work</h1>
+            <h1>{t('navbar.myWork')}</h1>
 
             <div className='searchUI'>
                 <input

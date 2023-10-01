@@ -21,17 +21,17 @@ const Home = () => {
                 <p className='reveal' style={{ animationDelay: 800 + 'ms' }}>{t('header.description')}</p>
                 <ul className='reveal'>
 
-                    <li className='reveal' style={{ animationDelay: 2200 + 'ms' }}>
+                    <li className='reveal' style={{ animationDelay: 2000 + 'ms' }}>
                         <a href="https://github.com/begiedz">
                             <FaGithub />
                         </a>
                     </li>
-                    <li className='reveal' style={{ animationDelay: 2400 + 'ms' }}>
+                    <li className='reveal' style={{ animationDelay: 2200 + 'ms' }}>
                         <a href="https://codepen.io/begiedz">
                             <FaCodepen />
                         </a>
                     </li>
-                    <li className='reveal' style={{ animationDelay: 2600 + 'ms' }}>
+                    <li className='reveal' style={{ animationDelay: 2400 + 'ms' }}>
                         <a href="https://www.linkedin.com/in/dariusz-begiedza-602054272/">
                             <FaLinkedin />
                         </a>

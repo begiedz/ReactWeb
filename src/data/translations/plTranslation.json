@@ -100,7 +100,7 @@
       }
     ]
   },
-    "skills": {
+  "skills":{
       "heading": "Moje umiejętności",
       "technologies": [
           {
@@ -217,7 +217,7 @@
           }
       ]
   },
-  "contact": {
+  "contact":{
     "heading": "Kontakt",
     "form": {
         "yourName": "Twoje imię",
@@ -225,24 +225,24 @@
         "message": "Wiadomość"
     }
   },
-    "projects": {
-      "Clouder": "Aplikacja pogodowa API.",
-      "PHP Notes": "Aplikacja CRUD w PHP.",
-      "React Chat": "Aplikacja czat z użyciem Firebase i React.",
-      "NodeJS Blog": "Aplikacja CRUD w NodeJS.",
-      "Workout Buddy": "Aplikacja Fullstack MERN CRUD.",
-      "Simple JS Stopwatch": "Stoper napisany w JavaScript. Interfejs inspirowany przez Apple."
-    },
-    "footer": {
-      "trademark": "© 2023 Dariusz Begiedza. Wszelkie prawa zastrzeżone.",
-      "react": "Zrobione z wykorzystaniem React. Biblioteka do tworzenia interfejsów użytkownika webowych i natywnych.",
-      "i18next": "Użyto i18next. Framework do międzynarodowych tłumaczeń napisany w JavaScript.",
-      "contact": {
-        "heading": "Kontakt",
-        "phone": "Telefon: ",
-        "discord": "Discord: ",
-        "email": "E-mail: "
-      }
+  "projects":{
+    "Clouder": "Aplikacja pogodowa API.",
+    "PHP Notes": "Aplikacja CRUD w PHP.",
+    "React Chat": "Aplikacja czat z użyciem Firebase i React.",
+    "NodeJS Blog": "Aplikacja CRUD w NodeJS.",
+    "Workout Buddy": "Aplikacja Fullstack MERN CRUD.",
+    "Simple JS Stopwatch": "Stoper napisany w JavaScript. Interfejs inspirowany przez Apple."
+  },
+  "footer":{
+    "trademark": "© 2023 Dariusz Begiedza. Wszelkie prawa zastrzeżone.",
+    "react": "Zrobione z wykorzystaniem React. Biblioteka do tworzenia interfejsów użytkownika webowych i natywnych.",
+    "i18next": "Użyto i18next. Framework do międzynarodowych tłumaczeń napisany w JavaScript.",
+    "contact": {
+      "heading": "Kontakt",
+      "phone": "Telefon: ",
+      "discord": "Discord: ",
+      "email": "E-mail: "
     }
+  }
 }
   

@@ -20,7 +20,7 @@ nav {
 
   border: 1px solid rgba($color: #000000, $alpha: 0.2);
 
-  z-index: 2;
+  z-index: 3;
 
   @include mixins.tablet {
     flex-direction: column;
@@ -121,7 +121,6 @@ nav {
     display: flex;
 
     select {
-      // display: none;
       font-size: 1.3rem;
       background-color: rgba($color: #fff, $alpha: 1);
       padding: 0 8px;

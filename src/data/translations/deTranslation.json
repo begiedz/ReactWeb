@@ -12,8 +12,8 @@
       "myWork": "Meine Arbeit",
       "resume": "Lebenslauf",
       "contact": "Kontakt"
-    },
-    "about":{
+  },
+  "about":{
       "heading":"Willkommen in meiner Ecke des digitalen Reichs!",
       "article":[
         {
@@ -99,8 +99,8 @@
           "paragraph": "Lassen Sie uns unsere digitalen Träume zum Leben erwecken!"
         }
     ]
-    },
-    "skills": {
+  },
+  "skills":{
       "heading": "Meine Fähigkeiten",
       "technologies": [
           {
@@ -217,7 +217,7 @@
           }
       ]
   },
-  "contact": {
+  "contact":{
     "heading": "Kontakt",
     "form": {
         "yourName": "Dein Name",
@@ -225,15 +225,15 @@
         "message": "Nachricht"
     }
   },
-    "projects": {
+  "projects":{
       "Clouder": "API Wetter App.",
       "PHP Notes": "CRUD PHP App.",
       "React Chat": "Chat-App mit Firebase und React.",
       "NodeJS Blog": "CRUD NodeJS App.",
       "Workout Buddy": "Fullstack MERN CRUD App.",
       "Simple JS Stopwatch": "Stoppuhr in JavaScript. UI inspiriert von Apple."
-    },
-    "footer": {
+  },
+  "footer":{
       "trademark": "© 2023 Dariusz Begiedza. Alle Rechte vorbehalten.",
       "react": "Hergestellt mit React. Die Bibliothek für Web- und native Benutzeroberflächen.",
       "i18next": "Verwendet i18next. Ein Internationalisierungs-Framework, geschrieben in und für JavaScript.",
@@ -243,5 +243,5 @@
         "discord": "Discord: ",
         "email": "E-Mail: "
       }
-    }
+  }
 }

@@ -17,8 +17,6 @@ header {
   gap: 1rem;
   font-size: 1rem;
 
-  // z-index: 1;
-
   background-color: variables.$body-color;
 
   overflow: hidden;
@@ -38,17 +36,16 @@ header {
     @include mixins.mobile {
       height: 200px;
     }
+    @include mixins.tablet {
+      margin-bottom: 5rem;
+    }
   }
   .titleWrapper {
     display: flex;
     flex-direction: column;
-
-    // color: variables.$accent-color-secondary;
-
     h1 {
       font-size: 3rem;
-      // color: rgba($color: #fff, $alpha: 0.9);
-      // mix-blend-mode: luminosity;
+      line-height: 4rem;
       font-weight: 900;
       @include mixins.mobile {
         font-size: 2.5rem;

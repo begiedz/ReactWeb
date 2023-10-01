@@ -22,7 +22,7 @@ main.contact {
       outline: none;
     }
     textarea {
-      border: 2px solid lightgray;
+      border: 2px solid rgba($color: #000000, $alpha: 0.2);
       transition: border 250ms ease-in;
       height: 5rem;
     }
