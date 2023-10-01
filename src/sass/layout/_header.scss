@@ -11,7 +11,7 @@ header {
   flex-wrap: wrap;
 
   width: 100%;
-  min-height: 85vh;
+  min-height: calc(100vh - 55px);
 
   padding: 0 1rem;
   gap: 1rem;

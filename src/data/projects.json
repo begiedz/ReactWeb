@@ -8,35 +8,30 @@
     {
         "appName": "PHP Notes",
         "technologies": ["php", "mysql"],
-        "description":"CRUD PHP App.",
         "imgPath": "../images/phpnotes.png",
         "githubURL":"https://github.com/begiedz/php-notes"
     },
     {
         "appName": "React Chat",
         "technologies": ["js", "react", "firebase"],
-        "description":"Chat app using SaaS Firebase + React",
         "imgPath": "../images/reactchat.png",
         "githubURL":"https://github.com/begiedz/ReactChat"
     },
     {
         "appName": "NodeJS Blog",
         "technologies": ["js", "node.js", "express"],
-        "description":"CRUD NodeJS app.",
         "imgPath": "../images/nodejsblog.png",
         "githubURL":"https://github.com/begiedz/Blog-nodeJS"
     },
     {
         "appName": "Workout Buddy",
         "technologies": ["js", "react", "node.js", "mongodb"],
-        "description":"Fullstack MERN CRUD App.",
         "imgPath": "../images/workoutbuddy.png",
         "githubURL":"https://github.com/begiedz/Fullstack-MERN-App"
     },
     {
         "appName": "Simple JS Stopwatch",
         "technologies": ["js"],
-        "description":"Stopwatch made in vanilla JS. UI inspired by Apple.",
         "imgPath": "images/stopwatch.png",
         "githubURL":"https://github.com/begiedz/stopwatchApp"
     }

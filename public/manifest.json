@@ -1,6 +1,6 @@
 {
-    "short_name": "begiedz Page",
-    "name": "Dariusz Begiedza Portfolio website",
+    "short_name": "begiedzDeveloper",
+    "name": "begiedz Web Developer",
     "icons": [
         {
             "src": "bgdzLogo.png",
@@ -20,6 +20,6 @@
     ],
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "#000000",
+    "theme_color": "#1e1e1e",
     "background_color": "#ffffff"
 }

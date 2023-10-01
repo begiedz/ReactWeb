@@ -2,8 +2,7 @@
 
 main.contact {
   max-width: variables.$mobile;
-  min-height: variables.$mobile;
-  // min-height: calc(100vh);
+  min-height: calc(100vh - 55px - 227px);
 
   form {
     margin-top: 1rem;

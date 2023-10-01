@@ -31,12 +31,8 @@ const Navbar = () => {
         i18n.changeLanguage(lng)
     };
 
-    const location = useLocation();
-    const isHomePage = location.pathname === '/';
-
-    const navClass = isHomePage ? 'headerNav' : null
     return (
-        <nav className={navClass}>
+        <nav>
             <div className="logoWrapper">
                 <svg id="bgdzLogo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.06 250">
                     <polygon points="80.24 46.83 42.52 85.07 42.52 0 0 0 0 169.23 42.52 211.75 42.52 85.1 106.06 148.22 42.52 211.75 80.25 250 182.06 148.2 80.24 46.83" />
