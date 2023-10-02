@@ -1,11 +1,14 @@
 @use '../utils/variables';
-
+@use '../utils/mixins';
 main.contact {
   max-width: variables.$mobile;
   min-height: calc(100vh - 55px - 227px);
 
   h1 {
     margin-bottom: 5rem;
+    @include mixins.mobile {
+      font-size: 3rem;
+    }
   }
 
   form {

@@ -4,17 +4,17 @@
 main.myWork {
   h1 {
     margin-bottom: 5rem;
+    @include mixins.mobile {
+      font-size: 3rem;
+    }
   }
   .searchUI {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
 
     input[type='search'] {
       padding: 0.5rem;
-
-      width: variables.$mobile;
 
       border: 2px solid transparent;
       border-radius: 0.2rem;
@@ -34,11 +34,11 @@ main.myWork {
   .buttonWrapper {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-self: center;
     gap: 1rem;
 
     margin-bottom: 2rem;
-    // width: variables.$mobile;
+    max-width: variables.$mobile;
     button {
       width: 60px;
       padding: 0.5rem;

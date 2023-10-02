@@ -3,6 +3,9 @@
 main.skills {
   h1 {
     margin-bottom: 5rem;
+    @include mixins.mobile {
+      font-size: 3rem;
+    }
   }
 
   section {
