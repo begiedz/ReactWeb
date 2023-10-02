@@ -2,10 +2,10 @@
 @use '../utils/mixins';
 main.contact {
   max-width: variables.$mobile;
-  min-height: calc(100vh - 55px - 227px);
+  min-height: calc(100vh - 4rem - 227px);
 
   h1 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     @include mixins.mobile {
       font-size: 3rem;
     }

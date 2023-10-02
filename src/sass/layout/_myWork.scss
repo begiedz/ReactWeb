@@ -3,7 +3,7 @@
 
 main.myWork {
   h1 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     @include mixins.mobile {
       font-size: 3rem;
     }

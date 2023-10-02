@@ -10,15 +10,14 @@ nav {
   justify-content: space-between;
 
   padding: 0 20px;
-  height: 55px;
   width: 100vw;
-  height: 55px;
+  height: 4rem;
   backdrop-filter: blur(5px);
   background-color: variables.$navbar-bg;
 
   color: variables.$text-color;
 
-  border: 1px solid rgba($color: #000000, $alpha: 0.2);
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
 
   z-index: 3;
 
@@ -59,16 +58,16 @@ nav {
       width: 100vw;
       background-color: inherit;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       font-size: 1.5rem;
 
-      transition: top 200ms ease, opacity 200ms ease;
-      z-index: -1;
+      transition: top 200ms ease-out, opacity 400ms ease-out;
       backdrop-filter: blur(5px);
       opacity: 0;
 
-      align-items: flex-start;
       border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+
+      z-index: -1;
     }
     li {
       display: flex;
@@ -94,22 +93,27 @@ nav {
     }
   }
   ul.active {
-    top: 54px;
+    top: 65px;
     opacity: 1;
   }
   button {
     position: absolute;
-    right: 1rem;
+
+    display: none;
+
     padding: 0.3rem;
     background-color: transparent;
     border: none;
     border-radius: 5px;
 
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+
     cursor: pointer;
     transition: background-color 300ms;
 
-    @include mixins.beyond-tablet {
-      display: none;
+    @include mixins.tablet {
+      right: 1rem;
+      display: flex;
     }
     svg {
       fill: black;
