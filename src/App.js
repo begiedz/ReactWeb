@@ -13,17 +13,19 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <I18nextProvider i18n={i18n}>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/mywork" element={<MyWork />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </I18nextProvider>
+    <div className="app light">
+      <I18nextProvider i18n={i18n}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/mywork" element={<MyWork />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </I18nextProvider>
+    </div>
   );
 }
 
