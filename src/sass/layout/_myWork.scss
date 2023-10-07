@@ -114,7 +114,7 @@ main.myWork {
 
           padding-right: 1rem;
           padding-left: 1rem;
-          filter: grayscale(70%);
+          filter: grayscale(50%);
           border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
           transition: filter ease-out 200ms;
         }
@@ -163,6 +163,7 @@ main.myWork {
       transform: translate(0, -5%);
       background-color: variables.$white;
       border: 1px solid rgba($color: #000000, $alpha: 0.3);
+      box-shadow: 0px 0px 8px rgba($color: #000000, $alpha: 0.2);
       h3 {
         color: variables.$text-color;
       }
