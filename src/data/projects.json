@@ -1,5 +1,11 @@
 [
     {
+        "appName": "begiedzDeveloper",
+        "technologies": ["js", "react"],
+        "imgPath": "../images/begiedzDeveloper.png",
+        "githubURL":"https://github.com/begiedz/reactWeb"
+    },
+    {
         "appName": "Clouder",
         "technologies": ["js", "ts", "react"],
         "imgPath": "../images/clouder.png",

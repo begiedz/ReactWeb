@@ -226,6 +226,7 @@
     }
   },
   "projects":{
+    "begiedzDeveloper":"The actual page you are on!",
     "Clouder":"API Weather App.",
     "PHP Notes":"CRUD PHP App.",
     "React Chat":"Chat app using SaaS Firebase + React.",

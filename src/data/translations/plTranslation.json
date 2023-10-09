@@ -226,6 +226,7 @@
     }
   },
   "projects":{
+    "begiedzDeveloper": "Aktualna strona, na której się znajdujesz!",
     "Clouder": "Aplikacja pogodowa API.",
     "PHP Notes": "Aplikacja CRUD w PHP.",
     "React Chat": "Aplikacja czat z użyciem Firebase i React.",

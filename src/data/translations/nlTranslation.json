@@ -226,6 +226,7 @@
     }
   },
   "projects":{
+    "begiedzDeveloper": "De huidige pagina waarop je je bevindt!",
     "Clouder": "API Weer App.",
     "PHP Notes": "CRUD PHP App.",
     "React Chat": "Chat-app met Firebase en React.",
