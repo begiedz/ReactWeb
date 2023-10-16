@@ -17,7 +17,8 @@ header {
   gap: 1rem;
   font-size: 1rem;
 
-  background-color: variables.$body-color;
+  color: variables.$text-color;
+  fill: variables.$text-color;
 
   overflow: hidden;
 
@@ -47,6 +48,7 @@ header {
       font-size: 3rem;
       line-height: 4rem;
       font-weight: 900;
+      color: inherit;
       @include mixins.mobile {
         font-size: 2.5rem;
       }
@@ -73,16 +75,15 @@ header {
       gap: 1rem;
       display: flex;
       margin-top: 1rem;
-      color: white;
 
       list-style: none;
       li {
         transition: scale ease 150ms;
         a {
-          color: variables.$text-color;
           svg {
             height: 2rem;
             width: auto;
+            fill: variables.$text-color;
           }
         }
       }
@@ -101,7 +102,7 @@ header {
     }
 
     svg {
-      fill: rgba($color: #000000, $alpha: 0.05);
+      fill: rgba($color: #000000, $alpha: 0.04);
       height: 1200px;
       @include mixins.mobile {
         height: 600px;
@@ -113,5 +114,5 @@ header {
   position: absolute;
   height: 100%;
   width: 100%;
-  box-shadow: inset 0px -50px 100px 50px variables.$body-color;
+  box-shadow: inset 0px -50px 100px 50px variables.$bg-color;
 }

@@ -1,0 +1,48 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.app.dark {
+  color: variables.$text-color;
+  background-color: variables.$bg-color-darkmode;
+
+  nav {
+    color: variables.$text-color-darkmode;
+    background-color: variables.$navbar-bg-darkmode;
+    fill: variables.$text-color-darkmode;
+    // border-bottom: ;
+    button {
+      svg {
+        fill: variables.$text-color-darkmode;
+      }
+    }
+  }
+
+  header {
+    color: variables.$text-color-darkmode;
+    h2 {
+      color: variables.$text-color-transparent-darkmode;
+    }
+    ul {
+      li {
+        svg {
+          fill: variables.$text-color-darkmode;
+        }
+      }
+    }
+    .underlay {
+      svg {
+        fill: rgba($color: #fff, $alpha: 0.05);
+      }
+    }
+    .boxShadow {
+      box-shadow: inset 0px -50px 100px 50px variables.$bg-color-darkmode;
+    }
+  }
+  main {
+    color: variables.$text-color-darkmode;
+
+    .card {
+      background-color: variables.$bg-color-darkmode;
+    }
+  }
+}

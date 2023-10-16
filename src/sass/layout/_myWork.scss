@@ -58,7 +58,7 @@ main.myWork {
 
     button.active {
       background-color: variables.$background-secondary;
-      color: variables.$body-color;
+      color: variables.$bg-color;
     }
   }
   .gallery {
@@ -90,7 +90,7 @@ main.myWork {
 
         // transform-origin: bottom;
 
-        background-color: variables.$body-color;
+        background-color: variables.$bg-color;
         color: black;
         border-radius: 0.25rem;
 
