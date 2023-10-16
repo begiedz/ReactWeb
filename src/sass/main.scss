@@ -3,7 +3,6 @@
 @use './utils/mixins';
 
 @use './layout/global';
-@use './layout/darkmode';
 
 @use './layout/navbar';
 @use './layout/header';
@@ -12,5 +11,7 @@
 @use './layout/skills';
 @use './layout/contact';
 @use './layout/footer';
+
+@use './layout/darkmode';
 
 @use './utils/keyframes';

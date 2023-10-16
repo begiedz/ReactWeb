@@ -15,7 +15,7 @@ main.about {
     }
     p:nth-child(even) {
       margin-top: 1.25em;
-      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
+      border-bottom: 1px solid variables.$black-transparent04;
       padding-bottom: 3em;
     }
     p:nth-child(odd) {

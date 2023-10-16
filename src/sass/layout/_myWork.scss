@@ -20,14 +20,14 @@ main.myWork {
       border-radius: 0.2rem;
       outline: none;
 
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid variables.$black-transparent04;
 
       transition: 250ms;
       background-color: transparent;
       font-size: 1rem;
     }
     input[type='search']:focus {
-      border: 2px solid black;
+      border: 2px solid variables.$black;
     }
   }
 
@@ -44,8 +44,8 @@ main.myWork {
       padding: 0.5rem;
       font-size: 12px;
 
-      background-color: rgb(201, 201, 201);
-      color: rgb(30, 30, 30);
+      background-color: variables.$black-transparent04;
+      color: variables.$black-transparent08;
 
       border: 2px solid transparent;
       border-radius: 5px;
@@ -57,7 +57,7 @@ main.myWork {
     }
 
     button.active {
-      background-color: variables.$background-secondary;
+      background-color: variables.$black-transparent08;
       color: variables.$bg-color;
     }
   }
@@ -94,8 +94,8 @@ main.myWork {
         color: black;
         border-radius: 0.25rem;
 
-        box-shadow: 0px 0px 8px rgba($color: #000000, $alpha: 0.1);
-        border: 1px solid variables.$secondary-color;
+        box-shadow: 0px 0px 8px variables.$black-transparent004;
+        border: 1px solid variables.$black-transparent02;
         cursor: pointer;
 
         transition: transform ease-out 200ms, color ease-out 200ms, border ease-out 200ms,
@@ -115,14 +115,13 @@ main.myWork {
           padding-right: 1rem;
           padding-left: 1rem;
           filter: grayscale(50%);
-          border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+          border-bottom: 1px solid variables.$black-transparent02;
           transition: filter ease-out 200ms;
         }
 
         h3 {
           margin-top: 0.5rem;
-          color: variables.$text-color-transparent;
-          color: rgba($color: #000000, $alpha: 0.7);
+          color: variables.$black-transparent08;
           transition: color ease-out 200ms;
           // @include mixins.mobile {
           // font-size: 1.5rem;
@@ -130,7 +129,7 @@ main.myWork {
         }
         p {
           font-size: 14px;
-          color: rgba($color: #000000, $alpha: 0.7);
+          color: variables.$black-transparent04;
 
           transition: color ease-out 200ms;
           // @include mixins.mobile {
@@ -146,15 +145,11 @@ main.myWork {
 
           li {
             font-size: 12px;
-            color: rgba($color: #000000, $alpha: 0.7);
+            color: variables.$black-transparent04;
 
             font-family: monospace;
 
             transition: color ease-out 200ms;
-
-            // border-radius: 8px;
-            // background-color: rgba($color: #000000, $alpha: 0.05);
-            // padding: 0.5rem;
           }
         }
       }
@@ -162,8 +157,8 @@ main.myWork {
     .card:hover {
       transform: translate(0, -5%);
       background-color: variables.$white;
-      border: 1px solid rgba($color: #000000, $alpha: 0.3);
-      box-shadow: 0px 0px 8px rgba($color: #000000, $alpha: 0.2);
+      border: 1px solid variables.$black-transparent04;
+      box-shadow: 0px 0px 8px variables.$black-transparent02;
       h3 {
         color: variables.$text-color;
       }
@@ -175,7 +170,7 @@ main.myWork {
       }
       img {
         filter: grayscale(0%);
-        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
+        border-bottom: 1px solid variables.$black-transparent04;
       }
       @include mixins.mobile {
         transform: translate(0, 0);

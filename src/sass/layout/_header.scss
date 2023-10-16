@@ -32,7 +32,7 @@ header {
     height: 350px;
     width: auto;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    border: 1px solid lightgray;
+    border: 1px solid variables.$white-transparent04;
 
     @include mixins.mobile {
       height: 200px;
@@ -61,7 +61,7 @@ header {
     }
 
     h2 {
-      color: variables.$text-color-transparent;
+      color: variables.$black-transparent08;
       line-height: 1rem;
     }
     p {
@@ -102,7 +102,7 @@ header {
     }
 
     svg {
-      fill: rgba($color: #000000, $alpha: 0.04);
+      fill: variables.$black-transparent004;
       height: 1200px;
       @include mixins.mobile {
         height: 600px;

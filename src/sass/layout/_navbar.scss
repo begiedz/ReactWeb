@@ -13,12 +13,12 @@ nav {
   width: 100vw;
   height: 4rem;
   backdrop-filter: blur(5px);
-  background-color: variables.$navbar-bg;
+  background-color: variables.$white-transparent04;
 
   color: variables.$text-color;
   fill: variables.$text-color;
 
-  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+  border-bottom: 1px solid variables.$black-transparent02;
 
   z-index: 3;
 
@@ -66,7 +66,7 @@ nav {
       backdrop-filter: blur(5px);
       opacity: 0;
 
-      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+      border-bottom: 1px solid variables.$black-transparent02;
 
       z-index: -1;
     }
@@ -88,11 +88,11 @@ nav {
       }
       a:hover,
       a:hover:visited {
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: variables.$black-transparent02;
       }
     }
     li.active {
-      background-color: rgba(0, 0, 0, 0.15);
+      background-color: variables.$black-transparent02;
     }
   }
   ul.active {
@@ -109,7 +109,7 @@ nav {
     border: none;
     border-radius: 5px;
 
-    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+    border: 1px solid variables.$black-transparent02;
 
     cursor: pointer;
     transition: background-color 300ms;
@@ -129,7 +129,7 @@ nav {
 
     select {
       font-size: 1.3rem;
-      background-color: rgba($color: #fff, $alpha: 1);
+      background-color: variables.$white;
       padding: 0 8px;
       border-radius: 5px;
       border: none;
@@ -137,7 +137,7 @@ nav {
   }
 
   button:hover {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: variables.$black-transparent02;
   }
   #bgdzLogo {
     fill: inherit;
