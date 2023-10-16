@@ -1,4 +1,4 @@
-import { useState, useEffect, createContext } from 'react';
+import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
@@ -12,8 +12,6 @@ import Skills from './pages/Skills';
 import MyWork from './pages/MyWork';
 import Contact from './pages/Contact';
 
-const ThemeContext = createContext(null);
-
 function App() {
   const [theme, setTheme] = useState('');
 
@@ -24,19 +22,17 @@ function App() {
 
   return (
     <I18nextProvider i18n={i18n}>
-      <ThemeContext.Provider value={{ theme, setTheme }}>
-        <div className={`app ${theme}`}>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/mywork" element={<MyWork />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-          <Footer />
-        </div>
-      </ThemeContext.Provider>
+      <div className={`app ${theme}`}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/mywork" element={<MyWork />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
     </I18nextProvider>
   );
 }

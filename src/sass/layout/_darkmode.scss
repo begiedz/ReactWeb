@@ -1,6 +1,8 @@
 @use '../utils/variables';
 @use '../utils/mixins';
-
+// .app.dark {
+//   --bg-color: black;
+// }
 .app.dark {
   color: variables.$text-color-darkmode;
   background-color: variables.$bg-color-darkmode;
