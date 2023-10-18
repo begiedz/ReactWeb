@@ -2,18 +2,24 @@
 $bg-color: rgb(250, 250, 250);
 $text-color: rgb(0, 0, 0);
 $black-transparent08: rgba(0, 0, 0, 0.8);
+$black-transparent06: rgba(0, 0, 0, 0.6);
 $black-transparent04: rgba(0, 0, 0, 0.4);
 $black-transparent02: rgba(0, 0, 0, 0.2);
+$black-transparent01: rgba(0, 0, 0, 0.1);
 $black-transparent004: rgba(0, 0, 0, 0.04);
 $white-transparent08: rgba(255, 255, 255, 0.8);
+$white-transparent06: rgba(255, 255, 255, 0.6);
 $white-transparent04: rgba(255, 255, 255, 0.4);
 $white-transparent02: rgba(255, 255, 255, 0.2);
+$white-transparent01: rgba(255, 255, 255, 0.1);
 $white-transparent004: rgba(255, 255, 255, 0.04);
 $white: #fff;
 $black: #000;
 
+$theme: #fcfcfc;
+
 //darkmode
-$bg-color-darkmode: rgb(5, 5, 5);
+$bg-color-darkmode: rgb(0, 0, 0);
 $text-color-darkmode: rgb(255, 255, 255);
 
 // sizes

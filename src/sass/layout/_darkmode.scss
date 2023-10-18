@@ -69,7 +69,7 @@
     }
     .underlay {
       svg {
-        fill: variables.$white-transparent004;
+        fill: variables.$white-transparent02;
       }
     }
   }
@@ -88,14 +88,18 @@
   main.skills {
     section {
       div.card {
-        background-color: variables.$black;
-        border: 1px solid variables.$white-transparent04;
-        box-shadow: 0px 0px 8px variables.$white-transparent02;
-        .underlay {
-          svg {
-            fill: variables.$white-transparent02;
-          }
+        background-color: variables.$white-transparent01;
+        border: 1px solid variables.$white-transparent01;
+        // box-shadow: 0px 0px 8px variables.$white-transparent02;
+        box-shadow: 0px 0px 0px transparent;
+        ul {
+          color: variables.$white-transparent06;
         }
+        // .underlay {
+        // svg {
+        // fill: variables.$black-transparent08;
+        // }
+        // }
       }
     }
   }
