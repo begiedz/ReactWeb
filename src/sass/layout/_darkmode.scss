@@ -4,194 +4,199 @@
 // //   --bg-color: black;
 // // }
 // .app.dark {
-//   color: variables.$text-color-darkmode;
-//   background-color: variables.$bg-color-darkmode;
 
-//   nav {
-//     background-color: variables.$black-transparent04;
+// :root{
 
-//     color: variables.$text-color-darkmode;
-//     fill: variables.$text-color-darkmode;
+// }
 
-//     border-bottom: 1px solid variables.$white-transparent02;
-//     ul {
-//       @include mixins.tablet {
-//         border-bottom: 1px solid variables.$white-transparent02;
-//       }
-//       li {
-//         a:hover,
-//         a:hover:visited {
-//           background-color: variables.$white-transparent02;
-//         }
-//       }
-//       li.active {
-//         background-color: variables.$white-transparent02;
-//       }
-//     }
-//     button {
-//       border: 1px solid variables.$white-transparent02;
-//       svg {
-//         fill: white;
-//       }
-//     }
-//     .selectWrapper {
-//       select {
-//         background-color: variables.$black;
-//       }
-//     }
+//   // color: variables.$text-color-darkmode;
+//   // background-color: variables.$bg-color-darkmode;
 
-//     button:hover {
-//       background-color: variables.$white-transparent02;
-//     }
-//     #bgdzLogo {
-//       fill: inherit;
-//     }
-//   }
+//   // nav {
+//   //   background-color: variables.$black-transparent04;
 
-//   header {
-//     color: variables.$text-color-darkmode;
-//     fill: variables.$text-color-darkmode;
-//     // img {
-//     // }
-//     .titleWrapper {
-//       h2 {
-//         color: variables.$white-transparent08;
-//       }
-//       ul {
-//         li {
-//           a {
-//             svg {
-//               fill: variables.$text-color-darkmode;
-//             }
-//           }
-//         }
-//       }
-//     }
-//     .underlay {
-//       svg {
-//         fill: variables.$white-transparent02;
-//       }
-//     }
-//   }
-//   .boxShadow {
-//     box-shadow: inset 0px -50px 100px 50px variables.$bg-color-darkmode;
-//   }
+//   //   color: variables.$text-color-darkmode;
+//   //   fill: variables.$text-color-darkmode;
 
-//   main.about {
-//     article {
-//       p:nth-child(even) {
-//         border-bottom: 1px solid variables.$white-transparent04;
-//       }
-//     }
-//   }
+//   //   border-bottom: 1px solid variables.$white-transparent02;
+//   //   ul {
+//   //     @include mixins.tablet {
+//   //       border-bottom: 1px solid variables.$white-transparent02;
+//   //     }
+//   //     li {
+//   //       a:hover,
+//   //       a:hover:visited {
+//   //         background-color: variables.$white-transparent02;
+//   //       }
+//   //     }
+//   //     li.active {
+//   //       background-color: variables.$white-transparent02;
+//   //     }
+//   //   }
+//   //   button {
+//   //     border: 1px solid variables.$white-transparent02;
+//   //     svg {
+//   //       fill: white;
+//   //     }
+//   //   }
+//   //   .selectWrapper {
+//   //     select {
+//   //       background-color: variables.$black;
+//   //     }
+//   //   }
 
-//   main.skills {
-//     section {
-//       div.card {
-//         background-color: variables.$white-transparent01;
-//         border: 1px solid variables.$white-transparent01;
-//         // box-shadow: 0px 0px 8px variables.$white-transparent02;
-//         box-shadow: 0px 0px 0px transparent;
-//         ul {
-//           color: variables.$white-transparent06;
-//         }
-//         // .underlay {
-//         // svg {
-//         // fill: variables.$black-transparent08;
-//         // }
-//         // }
-//       }
-//     }
-//   }
+//   //   button:hover {
+//   //     background-color: variables.$white-transparent02;
+//   //   }
+//   //   #bgdzLogo {
+//   //     fill: inherit;
+//   //   }
+//   // }
 
-//   main.myWork {
-//     .searchUI {
-//       input[type='search'] {
-//         border-bottom: 2px solid variables.$white-transparent04;
-//       }
-//       input[type='search']:focus {
-//         border: 2px solid variables.$white;
-//       }
-//     }
+//   // header {
+//   //   color: variables.$text-color-darkmode;
+//   //   fill: variables.$text-color-darkmode;
+//   //   // img {
+//   //   // }
+//   //   .titleWrapper {
+//   //     h2 {
+//   //       color: variables.$white-transparent08;
+//   //     }
+//   //     ul {
+//   //       li {
+//   //         a {
+//   //           svg {
+//   //             fill: variables.$text-color-darkmode;
+//   //           }
+//   //         }
+//   //       }
+//   //     }
+//   //   }
+//   //   .underlay {
+//   //     svg {
+//   //       fill: variables.$white-transparent02;
+//   //     }
+//   //   }
+//   // }
+//   // .boxShadow {
+//   //   box-shadow: inset 0px -50px 100px 50px variables.$bg-color-darkmode;
+//   // }
 
-//     .buttonWrapper {
-//       button {
-//         background-color: variables.$white-transparent04;
-//         color: variables.$white-transparent08;
-//       }
+//   // main.about {
+//   //   article {
+//   //     p:nth-child(even) {
+//   //       border-bottom: 1px solid variables.$white-transparent04;
+//   //     }
+//   //   }
+//   // }
 
-//       button.active {
-//         background-color: variables.$white-transparent08;
-//         color: variables.$bg-color-darkmode;
-//       }
-//     }
-//     .gallery {
-//       a {
-//         .card {
-//           background-color: variables.$bg-color-darkmode;
-//           color: white;
-//           border-radius: 0.25rem;
+//   // main.skills {
+//   //   section {
+//   //     div.card {
+//   //       background-color: variables.$white-transparent01;
+//   //       border: 1px solid variables.$white-transparent01;
+//   //       // box-shadow: 0px 0px 8px variables.$white-transparent02;
+//   //       box-shadow: 0px 0px 0px transparent;
+//   //       ul {
+//   //         color: variables.$white-transparent06;
+//   //       }
+//   //       // .underlay {
+//   //       // svg {
+//   //       // fill: variables.$black-transparent08;
+//   //       // }
+//   //       // }
+//   //     }
+//   //   }
+//   // }
 
-//           box-shadow: 0px 0px 8px variables.$white-transparent004;
-//           border: 1px solid variables.$white-transparent02;
-//           img {
-//             border-bottom: 1px solid variables.$white-transparent02;
-//           }
+//   // main.myWork {
+//   //   .searchUI {
+//   //     input[type='search'] {
+//   //       border-bottom: 2px solid variables.$white-transparent04;
+//   //     }
+//   //     input[type='search']:focus {
+//   //       border: 2px solid variables.$white;
+//   //     }
+//   //   }
 
-//           h3 {
-//             color: variables.$white-transparent08;
-//           }
-//           p {
-//             color: variables.$white-transparent04;
-//           }
-//           ul {
-//             li {
-//               color: variables.$white-transparent04;
-//             }
-//           }
-//         }
-//       }
-//       .card:hover {
-//         background-color: variables.$black;
-//         border: 1px solid variables.$white-transparent04;
-//         box-shadow: 0px 0px 8px variables.$white-transparent02;
-//         h3 {
-//           color: variables.$text-color-darkmode;
-//         }
-//         p {
-//           color: variables.$text-color-darkmode;
-//         }
-//         ul li {
-//           color: variables.$text-color-darkmode;
-//         }
-//         img {
-//           border-bottom: 1px solid variables.$white-transparent04;
-//         }
-//       }
-//     }
-//   }
+//   //   .buttonWrapper {
+//   //     button {
+//   //       background-color: variables.$white-transparent04;
+//   //       color: variables.$white-transparent08;
+//   //     }
 
-//   main.contact {
-//     form {
-//       color: white;
-//       textarea {
-//         color: inherit;
-//         border: 2px solid variables.$white-transparent04;
-//       }
-//       textarea:focus {
-//         border: 2px solid variables.$white-transparent08;
-//       }
-//       input[type='text'],
-//       input[type='email'] {
-//         color: inherit;
-//         border-bottom: 2px solid variables.$white-transparent04;
-//       }
-//       input:focus {
-//         border: 2px solid variables.$white-transparent08;
-//       }
-//     }
-//     input[type='submit'] {
-//       background-color: variables.$white-transparent04;
-//     }
-//   }
+//   //     button.active {
+//   //       background-color: variables.$white-transparent08;
+//   //       color: variables.$bg-color-darkmode;
+//   //     }
+//   //   }
+//   //   .gallery {
+//   //     a {
+//   //       .card {
+//   //         background-color: variables.$bg-color-darkmode;
+//   //         color: white;
+//   //         border-radius: 0.25rem;
+
+//   //         box-shadow: 0px 0px 8px variables.$white-transparent004;
+//   //         border: 1px solid variables.$white-transparent02;
+//   //         img {
+//   //           border-bottom: 1px solid variables.$white-transparent02;
+//   //         }
+
+//   //         h3 {
+//   //           color: variables.$white-transparent08;
+//   //         }
+//   //         p {
+//   //           color: variables.$white-transparent04;
+//   //         }
+//   //         ul {
+//   //           li {
+//   //             color: variables.$white-transparent04;
+//   //           }
+//   //         }
+//   //       }
+//   //     }
+//   //     .card:hover {
+//   //       background-color: variables.$black;
+//   //       border: 1px solid variables.$white-transparent04;
+//   //       box-shadow: 0px 0px 8px variables.$white-transparent02;
+//   //       h3 {
+//   //         color: variables.$text-color-darkmode;
+//   //       }
+//   //       p {
+//   //         color: variables.$text-color-darkmode;
+//   //       }
+//   //       ul li {
+//   //         color: variables.$text-color-darkmode;
+//   //       }
+//   //       img {
+//   //         border-bottom: 1px solid variables.$white-transparent04;
+//   //       }
+//   //     }
+//   //   }
+//   // }
+
+//   // main.contact {
+//   //   form {
+//   //     color: white;
+//   //     textarea {
+//   //       color: inherit;
+//   //       border: 2px solid variables.$white-transparent04;
+//   //     }
+//   //     textarea:focus {
+//   //       border: 2px solid variables.$white-transparent08;
+//   //     }
+//   //     input[type='text'],
+//   //     input[type='email'] {
+//   //       color: inherit;
+//   //       border-bottom: 2px solid variables.$white-transparent04;
+//   //     }
+//   //     input:focus {
+//   //       border: 2px solid variables.$white-transparent08;
+//   //     }
+//   //   }
+//   //   input[type='submit'] {
+//   //     background-color: variables.$white-transparent04;
+//   //   }
+//   // }
 // }

@@ -32,7 +32,7 @@ header {
     height: 350px;
     width: auto;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    border: 1px solid var(--white-transparent04);
+    border: 1px solid var(--bg-color-secondary);
 
     @include mixins.mobile {
       height: 200px;
@@ -61,7 +61,7 @@ header {
     }
 
     h2 {
-      color: var(--black-transparent08);
+      color: var(--text-color-secondary);
       line-height: 1rem;
     }
     p {
@@ -102,7 +102,7 @@ header {
     }
 
     svg {
-      fill: var(--black-transparent004);
+      fill: var(--overlay-color);
       height: 1200px;
       @include mixins.mobile {
         height: 600px;
@@ -114,5 +114,5 @@ header {
   position: absolute;
   height: 100%;
   width: 100%;
-  box-shadow: inset 0px -50px 100px 50px variables.$bg-color;
+  box-shadow: inset 0px -50px 100px 50px var(--bg-color);
 }

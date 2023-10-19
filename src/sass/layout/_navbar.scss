@@ -13,12 +13,12 @@ nav {
   width: 100vw;
   height: 4rem;
   backdrop-filter: blur(5px);
-  background-color: var(--white-transparent04);
+  background-color: var(--bg-trans04);
 
   color: var(--text-color);
   fill: var(--text-color);
 
-  border-bottom: 1px solid var(--black-transparent02);
+  border-bottom: 1px solid var(--border-color-transparent);
 
   z-index: 3;
 
@@ -66,7 +66,7 @@ nav {
       backdrop-filter: blur(5px);
       opacity: 0;
 
-      border-bottom: 1px solid var(--black-transparent02);
+      border-bottom: 1px solid var(--border-color-transparent);
 
       z-index: -1;
     }
@@ -88,11 +88,11 @@ nav {
       }
       a:hover,
       a:hover:visited {
-        background-color: var(--black-transparent02);
+        background-color: var(--border-color-transparent);
       }
     }
     li.active {
-      background-color: var(--black-transparent02);
+      background-color: var(--border-color-transparent);
     }
   }
   ul.active {
@@ -109,7 +109,7 @@ nav {
     border: none;
     border-radius: 5px;
 
-    border: 1px solid var(--black-transparent02);
+    border: 1px solid var(--border-color-transparent);
 
     cursor: pointer;
     transition: background-color 300ms;
@@ -119,7 +119,7 @@ nav {
       display: flex;
     }
     svg {
-      fill: var(--black);
+      fill: var(--text-color);
       height: 25px;
       width: auto;
     }
@@ -129,7 +129,7 @@ nav {
 
     select {
       font-size: 1.3rem;
-      background-color: var(--white);
+      background-color: var(--bg-color);
       padding: 0 8px;
       border-radius: 5px;
       border: none;
@@ -137,7 +137,7 @@ nav {
   }
 
   button:hover {
-    background-color: var(--black-transparent02);
+    background-color: var(--border-color-transparent);
   }
   #bgdzLogo {
     fill: inherit;

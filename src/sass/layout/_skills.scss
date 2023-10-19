@@ -20,11 +20,11 @@ main.skills {
       background-color: var(--white);
       border-radius: 5px;
 
-      border: 1px solid var(--black-transparent02);
+      border: 1px solid var(--border-color);
 
       overflow: hidden;
 
-      box-shadow: 0px 0px 8px var(--black-transparent02);
+      box-shadow: 0px 0px 8px var(--border-color);
       .underlay {
         position: absolute;
         transform: translate(-50%, -50%);
@@ -33,7 +33,7 @@ main.skills {
         svg {
           height: auto;
           width: 400px;
-          fill: var(--black-transparent02);
+          fill: var(--overlay-color);
         }
       }
       h2 {
@@ -41,20 +41,14 @@ main.skills {
         align-items: center;
 
         margin-bottom: 0.5rem;
-        // color: variables.$accent-color;
         svg {
           scale: 1.6;
           margin: 0 0.6rem;
-          // fill: variables.$accent-color;
         }
         span {
           display: flex;
           flex-wrap: wrap;
           gap: 0.3rem;
-
-          // @include mixins.mobile {
-          //   gap: 0;
-          // }
         }
       }
       h2 .light-font {
@@ -68,7 +62,6 @@ main.skills {
         gap: 0.2rem;
         li {
           list-style-position: inside;
-          // line-height: 1.3rem;
         }
       }
     }

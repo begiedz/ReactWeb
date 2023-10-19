@@ -11,6 +11,8 @@
   --gray1: #1a1a1a;
   --black: #000;
 
+  --bg: rgb(250, 250, 250);
+
   --black-transparent08: rgba(0, 0, 0, 0.8);
   --black-transparent06: rgba(0, 0, 0, 0.6);
   --black-transparent04: rgba(0, 0, 0, 0.4);
@@ -30,23 +32,22 @@
 
   --bg-color: var(--white);
   --bg-color-secondary: var(--gray8);
-  --bg-color-tertiary: var(--gray4);
-  --bg-color-trans: var(--white-transparent04);
-  --bg-color-overlay: var(--white-transparent004);
+  --bg-color-tertiary: var(--gray6);
+  --bg-color-trans8: var(--white-transparent08);
+  --bg-color-trans6: var(--white-transparent06);
+  --bg-color-trans4: var(--white-transparent04);
+  --bg-color-trans2: var(--white-transparent02);
+  --bg-color-trans1: var(--white-transparent01);
+  --bg-color-trans004: var(--white-transparent004);
 
   --text-color: var(--black);
   --text-color-secondary: var(--gray2);
   --text-color-tertiary: var(--gray4);
+
+  --border-color: var(--gray8);
+  --border-color-transparent: var(--black-transparent02);
+  --overlay-color: var(--black-transparent004);
 }
-
-//lightmode
-$bg-color: rgb(250, 250, 250);
-$text-color: rgb(0, 0, 0);
-// $theme: #fcfcfc;
-
-//darkmode
-$bg-color-darkmode: rgb(0, 0, 0);
-$text-color-darkmode: rgb(255, 255, 255);
 
 // sizes
 $tablet: 768px;
