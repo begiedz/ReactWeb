@@ -20,14 +20,14 @@ main.myWork {
       border-radius: 0.2rem;
       outline: none;
 
-      border-bottom: 2px solid variables.$black-transparent04;
+      border-bottom: 2px solid var(--black-transparent04);
 
       transition: 250ms;
       background-color: transparent;
       font-size: 1rem;
     }
     input[type='search']:focus {
-      border: 2px solid variables.$black;
+      border: 2px solid var(--black);
     }
   }
 
@@ -44,8 +44,8 @@ main.myWork {
       padding: 0.5rem;
       font-size: 12px;
 
-      background-color: variables.$black-transparent04;
-      color: variables.$black-transparent08;
+      background-color: var(--black-transparent04);
+      color: var(--black-transparent08);
 
       border: 2px solid transparent;
       border-radius: 5px;
@@ -57,7 +57,7 @@ main.myWork {
     }
 
     button.active {
-      background-color: variables.$black-transparent08;
+      background-color: var(--black-transparent08);
       color: variables.$bg-color;
     }
   }
@@ -94,8 +94,8 @@ main.myWork {
         color: black;
         border-radius: 0.25rem;
 
-        box-shadow: 0px 0px 8px variables.$black-transparent004;
-        border: 1px solid variables.$black-transparent02;
+        box-shadow: 0px 0px 8px var(--black-transparent004);
+        border: 1px solid var(--black-transparent02);
         cursor: pointer;
 
         transition: transform ease-out 200ms, color ease-out 200ms, border ease-out 200ms,
@@ -115,13 +115,13 @@ main.myWork {
           padding-right: 1rem;
           padding-left: 1rem;
           filter: grayscale(50%);
-          border-bottom: 1px solid variables.$black-transparent02;
+          border-bottom: 1px solid var(--black-transparent02);
           transition: filter ease-out 200ms;
         }
 
         h3 {
           margin-top: 0.5rem;
-          color: variables.$black-transparent08;
+          color: var(--black-transparent08);
           transition: color ease-out 200ms;
           // @include mixins.mobile {
           // font-size: 1.5rem;
@@ -129,7 +129,7 @@ main.myWork {
         }
         p {
           font-size: 14px;
-          color: variables.$black-transparent04;
+          color: var(--black-transparent04);
 
           transition: color ease-out 200ms;
           // @include mixins.mobile {
@@ -145,7 +145,7 @@ main.myWork {
 
           li {
             font-size: 12px;
-            color: variables.$black-transparent04;
+            color: var(--black-transparent04);
 
             font-family: monospace;
 
@@ -156,21 +156,21 @@ main.myWork {
     }
     .card:hover {
       transform: translate(0, -5%);
-      background-color: variables.$white;
-      border: 1px solid variables.$black-transparent04;
-      box-shadow: 0px 0px 8px variables.$black-transparent02;
+      background-color: var(--white);
+      border: 1px solid var(--black-transparent04);
+      box-shadow: 0px 0px 8px var(--black-transparent02);
       h3 {
-        color: variables.$text-color;
+        color: var(--text-color);
       }
       p {
-        color: variables.$text-color;
+        color: var(--text-color);
       }
       ul li {
-        color: variables.$text-color;
+        color: var(--text-color);
       }
       img {
         filter: grayscale(0%);
-        border-bottom: 1px solid variables.$black-transparent04;
+        border-bottom: 1px solid var(--black-transparent04);
       }
       @include mixins.mobile {
         transform: translate(0, 0);

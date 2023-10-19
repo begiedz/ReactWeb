@@ -28,31 +28,31 @@ main.contact {
       outline: none;
     }
     textarea {
-      border: 2px solid variables.$black-transparent04;
+      border: 2px solid var(--black-transparent04);
       transition: border 250ms ease-in;
       height: 5rem;
     }
     textarea:focus,
     textarea:hover {
-      border: 2px solid variables.$black-transparent08;
+      border: 2px solid var(--black-transparent08);
     }
     input[type='text'],
     input[type='email'] {
       font-size: 1.1rem;
 
-      border-bottom: 2px solid variables.$black-transparent04;
+      border-bottom: 2px solid var(--black-transparent04);
 
       transition: border 250ms ease-in;
     }
     input:focus {
-      border: 2px solid variables.$black-transparent08;
+      border: 2px solid var(--black-transparent08);
     }
   }
   input[type='submit'] {
     font-size: 1.1rem;
-    background-color: variables.$black-transparent08;
+    background-color: var(--black-transparent08);
     border: 2px solid transparent;
-    color: white;
+    color: var(--white);
     font-weight: bold;
 
     cursor: pointer;

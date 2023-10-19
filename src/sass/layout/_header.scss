@@ -17,8 +17,8 @@ header {
   gap: 1rem;
   font-size: 1rem;
 
-  color: variables.$text-color;
-  fill: variables.$text-color;
+  color: var(--text-color);
+  fill: var(--text-color);
 
   overflow: hidden;
 
@@ -32,7 +32,7 @@ header {
     height: 350px;
     width: auto;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    border: 1px solid variables.$white-transparent04;
+    border: 1px solid var(--white-transparent04);
 
     @include mixins.mobile {
       height: 200px;
@@ -61,7 +61,7 @@ header {
     }
 
     h2 {
-      color: variables.$black-transparent08;
+      color: var(--black-transparent08);
       line-height: 1rem;
     }
     p {
@@ -83,7 +83,7 @@ header {
           svg {
             height: 2rem;
             width: auto;
-            fill: variables.$text-color;
+            fill: var(--text-color);
           }
         }
       }
@@ -102,7 +102,7 @@ header {
     }
 
     svg {
-      fill: variables.$black-transparent004;
+      fill: var(--black-transparent004);
       height: 1200px;
       @include mixins.mobile {
         height: 600px;

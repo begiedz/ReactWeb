@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  background-color: variables.$bg-color;
+  background-color: var(--bg-color);
 }
 
 code {

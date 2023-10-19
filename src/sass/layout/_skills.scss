@@ -17,14 +17,14 @@ main.skills {
     div.card {
       padding: 1.5rem;
 
-      background-color: variables.$white;
+      background-color: var(--white);
       border-radius: 5px;
 
-      border: 1px solid variables.$black-transparent02;
+      border: 1px solid var(--black-transparent02);
 
       overflow: hidden;
 
-      box-shadow: 0px 0px 8px variables.$black-transparent02;
+      box-shadow: 0px 0px 8px var(--black-transparent02);
       .underlay {
         position: absolute;
         transform: translate(-50%, -50%);
@@ -33,7 +33,7 @@ main.skills {
         svg {
           height: auto;
           width: 400px;
-          fill: variables.$black-transparent02;
+          fill: var(--black-transparent02);
         }
       }
       h2 {

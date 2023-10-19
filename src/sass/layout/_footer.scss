@@ -13,7 +13,7 @@ footer {
   padding: 20px;
   font-size: 12px;
 
-  background-color: variables.$black;
+  background-color: var(--black);
 
   @include mixins.mobile {
     flex-direction: column;
@@ -26,7 +26,7 @@ footer {
   }
   .footerWrapper li,
   ul {
-    color: variables.$white;
+    color: var(--white);
     font-weight: 600;
     li {
       font-weight: 400;
@@ -34,11 +34,11 @@ footer {
       a,
       a:visited {
         text-decoration: none;
-        color: variables.$white-transparent04;
+        color: var(--white-transparent04);
       }
       a:hover,
       a:visited:hover {
-        color: variables.$white;
+        color: var(--white);
       }
     }
   }
