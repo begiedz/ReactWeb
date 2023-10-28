@@ -24,12 +24,14 @@ main.skills {
 
       overflow: hidden;
 
-      box-shadow: 0px 0px 8px var(--border-color);
+      // box-shadow: 0px 0px 8px var(--border-color);
       .underlay {
         position: absolute;
         transform: translate(-50%, -50%);
         top: 70%;
         left: 70%;
+
+        z-index: -1;
         svg {
           height: auto;
           width: 400px;

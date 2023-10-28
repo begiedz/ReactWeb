@@ -93,12 +93,12 @@ main.myWork {
         background-color: var(--bg-color);
         border-radius: 0.25rem;
 
-        box-shadow: 0px 0px 8px var(--bg-color-secondary);
+        box-shadow: 0px 0px 8px transparent;
         border: 1px solid var(--border-color);
         cursor: pointer;
 
         transition: transform ease-out 200ms, color ease-out 200ms, border ease-out 200ms,
-          background-color 200ms;
+          background-color 200ms, box-shadow ease-out 200ms;
 
         @include mixins.mobile {
           width: 100%;
@@ -150,8 +150,7 @@ main.myWork {
     .card:hover {
       transform: translate(0, -5%);
       background-color: var(--card-bg);
-      border: 1px solid var(--bg-color-tertiary);
-      box-shadow: 0px 0px 8px var(--bg-color-tertiary);
+      border: 1px solid var(--bg-color-secondary);
       h3 {
         color: var(--text-color);
       }
@@ -163,7 +162,7 @@ main.myWork {
       }
       img {
         filter: grayscale(0%);
-        border-bottom: 1px solid var(--bg-color-tertiary);
+        border-bottom: 1px solid var(--bg-color-secondary);
       }
       @include mixins.mobile {
         transform: translate(0, 0);
