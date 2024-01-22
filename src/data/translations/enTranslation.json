@@ -134,6 +134,24 @@
         ]
       },
       {
+        "category": "TailwindCSS",
+        "list": [
+            "Efficiently using Tailwind CSS for streamlined styling.",
+            "Writing concise and utility-first CSS with Tailwind.",
+            "Utilizing utility classes to speed up the styling process.",
+            "Integrating Tailwind CSS into frontend projects for rapid development."
+        ]
+    },
+    {
+      "category": "Bootstrap",
+      "list": [
+          "Utilizing Bootstrap for rapid design of responsive user interfaces.",
+          "Using pre-built Bootstrap components and styles for efficient prototyping.",
+          "Customizing Bootstrap components to meet individual project requirements.",
+          "Integrating Bootstrap into frontend projects to enhance development speed."
+      ]
+  },
+      {
         "category": "JavaScript",
         "list": [
           "Programming interactive web applications.",
@@ -160,6 +178,25 @@
           "Integrating with external APIs and server communication."
         ]
       },
+
+    {
+        "category": "Next.js",
+        "list": [
+            "Building performant and optimized React applications with Next.js.",
+            "Utilizing server-side rendering (SSR) and static site generation (SSG) for faster page loads.",
+            "Implementing smooth page transitions and client-side navigation.",
+            "Integrating Next.js seamlessly with React for a cohesive development experience."
+        ]
+    },
+    {
+        "category": "Firebase",
+        "list": [
+            "Utilizing Firebase for scalable and real-time database solutions.",
+            "Implementing user authentication and authorization with Firebase Authentication.",
+            "Integrating Firebase Cloud Firestore for efficient data storage and retrieval.",
+            "Leveraging Firebase Hosting for deploying and hosting web applications."
+        ]
+    },
       {
         "category": "PHP",
         "sub": "(Hypertext Preprocessor)",

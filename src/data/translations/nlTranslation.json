@@ -134,6 +134,24 @@
             ]
         },
         {
+          "category": "TailwindCSS",
+          "list": [
+              "Efficiënt gebruik van Tailwind CSS voor geoptimaliseerde styling.",
+              "Schrijven van beknopte en nuttige CSS met Tailwind.",
+              "Gebruik van hulpprogrammaklassen om het stylingproces te versnellen.",
+              "Integratie van Tailwind CSS in frontend-projecten voor snelle ontwikkeling."
+          ]
+      },
+      {
+        "category": "Bootstrap",
+        "list": [
+            "Gebruik van Bootstrap voor het snel ontwerpen van responsieve gebruikersinterfaces.",
+            "Gebruik van kant-en-klare Bootstrap-componenten en -stijlen voor efficiënt prototypen.",
+            "Aanpassen van Bootstrap-componenten om te voldoen aan individuele projectvereisten.",
+            "Integratie van Bootstrap in frontend-projecten voor een hogere ontwikkelingssnelheid."
+        ]
+    },
+        {
             "category": "JavaScript",
             "list": [
                 "Het programmeren van interactieve webtoepassingen.",
@@ -160,6 +178,25 @@
                 "Het integreren met externe API's en servercommunicatie."
             ]
         },
+ 
+      {
+          "category": "Next.js",
+          "list": [
+              "Bouwen van krachtige en geoptimaliseerde React-applicaties met Next.js.",
+              "Gebruik van server-side rendering (SSR) en static site generation (SSG) voor snellere paginalaadtijden.",
+              "Implementatie van soepele paginatransities en client-side navigatie.",
+              "Naadloze integratie van Next.js met React voor een samenhangende ontwikkelervaring."
+          ]
+      },
+      {
+          "category": "Firebase",
+          "list": [
+              "Gebruik van Firebase voor schaalbare en real-time databaseoplossingen.",
+              "Implementatie van gebruikersauthenticatie en -autorisatie met Firebase Authentication.",
+              "Integratie van Firebase Cloud Firestore voor efficiënte opslag en ophalen van gegevens.",
+              "Gebruik van Firebase Hosting voor implementatie en hosting van webapplicaties."
+          ]
+      },
         {
             "category": "PHP",
             "sub": "(Hypertext Preprocessor)",

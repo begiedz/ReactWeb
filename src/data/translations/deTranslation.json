@@ -134,6 +134,24 @@
               ]
           },
           {
+            "category": "TailwindCSS",
+            "list": [
+                "Effiziente Nutzung von Tailwind CSS für optimiertes Styling.",
+                "Schreiben von prägnantem und nützlichem CSS mit Tailwind.",
+                "Verwendung von Utility-Klassen zur Beschleunigung des Styling-Prozesses.",
+                "Integration von Tailwind CSS in Frontend-Projekte für schnelle Entwicklung."
+            ]
+        },
+        {
+          "category": "Bootstrap",
+          "list": [
+              "Verwendung von Bootstrap für schnelles Design responsiver Benutzeroberflächen.",
+              "Nutzung von vorgefertigten Bootstrap-Komponenten und -Stilen für effizientes Prototyping.",
+              "Anpassung von Bootstrap-Komponenten, um individuellen Projektanforderungen gerecht zu werden.",
+              "Integration von Bootstrap in Frontend-Projekte zur Steigerung der Entwicklungsgeschwindigkeit."
+          ]
+      },
+          {
               "category": "JavaScript",
               "list": [
                   "Programmierung interaktiver Webanwendungen.",
@@ -160,6 +178,25 @@
                   "Integration externer APIs und Kommunikation mit dem Server."
               ]
           },
+    
+        {
+            "category": "Next.js",
+            "list": [
+                "Aufbau von leistungsfähigen und optimierten React-Anwendungen mit Next.js.",
+                "Nutzung von serverseitigem Rendern (SSR) und statischer Seiten-Generierung (SSG) für schnellere Seitenaufbauzeiten.",
+                "Implementierung von reibungslosen Seitenübergängen und clientseitiger Navigation.",
+                "Nahtlose Integration von Next.js mit React für ein kohärentes Entwicklererlebnis."
+            ]
+        },
+        {
+            "category": "Firebase",
+            "list": [
+                "Verwendung von Firebase für skalierbare und echtzeitfähige Datenbanklösungen.",
+                "Implementierung von Benutzerauthentifizierung und -autorisierung mit Firebase Authentication.",
+                "Integration von Firebase Cloud Firestore für effiziente Datenspeicherung und -abruf.",
+                "Nutzung von Firebase Hosting zum Bereitstellen und Hosten von Webanwendungen."
+            ]
+        },
           {
               "category": "PHP",
               "sub": "(Hypertext Preprocessor)",
