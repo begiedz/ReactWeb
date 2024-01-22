@@ -144,3 +144,10 @@ nav {
     height: 35px;
   }
 }
+
+.chromeBackground {
+  background-color: white;
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+  }
+}

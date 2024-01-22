@@ -1,6 +1,6 @@
 import { React, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Link, useMatch, useResolvedPath, useLocation } from 'react-router-dom';
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 import { useTranslation } from 'react-i18next';
 
@@ -19,20 +19,28 @@ const CustomLink = ({ to, children, ...props }) => {
     );
 };
 
+
+
+
 const Navbar = () => {
+
+    // If browser is Google Chrome check, transparency fix. Nested backdrop-filter does not work on Chrome.
+    const detectBrowser = () => {
+        return navigator.userAgent.includes('Chrome')
+    }
+
     const navRef = useRef();
     const openMenu = () => {
         navRef.current.classList.toggle('active');
     };
 
     const { t, i18n } = useTranslation()
-
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng)
     };
 
     return (
-        <nav>
+        <nav className={detectBrowser() && 'chromeBackground'}>
             <div className="logoWrapper">
                 <svg id="bgdzLogo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.06 250">
                     <polygon points="80.24 46.83 42.52 85.07 42.52 0 0 0 0 169.23 42.52 211.75 42.52 85.1 106.06 148.22 42.52 211.75 80.25 250 182.06 148.2 80.24 46.83" />
