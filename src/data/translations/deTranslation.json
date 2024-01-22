@@ -226,6 +226,7 @@
     }
   },
   "projects":{
+    "placeholderText":"Suche nach Projekten...",
       "begiedzDeveloper": "Die aktuelle Seite, auf der du dich befindest!",
       "Clouder": "API Wetter App.",
       "PHP Notes": "CRUD PHP App.",

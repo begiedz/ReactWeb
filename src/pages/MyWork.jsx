@@ -24,7 +24,7 @@ const MyWork = () => {
             <div className='searchUI'>
                 <input
                     type="search"
-                    placeholder='Search for project...'
+                    placeholder={t('projects.placeholderText')}
                     value={searchText}
                     onChange={handleSearchChange}
                 />

@@ -11,7 +11,7 @@ const FilterButtons = ({ selectedTechnology, onFilterChange }) => {
           onClick={() => onFilterChange(tech)}
           className={tech === selectedTechnology ? 'active' : ''}
         >
-          {tech}
+          {tech[0].toUpperCase() + tech.substring(1)}
         </button>
       ))}
     </div>

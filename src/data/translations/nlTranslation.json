@@ -226,6 +226,7 @@
     }
   },
   "projects":{
+    "placeholderText":"Zoek naar project...",
     "begiedzDeveloper": "De huidige pagina waarop je je bevindt!",
     "Clouder": "API Weer App.",
     "PHP Notes": "CRUD PHP App.",

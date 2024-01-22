@@ -226,6 +226,7 @@
     }
   },
   "projects":{
+    "placeholderText":"Szukaj projektu...",
     "begiedzDeveloper": "Aktualna strona, na której się znajdujesz!",
     "Clouder": "Aplikacja pogodowa API.",
     "PHP Notes": "Aplikacja CRUD w PHP.",
