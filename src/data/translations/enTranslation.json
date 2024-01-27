@@ -1,21 +1,21 @@
 {
-  "header":{
-    "hello":"hello, ",
-    "name":"I'm Dariusz",
-    "profession":"Beginner Web Developer",
-    "description":"Welcome to my corner of the digital world! I'm a budding web developer fueled by a passion for creating captivating online experiences. With a background in graphic design and a newfound love for coding, I strive to craft visually appealing and functional interfaces that leave a lasting impression. I'm eager to collaborate and embark on transformative journeys, bringing digital dreams to life. Let's create wonders together!"
+  "header": {
+    "hello": "hello, ",
+    "name": "I'm Dariusz",
+    "profession": "Beginner Web Developer",
+    "description": "Welcome to my corner of the digital world! I'm a budding web developer fueled by a passion for creating captivating online experiences. With a background in graphic design and a newfound love for coding, I strive to craft visually appealing and functional interfaces that leave a lasting impression. I'm eager to collaborate and embark on transformative journeys, bringing digital dreams to life. Let's create wonders together!"
   },
-  "navbar":{
-    "home":"Home",
-    "about":"About",
-    "skills":"Skills",
-    "myWork":"My Work",
-    "resume":"Resume",
-    "contact":"Contact"
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "myWork": "My Work",
+    "resume": "Resume",
+    "contact": "Contact"
   },
-  "about":{
-    "heading":"Welcome to my corner of the digital realm!",
-    "article":[
+  "about": {
+    "heading": "Welcome to my corner of the digital realm!",
+    "article": [
       {
         "paragraph": [
           "Allow me to introduce myself — a budding web developer fueled by a ",
@@ -100,9 +100,9 @@
       }
     ]
   },
-  "skills":{
-    "heading":"My skills",
-    "technologies":[
+  "skills": {
+    "heading": "My skills",
+    "technologies": [
       {
         "category": "HTML",
         "sub": " (Hypertext Markup Language)",
@@ -125,7 +125,7 @@
       },
       {
         "category": "SCSS",
-        "sub":" (Sassy CSS)",
+        "sub": " (Sassy CSS)",
         "list": [
           "Using SCSS to write more maintainable and modular CSS code.",
           "Leveraging variables, mixins, and nesting in SCSS.",
@@ -136,26 +136,26 @@
       {
         "category": "TailwindCSS",
         "list": [
-            "Efficiently using Tailwind CSS for streamlined styling.",
-            "Writing concise and utility-first CSS with Tailwind.",
-            "Utilizing utility classes to speed up the styling process.",
-            "Integrating Tailwind CSS into frontend projects for rapid development."
+          "Efficiently using Tailwind CSS for streamlined styling.",
+          "Writing concise and utility-first CSS with Tailwind.",
+          "Utilizing utility classes to speed up the styling process.",
+          "Integrating Tailwind CSS into frontend projects for rapid development."
         ]
-    },
-    {
-      "category": "Bootstrap",
-      "list": [
+      },
+      {
+        "category": "Bootstrap",
+        "list": [
           "Utilizing Bootstrap for rapid design of responsive user interfaces.",
           "Using pre-built Bootstrap components and styles for efficient prototyping.",
           "Customizing Bootstrap components to meet individual project requirements.",
           "Integrating Bootstrap into frontend projects to enhance development speed."
-      ]
-  },
+        ]
+      },
       {
         "category": "JavaScript",
         "list": [
           "Programming interactive web applications.",
-          "Utilizing libraries and frameworks like jQuery or Vue.js.",
+          "Exploring advanced libraries and frameworks, such as React, to enhance the interactivity of web applications.",
           "Asynchronous programming using Promises and async/await.",
           "Working with ES6 modules and managing dependencies."
         ]
@@ -179,24 +179,24 @@
         ]
       },
 
-    {
+      {
         "category": "Next.js",
         "list": [
-            "Building performant and optimized React applications with Next.js.",
-            "Utilizing server-side rendering (SSR) and static site generation (SSG) for faster page loads.",
-            "Implementing smooth page transitions and client-side navigation.",
-            "Integrating Next.js seamlessly with React for a cohesive development experience."
+          "Building performant and optimized React applications with Next.js.",
+          "Utilizing server-side rendering (SSR) and static site generation (SSG) for faster page loads.",
+          "Implementing smooth page transitions and client-side navigation.",
+          "Integrating Next.js seamlessly with React for a cohesive development experience."
         ]
-    },
-    {
+      },
+      {
         "category": "Firebase",
         "list": [
-            "Utilizing Firebase for scalable and real-time database solutions.",
-            "Implementing user authentication and authorization with Firebase Authentication.",
-            "Integrating Firebase Cloud Firestore for efficient data storage and retrieval.",
-            "Leveraging Firebase Hosting for deploying and hosting web applications."
+          "Utilizing Firebase for scalable and real-time database solutions.",
+          "Implementing user authentication and authorization with Firebase Authentication.",
+          "Integrating Firebase Cloud Firestore for efficient data storage and retrieval.",
+          "Leveraging Firebase Hosting for deploying and hosting web applications."
         ]
-    },
+      },
       {
         "category": "PHP",
         "sub": "(Hypertext Preprocessor)",
@@ -254,33 +254,33 @@
       }
     ]
   },
-  "contact":{
-    "heading":"Contact",
-    "form":{
-      "yourName":"Your name",
-      "yourEmail":"Your E-mail",
-      "message":"Message"
+  "contact": {
+    "heading": "Contact",
+    "form": {
+      "yourName": "Your name",
+      "yourEmail": "Your E-mail",
+      "message": "Message"
     }
   },
-  "projects":{
-    "placeholderText":"Search for project...",
-    "begiedzDeveloper":"The actual page you are on!",
-    "Clouder":"API Weather App.",
-    "PHP Notes":"CRUD PHP App.",
-    "React Chat":"Chat app using SaaS Firebase + React.",
-    "NodeJS Blog":"CRUD NodeJS App.",
-    "Workout Buddy":"Fullstack MERN CRUD App.",
-    "Simple JS Stopwatch":"Stopwatch made in JavaScript. UI inspired by Apple."
+  "projects": {
+    "placeholderText": "Search for project...",
+    "begiedzDeveloper": "The actual page you are on!",
+    "Clouder": "API Weather App.",
+    "PHP Notes": "CRUD PHP App.",
+    "React Chat": "Chat app using SaaS Firebase + React.",
+    "NodeJS Blog": "CRUD NodeJS App.",
+    "Workout Buddy": "Fullstack MERN CRUD App.",
+    "Simple JS Stopwatch": "Stopwatch made in JavaScript. UI inspired by Apple."
   },
-  "footer":{
-    "trademark":"© 2023 Dariusz Begiedza. All rights reserved.",
-    "react":"Made with React. The library for web and native user interfaces.",
-    "i18next":"Used i18next. An internationalization-framework written in and for JavaScript.",
-    "contact":{
-      "heading":"Contact",
-      "phone":"Phone: ",
-      "discord":"Discord: ",
-      "email":"e-mail: "
+  "footer": {
+    "trademark": "© 2023 Dariusz Begiedza. All rights reserved.",
+    "react": "Made with React. The library for web and native user interfaces.",
+    "i18next": "Used i18next. An internationalization-framework written in and for JavaScript.",
+    "contact": {
+      "heading": "Contact",
+      "phone": "Phone: ",
+      "discord": "Discord: ",
+      "email": "e-mail: "
     }
   }
 }

@@ -1,286 +1,286 @@
 {
-  "header":{ 
+  "header": {
     "hello": "Hallo, ",
     "name": "ich bin Dariusz",
     "profession": "Anfänger Webentwickler",
     "description": "Willkommen in meiner Ecke der digitalen Welt! Ich bin ein aufstrebender Webentwickler, befeuert von der Leidenschaft, fesselnde Online-Erlebnisse zu schaffen. Mit einer grafischen Design-Vergangenheit und einer neu entdeckten Liebe zum Codieren, bemühe ich mich, optisch ansprechende und funktionale Benutzeroberflächen zu gestalten, die einen bleibenden Eindruck hinterlassen. Ich bin gespannt auf die Zusammenarbeit und darauf, transformative Reisen anzutreten, um digitale Träume zum Leben zu erwecken. Lass uns zusammen Wunder erschaffen!"
   },
-  "navbar":{
-      "home": "Startseite",
-      "about": "Über mich",
-      "skills": "Fähigkeiten",
-      "myWork": "Meine Arbeit",
-      "resume": "Lebenslauf",
-      "contact": "Kontakt"
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "myWork": "Meine Arbeit",
+    "resume": "Lebenslauf",
+    "contact": "Kontakt"
   },
-  "about":{
-      "heading":"Willkommen in meiner Ecke des digitalen Reichs!",
-      "article":[
-        {
-          "paragraph": [
-            "Erlauben Sie mir, mich vorzustellen — ein aufstrebender Webentwickler, angetrieben von einer ",
-            {
-              "strong": "unermüdlichen Leidenschaft"
-            },
-            " für die Schaffung fesselnder Online-Erlebnisse. Obwohl mein Weg nicht geradlinig verläuft, war es ein Abenteuer voller Wendungen und Kurven, das mich letztendlich in die faszinierende Welt der Webentwicklung geführt hat."
-          ]
-        },
-        {
-          "paragraph": [
-            "In meinen Anfangstagen tauchte ich in die ",
-            {
-              "strong": "Kunst der Grafikgestaltung"
-            },
-            " ein und besuchte eine Schule, die sich auf diese kreative Disziplin konzentrierte. Die Faszination des visuellen Geschichtenerzählens hat mich begeistert und inspirierte Träume von der Gestaltung beeindruckender Visuals, die das Publikum fesseln würden. Um meine künstlerischen Neigungen weiter zu erkunden, studierte ich während meiner College-Jahre Bildhauerei und Computergrafik. Doch wie das Schicksal es so wollte, erkannte ich, dass diese Wege nicht meine wahre Berufung waren."
-          ]
-        },
-        {
-          "paragraph": [
-            "Während dieser introspektiven Phase stieß ich auf die ",
-            {
-              "strong": "Webentwicklung"
-            },
-            " — eine bezaubernde Verschmelzung von Kunstfertigkeit und technischem Können. Fasziniert von der Möglichkeit, die digitale Landschaft zu gestalten, beschloss ich, meine Anstrengungen umzulenken und mich in die Welt der Webentwicklung zu vertiefen."
-          ]
-        },
-        {
-          "paragraph": [
-            "Mit Eifer und Entschlossenheit begab ich mich auf eine Reihe von intensiven Kursen und Online-Tutorials. Durch diese Lernerfahrungen verfeinerte ich meine Fähigkeiten in ",
-            {
-              "strong": "HTML"
-            },
-            " und ",
-            {
-              "strong": "CSS"
-            },
-            ", indem ich die grundlegenden Elemente des Webdesigns übernahm. Aber mein Wissensdurst hörte hier nicht auf. Ich tauchte begeistert in die Welt von ",
-            {
-              "strong": "JavaScript"
-            },
-            " ein, fasziniert von seiner Vielseitigkeit und den endlosen Möglichkeiten, die es bot."
-          ]
-        },
-        {
-          "paragraph": [
-            "Getrieben von dem Wunsch, nahtlose und fesselnde Benutzererlebnisse zu schaffen, begab ich mich in die Welt von ",
-            {
-              "strong": "React"
-            },
-            " und ",
-            {
-              "strong": "React Native"
-            },
-            ". Diese leistungsstarken Frameworks wurden zu meinen Verbündeten, die es mir ermöglichten, meine Visionen zum Leben zu erwecken und sie sowohl auf Web- als auch auf mobilen Plattformen zu verwirklichen."
-          ]
-        },
-        {
-          "paragraph": [
-            "Als Webentwickler liegt meine Leidenschaft darin, ",
-            {
-              "strong": "funktionale und visuell ansprechende Schnittstellen"
-            },
-            " zu gestalten, die bei den Nutzern einen bleibenden Eindruck hinterlassen. Die Verschmelzung meiner Hintergrund in Grafikdesign und meiner neu erworbenen technischen Kompetenz ermöglicht es mir, harmonische digitale Räume zu schaffen, die ",
-            {
-              "strong": "Ästhetik mit Benutzerfreundlichkeit"
-            },
-            " verbinden."
-          ]
-        },
-        {
-          "paragraph": [
-            "Wenn Sie also einen ",
-            {
-              "strong": "entschlossenen und anpassungsfähigen"
-            },
-            " Webentwickler suchen, um in Ihr Team aufgenommen zu werden, würde ich mich freuen, zusammenzuarbeiten. Gemeinsam können wir uns auf eine transformative Reise begeben und außergewöhnliche digitale Erlebnisse schaffen, die sich in die virtuelle Landschaft einschreiben."
-          ]
-        },
-        {
-          "paragraph": "Lassen Sie uns unsere digitalen Träume zum Leben erwecken!"
-        }
+  "about": {
+    "heading": "Willkommen in meiner Ecke des digitalen Reichs!",
+    "article": [
+      {
+        "paragraph": [
+          "Erlauben Sie mir, mich vorzustellen — ein aufstrebender Webentwickler, angetrieben von einer ",
+          {
+            "strong": "unermüdlichen Leidenschaft"
+          },
+          " für die Schaffung fesselnder Online-Erlebnisse. Obwohl mein Weg nicht geradlinig verläuft, war es ein Abenteuer voller Wendungen und Kurven, das mich letztendlich in die faszinierende Welt der Webentwicklung geführt hat."
+        ]
+      },
+      {
+        "paragraph": [
+          "In meinen Anfangstagen tauchte ich in die ",
+          {
+            "strong": "Kunst der Grafikgestaltung"
+          },
+          " ein und besuchte eine Schule, die sich auf diese kreative Disziplin konzentrierte. Die Faszination des visuellen Geschichtenerzählens hat mich begeistert und inspirierte Träume von der Gestaltung beeindruckender Visuals, die das Publikum fesseln würden. Um meine künstlerischen Neigungen weiter zu erkunden, studierte ich während meiner College-Jahre Bildhauerei und Computergrafik. Doch wie das Schicksal es so wollte, erkannte ich, dass diese Wege nicht meine wahre Berufung waren."
+        ]
+      },
+      {
+        "paragraph": [
+          "Während dieser introspektiven Phase stieß ich auf die ",
+          {
+            "strong": "Webentwicklung"
+          },
+          " — eine bezaubernde Verschmelzung von Kunstfertigkeit und technischem Können. Fasziniert von der Möglichkeit, die digitale Landschaft zu gestalten, beschloss ich, meine Anstrengungen umzulenken und mich in die Welt der Webentwicklung zu vertiefen."
+        ]
+      },
+      {
+        "paragraph": [
+          "Mit Eifer und Entschlossenheit begab ich mich auf eine Reihe von intensiven Kursen und Online-Tutorials. Durch diese Lernerfahrungen verfeinerte ich meine Fähigkeiten in ",
+          {
+            "strong": "HTML"
+          },
+          " und ",
+          {
+            "strong": "CSS"
+          },
+          ", indem ich die grundlegenden Elemente des Webdesigns übernahm. Aber mein Wissensdurst hörte hier nicht auf. Ich tauchte begeistert in die Welt von ",
+          {
+            "strong": "JavaScript"
+          },
+          " ein, fasziniert von seiner Vielseitigkeit und den endlosen Möglichkeiten, die es bot."
+        ]
+      },
+      {
+        "paragraph": [
+          "Getrieben von dem Wunsch, nahtlose und fesselnde Benutzererlebnisse zu schaffen, begab ich mich in die Welt von ",
+          {
+            "strong": "React"
+          },
+          " und ",
+          {
+            "strong": "React Native"
+          },
+          ". Diese leistungsstarken Frameworks wurden zu meinen Verbündeten, die es mir ermöglichten, meine Visionen zum Leben zu erwecken und sie sowohl auf Web- als auch auf mobilen Plattformen zu verwirklichen."
+        ]
+      },
+      {
+        "paragraph": [
+          "Als Webentwickler liegt meine Leidenschaft darin, ",
+          {
+            "strong": "funktionale und visuell ansprechende Schnittstellen"
+          },
+          " zu gestalten, die bei den Nutzern einen bleibenden Eindruck hinterlassen. Die Verschmelzung meiner Hintergrund in Grafikdesign und meiner neu erworbenen technischen Kompetenz ermöglicht es mir, harmonische digitale Räume zu schaffen, die ",
+          {
+            "strong": "Ästhetik mit Benutzerfreundlichkeit"
+          },
+          " verbinden."
+        ]
+      },
+      {
+        "paragraph": [
+          "Wenn Sie also einen ",
+          {
+            "strong": "entschlossenen und anpassungsfähigen"
+          },
+          " Webentwickler suchen, um in Ihr Team aufgenommen zu werden, würde ich mich freuen, zusammenzuarbeiten. Gemeinsam können wir uns auf eine transformative Reise begeben und außergewöhnliche digitale Erlebnisse schaffen, die sich in die virtuelle Landschaft einschreiben."
+        ]
+      },
+      {
+        "paragraph": "Lassen Sie uns unsere digitalen Träume zum Leben erwecken!"
+      }
     ]
   },
-  "skills":{
-      "heading": "Meine Fähigkeiten",
-      "technologies": [
-          {
-              "category": "HTML",
-              "sub": " (Hypertext Markup Language)",
-              "list": [
-                  "Erstellung semantisch korrekter Webseiten.",
-                  "Bearbeitung verschiedener Elemente wie Überschriften, Listen, Formulare und Multimedia.",
-                  "Verständnis der Bedeutung von Attributen und deren Auswirkungen auf die Seitenstruktur.",
-                  "Anwendung moderner HTML5-Standards, einschließlich Canvas- und Videoelemente."
-              ]
-          },
-          {
-              "category": "CSS",
-              "sub": " (Cascading Style Sheets)",
-              "list": [
-                  "Gestaltung ansprechender und responsiver Benutzeroberflächen.",
-                  "Erstellung von Animations- und Übergangseffekten mit CSS3.",
-                  "Verwendung von CSS-Preprozessoren wie SASS oder LESS für erhöhte Effizienz.",
-                  "Verständnis der Selektor-Spezifität und der kaskadierenden Natur von CSS-Stilen."
-              ]
-          },
-          {
-              "category": "SCSS",
-              "sub": " (Sassy CSS)",
-              "list": [
-                  "Verwendung von SCSS zur Erstellung von wartbarem und modularem CSS-Code.",
-                  "Nutzung von Variablen, Mixins und Verschachtelung in SCSS.",
-                  "Kompilierung von SCSS zu Standard-CSS für Browserkompatibilität.",
-                  "Integration von SCSS in Frontend-Projekte zur Verbesserung der Gestaltung."
-              ]
-          },
-          {
-            "category": "TailwindCSS",
-            "list": [
-                "Effiziente Nutzung von Tailwind CSS für optimiertes Styling.",
-                "Schreiben von prägnantem und nützlichem CSS mit Tailwind.",
-                "Verwendung von Utility-Klassen zur Beschleunigung des Styling-Prozesses.",
-                "Integration von Tailwind CSS in Frontend-Projekte für schnelle Entwicklung."
-            ]
-        },
-        {
-          "category": "Bootstrap",
-          "list": [
-              "Verwendung von Bootstrap für schnelles Design responsiver Benutzeroberflächen.",
-              "Nutzung von vorgefertigten Bootstrap-Komponenten und -Stilen für effizientes Prototyping.",
-              "Anpassung von Bootstrap-Komponenten, um individuellen Projektanforderungen gerecht zu werden.",
-              "Integration von Bootstrap in Frontend-Projekte zur Steigerung der Entwicklungsgeschwindigkeit."
-          ]
+  "skills": {
+    "heading": "Meine Fähigkeiten",
+    "technologies": [
+      {
+        "category": "HTML",
+        "sub": " (Hypertext Markup Language)",
+        "list": [
+          "Erstellung semantisch korrekter Webseiten.",
+          "Bearbeitung verschiedener Elemente wie Überschriften, Listen, Formulare und Multimedia.",
+          "Verständnis der Bedeutung von Attributen und deren Auswirkungen auf die Seitenstruktur.",
+          "Anwendung moderner HTML5-Standards, einschließlich Canvas- und Videoelemente."
+        ]
       },
-          {
-              "category": "JavaScript",
-              "list": [
-                  "Programmierung interaktiver Webanwendungen.",
-                  "Verwendung von Bibliotheken und Frameworks wie jQuery oder Vue.js.",
-                  "Asynchrones Programmieren mit Promises und async/await.",
-                  "Arbeiten mit ES6-Modulen und Verwaltung von Abhängigkeiten."
-              ]
-          },
-          {
-              "category": "TypeScript",
-              "list": [
-                  "Entwicklung von typsicheren JavaScript-Anwendungen mit TypeScript.",
-                  "Erstellung und Verwendung von Schnittstellen, Typen und Generika in TypeScript.",
-                  "Transpilierung von TypeScript zu JavaScript für Browserkompatibilität.",
-                  "Integration von TypeScript in gängige Frontend-Frameworks wie React und Angular."
-              ]
-          },
-          {
-              "category": "React",
-              "list": [
-                  "Erstellung moderner Benutzeroberflächen mit der React-Bibliothek.",
-                  "Verwaltung des Zustands mithilfe von React Hooks und Redux.",
-                  "Routing mit React Router.",
-                  "Integration externer APIs und Kommunikation mit dem Server."
-              ]
-          },
-    
-        {
-            "category": "Next.js",
-            "list": [
-                "Aufbau von leistungsfähigen und optimierten React-Anwendungen mit Next.js.",
-                "Nutzung von serverseitigem Rendern (SSR) und statischer Seiten-Generierung (SSG) für schnellere Seitenaufbauzeiten.",
-                "Implementierung von reibungslosen Seitenübergängen und clientseitiger Navigation.",
-                "Nahtlose Integration von Next.js mit React für ein kohärentes Entwicklererlebnis."
-            ]
-        },
-        {
-            "category": "Firebase",
-            "list": [
-                "Verwendung von Firebase für skalierbare und echtzeitfähige Datenbanklösungen.",
-                "Implementierung von Benutzerauthentifizierung und -autorisierung mit Firebase Authentication.",
-                "Integration von Firebase Cloud Firestore für effiziente Datenspeicherung und -abruf.",
-                "Nutzung von Firebase Hosting zum Bereitstellen und Hosten von Webanwendungen."
-            ]
-        },
-          {
-              "category": "PHP",
-              "sub": "(Hypertext Preprocessor)",
-              "list": [
-                  "Erstellung dynamischer Webseiten und Webanwendungen.",
-                  "Arbeit mit Datenbanken, einschließlich MySQL und PostgreSQL.",
-                  "Entwicklung von Backends für E-Commerce, Content-Management und andere Anwendungen.",
-                  "Sicherung von Anwendungen gegen Angriffe wie SQL-Injection und XSS."
-              ]
-          },
-          {
-              "category": "Node.js",
-              "list": [
-                  "Erstellung von Servern und Backend-Anwendungen in der Node.js-Umgebung.",
-                  "Verwendung von Express.js zur Erstellung von RESTful APIs.",
-                  "Arbeit mit WebSockets und Echtzeitkommunikation.",
-                  "Effiziente Ressourcenverwaltung mit npm oder yarn."
-              ]
-          },
-          {
-              "category": "MongoDB",
-              "list": [
-                  "Arbeit mit NoSQL-Datenbanken wie MongoDB für skalierbare und flexible Datenspeicherung.",
-                  "Erstellung und Abfrage von MongoDB-Datenbanken und -Sammlungen.",
-                  "Verwendung von Mongoose ODM für Node.js zur Interaktion mit MongoDB.",
-                  "Entwicklung von schemalosen Datenstrukturen für verschiedene Anwendungen."
-              ]
-          },
-          {
-              "category": "MySQL",
-              "list": [
-                  "Verwaltung von relationalen Datenbanken mit MySQL.",
-                  "Erstellung und Optimierung von Datenbankschemas und Abfragen.",
-                  "Integration von MySQL in Backend-Anwendungen zur Datenspeicherung und -abfrage.",
-                  "Implementierung von Datenbanksicherheit und Leistungsoptimierung."
-              ]
-          },
-          {
-              "category": "Git, GitHub",
-              "list": [
-                  "Versionskontrolle von Quellcode mit Git.",
-                  "Verzweigung und Zusammenführen von Code.",
-                  "Lösung von Konflikten und Anwendung bewährter Praktiken in der Zusammenarbeit.",
-                  "Erstellung und Verwaltung von Repositories auf der GitHub-Plattform."
-              ]
-          },
-          {
-              "category": "Visual Studio Code",
-              "list": [
-                  "Effiziente Nutzung von Visual Studio Code als Code-Editor.",
-                  "Installation und Konfiguration von Erweiterungen zur Steigerung der Produktivität.",
-                  "Anpassung von Tastenkombinationen und Einstellungen für eine personalisierte Entwicklungsumgebung.",
-                  "Nutzung der Debugging- und Versionskontrollfunktionen von VS Code."
-              ]
-          }
-      ]
+      {
+        "category": "CSS",
+        "sub": " (Cascading Style Sheets)",
+        "list": [
+          "Gestaltung ansprechender und responsiver Benutzeroberflächen.",
+          "Erstellung von Animations- und Übergangseffekten mit CSS3.",
+          "Verwendung von CSS-Preprozessoren wie SASS oder LESS für erhöhte Effizienz.",
+          "Verständnis der Selektor-Spezifität und der kaskadierenden Natur von CSS-Stilen."
+        ]
+      },
+      {
+        "category": "SCSS",
+        "sub": " (Sassy CSS)",
+        "list": [
+          "Verwendung von SCSS zur Erstellung von wartbarem und modularem CSS-Code.",
+          "Nutzung von Variablen, Mixins und Verschachtelung in SCSS.",
+          "Kompilierung von SCSS zu Standard-CSS für Browserkompatibilität.",
+          "Integration von SCSS in Frontend-Projekte zur Verbesserung der Gestaltung."
+        ]
+      },
+      {
+        "category": "TailwindCSS",
+        "list": [
+          "Effiziente Nutzung von Tailwind CSS für optimiertes Styling.",
+          "Schreiben von prägnantem und nützlichem CSS mit Tailwind.",
+          "Verwendung von Utility-Klassen zur Beschleunigung des Styling-Prozesses.",
+          "Integration von Tailwind CSS in Frontend-Projekte für schnelle Entwicklung."
+        ]
+      },
+      {
+        "category": "Bootstrap",
+        "list": [
+          "Verwendung von Bootstrap für schnelles Design responsiver Benutzeroberflächen.",
+          "Nutzung von vorgefertigten Bootstrap-Komponenten und -Stilen für effizientes Prototyping.",
+          "Anpassung von Bootstrap-Komponenten, um individuellen Projektanforderungen gerecht zu werden.",
+          "Integration von Bootstrap in Frontend-Projekte zur Steigerung der Entwicklungsgeschwindigkeit."
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "list": [
+          "Programmierung interaktiver Webanwendungen.",
+          "Erkunden von fortschrittlichen Bibliotheken und Frameworks wie React, um die Interaktivität von Webanwendungen zu verbessern.",
+          "Asynchrones Programmieren mit Promises und async/await.",
+          "Arbeiten mit ES6-Modulen und Verwaltung von Abhängigkeiten."
+        ]
+      },
+      {
+        "category": "TypeScript",
+        "list": [
+          "Entwicklung von typsicheren JavaScript-Anwendungen mit TypeScript.",
+          "Erstellung und Verwendung von Schnittstellen, Typen und Generika in TypeScript.",
+          "Transpilierung von TypeScript zu JavaScript für Browserkompatibilität.",
+          "Integration von TypeScript in gängige Frontend-Frameworks wie React und Angular."
+        ]
+      },
+      {
+        "category": "React",
+        "list": [
+          "Erstellung moderner Benutzeroberflächen mit der React-Bibliothek.",
+          "Verwaltung des Zustands mithilfe von React Hooks und Redux.",
+          "Routing mit React Router.",
+          "Integration externer APIs und Kommunikation mit dem Server."
+        ]
+      },
+
+      {
+        "category": "Next.js",
+        "list": [
+          "Aufbau von leistungsfähigen und optimierten React-Anwendungen mit Next.js.",
+          "Nutzung von serverseitigem Rendern (SSR) und statischer Seiten-Generierung (SSG) für schnellere Seitenaufbauzeiten.",
+          "Implementierung von reibungslosen Seitenübergängen und clientseitiger Navigation.",
+          "Nahtlose Integration von Next.js mit React für ein kohärentes Entwicklererlebnis."
+        ]
+      },
+      {
+        "category": "Firebase",
+        "list": [
+          "Verwendung von Firebase für skalierbare und echtzeitfähige Datenbanklösungen.",
+          "Implementierung von Benutzerauthentifizierung und -autorisierung mit Firebase Authentication.",
+          "Integration von Firebase Cloud Firestore für effiziente Datenspeicherung und -abruf.",
+          "Nutzung von Firebase Hosting zum Bereitstellen und Hosten von Webanwendungen."
+        ]
+      },
+      {
+        "category": "PHP",
+        "sub": "(Hypertext Preprocessor)",
+        "list": [
+          "Erstellung dynamischer Webseiten und Webanwendungen.",
+          "Arbeit mit Datenbanken, einschließlich MySQL und PostgreSQL.",
+          "Entwicklung von Backends für E-Commerce, Content-Management und andere Anwendungen.",
+          "Sicherung von Anwendungen gegen Angriffe wie SQL-Injection und XSS."
+        ]
+      },
+      {
+        "category": "Node.js",
+        "list": [
+          "Erstellung von Servern und Backend-Anwendungen in der Node.js-Umgebung.",
+          "Verwendung von Express.js zur Erstellung von RESTful APIs.",
+          "Arbeit mit WebSockets und Echtzeitkommunikation.",
+          "Effiziente Ressourcenverwaltung mit npm oder yarn."
+        ]
+      },
+      {
+        "category": "MongoDB",
+        "list": [
+          "Arbeit mit NoSQL-Datenbanken wie MongoDB für skalierbare und flexible Datenspeicherung.",
+          "Erstellung und Abfrage von MongoDB-Datenbanken und -Sammlungen.",
+          "Verwendung von Mongoose ODM für Node.js zur Interaktion mit MongoDB.",
+          "Entwicklung von schemalosen Datenstrukturen für verschiedene Anwendungen."
+        ]
+      },
+      {
+        "category": "MySQL",
+        "list": [
+          "Verwaltung von relationalen Datenbanken mit MySQL.",
+          "Erstellung und Optimierung von Datenbankschemas und Abfragen.",
+          "Integration von MySQL in Backend-Anwendungen zur Datenspeicherung und -abfrage.",
+          "Implementierung von Datenbanksicherheit und Leistungsoptimierung."
+        ]
+      },
+      {
+        "category": "Git, GitHub",
+        "list": [
+          "Versionskontrolle von Quellcode mit Git.",
+          "Verzweigung und Zusammenführen von Code.",
+          "Lösung von Konflikten und Anwendung bewährter Praktiken in der Zusammenarbeit.",
+          "Erstellung und Verwaltung von Repositories auf der GitHub-Plattform."
+        ]
+      },
+      {
+        "category": "Visual Studio Code",
+        "list": [
+          "Effiziente Nutzung von Visual Studio Code als Code-Editor.",
+          "Installation und Konfiguration von Erweiterungen zur Steigerung der Produktivität.",
+          "Anpassung von Tastenkombinationen und Einstellungen für eine personalisierte Entwicklungsumgebung.",
+          "Nutzung der Debugging- und Versionskontrollfunktionen von VS Code."
+        ]
+      }
+    ]
   },
-  "contact":{
+  "contact": {
     "heading": "Kontakt",
     "form": {
-        "yourName": "Dein Name",
-        "yourEmail": "Deine E-Mail",
-        "message": "Nachricht"
+      "yourName": "Dein Name",
+      "yourEmail": "Deine E-Mail",
+      "message": "Nachricht"
     }
   },
-  "projects":{
-    "placeholderText":"Suche nach Projekten...",
-      "begiedzDeveloper": "Die aktuelle Seite, auf der du dich befindest!",
-      "Clouder": "API Wetter App.",
-      "PHP Notes": "CRUD PHP App.",
-      "React Chat": "Chat-App mit Firebase und React.",
-      "NodeJS Blog": "CRUD NodeJS App.",
-      "Workout Buddy": "Fullstack MERN CRUD App.",
-      "Simple JS Stopwatch": "Stoppuhr in JavaScript. UI inspiriert von Apple."
+  "projects": {
+    "placeholderText": "Suche nach Projekten...",
+    "begiedzDeveloper": "Die aktuelle Seite, auf der du dich befindest!",
+    "Clouder": "API Wetter App.",
+    "PHP Notes": "CRUD PHP App.",
+    "React Chat": "Chat-App mit Firebase und React.",
+    "NodeJS Blog": "CRUD NodeJS App.",
+    "Workout Buddy": "Fullstack MERN CRUD App.",
+    "Simple JS Stopwatch": "Stoppuhr in JavaScript. UI inspiriert von Apple."
   },
-  "footer":{
-      "trademark": "© 2023 Dariusz Begiedza. Alle Rechte vorbehalten.",
-      "react": "Hergestellt mit React. Die Bibliothek für Web- und native Benutzeroberflächen.",
-      "i18next": "Verwendet i18next. Ein Internationalisierungs-Framework, geschrieben in und für JavaScript.",
-      "contact": {
-        "heading": "Kontakt",
-        "phone": "Telefon: ",
-        "discord": "Discord: ",
-        "email": "E-Mail: "
-      }
+  "footer": {
+    "trademark": "© 2023 Dariusz Begiedza. Alle Rechte vorbehalten.",
+    "react": "Hergestellt mit React. Die Bibliothek für Web- und native Benutzeroberflächen.",
+    "i18next": "Verwendet i18next. Ein Internationalisierungs-Framework, geschrieben in und für JavaScript.",
+    "contact": {
+      "heading": "Kontakt",
+      "phone": "Telefon: ",
+      "discord": "Discord: ",
+      "email": "E-Mail: "
+    }
   }
 }

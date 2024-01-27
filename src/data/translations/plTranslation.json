@@ -1,11 +1,11 @@
 {
-  "header":{
+  "header": {
     "hello": "cześć, ",
     "name": "Jestem Dariusz",
     "profession": "Początkujący Programista Webowy",
     "description": "Witaj w moim zakątku cyfrowego świata! Jestem początkującym programistą webowym, napędzanym pasją do tworzenia fascynujących doświadczeń online. Dzięki doświadczeniu w projektowaniu graficznym i nowo odkrytej miłości do kodowania, staram się tworzyć wizualnie atrakcyjne i funkcjonalne interfejsy, które pozostawiają trwałe wrażenie. Jestem gotów do współpracy i wyruszenia w transformacyjne podróże, ożywiając cyfrowe marzenia. Twórzmy razem cuda!"
   },
-  "navbar":{
+  "navbar": {
     "home": "Strona główna",
     "about": "O mnie",
     "skills": "Umiejętności",
@@ -13,9 +13,9 @@
     "resume": "CV",
     "contact": "Kontakt"
   },
-  "about":{
-    "heading":"Witaj w moim zakątku cyfrowego świata!",
-    "article":[
+  "about": {
+    "heading": "Witaj w moim zakątku cyfrowego świata!",
+    "article": [
       {
         "paragraph": [
           "Pozwól, że się przedstawię — jestem początkującym programistą webowym, napędzanym ",
@@ -100,169 +100,169 @@
       }
     ]
   },
-  "skills":{
-      "heading": "Moje umiejętności",
-      "technologies": [
-          {
-              "category": "HTML",
-              "sub": " (Hypertext Markup Language)",
-              "list": [
-                  "Tworzenie semantycznie poprawnych stron internetowych.",
-                  "Obsługa różnych rodzajów elementów, takich jak nagłówki, listy, formularze i multimedia.",
-                  "Zrozumienie znaczenia atrybutów i ich wpływu na strukturę strony.",
-                  "Zastosowanie nowoczesnych standardów HTML5, w tym elementów canvas i wideo."
-              ]
-          },
-          {
-              "category": "CSS",
-              "sub": " (Cascading Style Sheets)",
-              "list": [
-                  "Projektowanie atrakcyjnych i responsywnych interfejsów użytkownika.",
-                  "Tworzenie efektów animacyjnych i przejść za pomocą CSS3.",
-                  "Użycie preprocesorów CSS, takich jak SASS lub LESS, dla zwiększenia wydajności.",
-                  "Zrozumienie specyficzności selektorów i kaskadowego charakteru stylów CSS."
-              ]
-          },
-          {
-              "category": "SCSS",
-              "sub": " (Sassy CSS)",
-              "list": [
-                  "Użycie SCSS do pisania bardziej czytelnego i modułowego kodu CSS.",
-                  "Wykorzystywanie zmiennych, miksyn i zagnieżdżania w SCSS.",
-                  "Kompilowanie SCSS do standardowego CSS dla zgodności przeglądarek.",
-                  "Integracja SCSS w projektach frontendowych w celu poprawy stylizacji."
-              ]
-          },
-          {
-            "category": "TailwindCSS",
-            "list": [
-                "Efektywne wykorzystanie Tailwind CSS do zoptymalizowanego stylowania.",
-                "Pisanie zwięzłego i użytecznego CSS za pomocą Tailwind.",
-                "Używanie klas narzędziowych w celu przyspieszenia procesu stylizacji.",
-                "Integracja Tailwind CSS w projekty frontendowe dla szybkiego rozwoju."
-            ]
-        },
-        {
-          "category": "Bootstrap",
-          "list": [
-              "Wykorzystywanie Bootstrap do szybkiego projektowania responsywnych interfejsów użytkownika.",
-              "Korzystanie z gotowych komponentów i stylów Bootstrap dla efektywnego prototypowania.",
-              "Dostosowywanie komponentów Bootstrap do spełniania indywidualnych wymagań projektu.",
-              "Integracja Bootstrap z projektami frontendowymi dla zwiększenia szybkości rozwoju."
-          ]
+  "skills": {
+    "heading": "Moje umiejętności",
+    "technologies": [
+      {
+        "category": "HTML",
+        "sub": " (Hypertext Markup Language)",
+        "list": [
+          "Tworzenie semantycznie poprawnych stron internetowych.",
+          "Obsługa różnych rodzajów elementów, takich jak nagłówki, listy, formularze i multimedia.",
+          "Zrozumienie znaczenia atrybutów i ich wpływu na strukturę strony.",
+          "Zastosowanie nowoczesnych standardów HTML5, w tym elementów canvas i wideo."
+        ]
       },
-          {
-              "category": "JavaScript",
-              "list": [
-                  "Programowanie interaktywnych aplikacji internetowych.",
-                  "Wykorzystywanie bibliotek i frameworków takich jak jQuery czy Vue.js.",
-                  "Programowanie asynchroniczne przy użyciu Promises i async/await.",
-                  "Praca z modułami ES6 i zarządzanie zależnościami."
-              ]
-          },
-          {
-              "category": "TypeScript",
-              "list": [
-                  "Rozwijanie bezpiecznych typów aplikacji JavaScript za pomocą TypeScript.",
-                  "Tworzenie i korzystanie z interfejsów, typów i ogólników w TypeScript.",
-                  "Transpilacja TypeScript do JavaScript dla zgodności przeglądarek.",
-                  "Integracja TypeScript z popularnymi frameworkami frontendowymi, takimi jak React i Angular."
-              ]
-          },
-          {
-              "category": "React",
-              "list": [
-                  "Budowanie nowoczesnych interfejsów użytkownika przy użyciu biblioteki React.",
-                  "Zarządzanie stanem za pomocą React Hooks i Redux.",
-                  "Routing za pomocą React Router.",
-                  "Integracja z zewnętrznymi interfejsami API i komunikacja z serwerem."
-              ]
-          },
-        {
-            "category": "Next.js",
-            "list": [
-                "Budowanie wydajnych i zoptymalizowanych aplikacji React za pomocą Next.js.",
-                "Wykorzystywanie renderowania po stronie serwera (SSR) i generowania statycznych stron (SSG) dla szybszego ładowania stron.",
-                "Implementacja płynnych przejść między stronami i nawigacji po stronie klienta.",
-                "Całościowa integracja Next.js z React dla spójnego doświadczenia programistycznego."
-            ]
-        },
-        {
-            "category": "Firebase",
-            "list": [
-                "Użycie Firebase do skalowalnych i czasu rzeczywistego rozwiązań baz danych.",
-                "Implementacja uwierzytelniania i autoryzacji użytkowników za pomocą Firebase Authentication.",
-                "Integracja Firebase Cloud Firestore do efektywnego przechowywania i pobierania danych.",
-                "Wykorzystywanie Firebase Hosting do wdrażania i hostowania aplikacji internetowych."
-            ]
-        },
-          {
-              "category": "PHP",
-              "sub": "(Hypertext Preprocessor)",
-              "list": [
-                  "Tworzenie dynamicznych stron internetowych i aplikacji internetowych.",
-                  "Praca z bazami danych, w tym MySQL i PostgreSQL.",
-                  "Rozwijanie backendów dla e-commerce, zarządzania treścią i innych aplikacji.",
-                  "Zabezpieczanie aplikacji przed atakami takimi jak SQL Injection i XSS."
-              ]
-          },
-          {
-              "category": "Node.js",
-              "list": [
-                  "Tworzenie serwerów i aplikacji backendowych w środowisku Node.js.",
-                  "Używanie Express.js do tworzenia interfejsów API typu RESTful.",
-                  "Praca z WebSockets i komunikacja w czasie rzeczywistym.",
-                  "Efektywne zarządzanie zasobami za pomocą npm lub yarn."
-              ]
-          },
-          {
-              "category": "MongoDB",
-              "list": [
-                  "Praca z bazami danych NoSQL, takimi jak MongoDB, do skalowalnego i elastycznego przechowywania danych.",
-                  "Tworzenie i zapytywanie baz danych i kolekcji MongoDB.",
-                  "Użycie Mongoose ODM dla Node.js do interakcji z MongoDB.",
-                  "Projektowanie struktur danych bez schematu dla różnych aplikacji."
-              ]
-          },
-          {
-              "category": "MySQL",
-              "list": [
-                  "Zarządzanie bazami danych relacyjnymi za pomocą MySQL.",
-                  "Tworzenie i optymalizacja schematów baz danych i zapytań.",
-                  "Integracja MySQL z aplikacjami backendowymi do przechowywania i pobierania danych.",
-                  "Wdrażanie zabezpieczeń baz danych i optymalizacja wydajności."
-              ]
-          },
-          {
-              "category": "Git, GitHub",
-              "list": [
-                  "Kontrola wersji kodu źródłowego za pomocą Git.",
-                  "Tworzenie i łączenie kodu w gałęziach.",
-                  "Rozwiązywanie konfliktów i stosowanie najlepszych praktyk w pracy zespołowej.",
-                  "Tworzenie i zarządzanie repozytoriami na platformie GitHub."
-              ]
-          },
-          {
-              "category": "Visual Studio Code",
-              "list": [
-                  "Efektywne korzystanie z Visual Studio Code jako edytora kodu.",
-                  "Instalowanie i konfigurowanie rozszerzeń dla zwiększenia wydajności.",
-                  "Dostosowywanie skrótów klawiszowych i ustawień dla spersonalizowanego środowiska programistycznego.",
-                  "Wykorzystywanie funkcji debugowania i kontroli wersji w VS Code."
-              ]
-          }
-      ]
+      {
+        "category": "CSS",
+        "sub": " (Cascading Style Sheets)",
+        "list": [
+          "Projektowanie atrakcyjnych i responsywnych interfejsów użytkownika.",
+          "Tworzenie efektów animacyjnych i przejść za pomocą CSS3.",
+          "Użycie preprocesorów CSS, takich jak SASS lub LESS, dla zwiększenia wydajności.",
+          "Zrozumienie specyficzności selektorów i kaskadowego charakteru stylów CSS."
+        ]
+      },
+      {
+        "category": "SCSS",
+        "sub": " (Sassy CSS)",
+        "list": [
+          "Użycie SCSS do pisania bardziej czytelnego i modułowego kodu CSS.",
+          "Wykorzystywanie zmiennych, miksyn i zagnieżdżania w SCSS.",
+          "Kompilowanie SCSS do standardowego CSS dla zgodności przeglądarek.",
+          "Integracja SCSS w projektach frontendowych w celu poprawy stylizacji."
+        ]
+      },
+      {
+        "category": "TailwindCSS",
+        "list": [
+          "Efektywne wykorzystanie Tailwind CSS do zoptymalizowanego stylowania.",
+          "Pisanie zwięzłego i użytecznego CSS za pomocą Tailwind.",
+          "Używanie klas narzędziowych w celu przyspieszenia procesu stylizacji.",
+          "Integracja Tailwind CSS w projekty frontendowe dla szybkiego rozwoju."
+        ]
+      },
+      {
+        "category": "Bootstrap",
+        "list": [
+          "Wykorzystywanie Bootstrap do szybkiego projektowania responsywnych interfejsów użytkownika.",
+          "Korzystanie z gotowych komponentów i stylów Bootstrap dla efektywnego prototypowania.",
+          "Dostosowywanie komponentów Bootstrap do spełniania indywidualnych wymagań projektu.",
+          "Integracja Bootstrap z projektami frontendowymi dla zwiększenia szybkości rozwoju."
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "list": [
+          "Programowanie interaktywnych aplikacji internetowych.",
+          "Badanie zaawansowanych bibliotek i frameworków, takich jak React, celem wzbogacenia interaktywności aplikacji internetowych.",
+          "Programowanie asynchroniczne przy użyciu Promises i async/await.",
+          "Praca z modułami ES6 i zarządzanie zależnościami."
+        ]
+      },
+      {
+        "category": "TypeScript",
+        "list": [
+          "Rozwijanie bezpiecznych typów aplikacji JavaScript za pomocą TypeScript.",
+          "Tworzenie i korzystanie z interfejsów, typów i ogólników w TypeScript.",
+          "Transpilacja TypeScript do JavaScript dla zgodności przeglądarek.",
+          "Integracja TypeScript z popularnymi frameworkami frontendowymi, takimi jak React i Angular."
+        ]
+      },
+      {
+        "category": "React",
+        "list": [
+          "Budowanie nowoczesnych interfejsów użytkownika przy użyciu biblioteki React.",
+          "Zarządzanie stanem za pomocą React Hooks i Redux.",
+          "Routing za pomocą React Router.",
+          "Integracja z zewnętrznymi interfejsami API i komunikacja z serwerem."
+        ]
+      },
+      {
+        "category": "Next.js",
+        "list": [
+          "Budowanie wydajnych i zoptymalizowanych aplikacji React za pomocą Next.js.",
+          "Wykorzystywanie renderowania po stronie serwera (SSR) i generowania statycznych stron (SSG) dla szybszego ładowania stron.",
+          "Implementacja płynnych przejść między stronami i nawigacji po stronie klienta.",
+          "Całościowa integracja Next.js z React dla spójnego doświadczenia programistycznego."
+        ]
+      },
+      {
+        "category": "Firebase",
+        "list": [
+          "Użycie Firebase do skalowalnych i czasu rzeczywistego rozwiązań baz danych.",
+          "Implementacja uwierzytelniania i autoryzacji użytkowników za pomocą Firebase Authentication.",
+          "Integracja Firebase Cloud Firestore do efektywnego przechowywania i pobierania danych.",
+          "Wykorzystywanie Firebase Hosting do wdrażania i hostowania aplikacji internetowych."
+        ]
+      },
+      {
+        "category": "PHP",
+        "sub": "(Hypertext Preprocessor)",
+        "list": [
+          "Tworzenie dynamicznych stron internetowych i aplikacji internetowych.",
+          "Praca z bazami danych, w tym MySQL i PostgreSQL.",
+          "Rozwijanie backendów dla e-commerce, zarządzania treścią i innych aplikacji.",
+          "Zabezpieczanie aplikacji przed atakami takimi jak SQL Injection i XSS."
+        ]
+      },
+      {
+        "category": "Node.js",
+        "list": [
+          "Tworzenie serwerów i aplikacji backendowych w środowisku Node.js.",
+          "Używanie Express.js do tworzenia interfejsów API typu RESTful.",
+          "Praca z WebSockets i komunikacja w czasie rzeczywistym.",
+          "Efektywne zarządzanie zasobami za pomocą npm lub yarn."
+        ]
+      },
+      {
+        "category": "MongoDB",
+        "list": [
+          "Praca z bazami danych NoSQL, takimi jak MongoDB, do skalowalnego i elastycznego przechowywania danych.",
+          "Tworzenie i zapytywanie baz danych i kolekcji MongoDB.",
+          "Użycie Mongoose ODM dla Node.js do interakcji z MongoDB.",
+          "Projektowanie struktur danych bez schematu dla różnych aplikacji."
+        ]
+      },
+      {
+        "category": "MySQL",
+        "list": [
+          "Zarządzanie bazami danych relacyjnymi za pomocą MySQL.",
+          "Tworzenie i optymalizacja schematów baz danych i zapytań.",
+          "Integracja MySQL z aplikacjami backendowymi do przechowywania i pobierania danych.",
+          "Wdrażanie zabezpieczeń baz danych i optymalizacja wydajności."
+        ]
+      },
+      {
+        "category": "Git, GitHub",
+        "list": [
+          "Kontrola wersji kodu źródłowego za pomocą Git.",
+          "Tworzenie i łączenie kodu w gałęziach.",
+          "Rozwiązywanie konfliktów i stosowanie najlepszych praktyk w pracy zespołowej.",
+          "Tworzenie i zarządzanie repozytoriami na platformie GitHub."
+        ]
+      },
+      {
+        "category": "Visual Studio Code",
+        "list": [
+          "Efektywne korzystanie z Visual Studio Code jako edytora kodu.",
+          "Instalowanie i konfigurowanie rozszerzeń dla zwiększenia wydajności.",
+          "Dostosowywanie skrótów klawiszowych i ustawień dla spersonalizowanego środowiska programistycznego.",
+          "Wykorzystywanie funkcji debugowania i kontroli wersji w VS Code."
+        ]
+      }
+    ]
   },
-  "contact":{
+  "contact": {
     "heading": "Kontakt",
     "form": {
-        "yourName": "Twoje imię",
-        "yourEmail": "Twój adres e-mail",
-        "message": "Wiadomość"
+      "yourName": "Twoje imię",
+      "yourEmail": "Twój adres e-mail",
+      "message": "Wiadomość"
     }
   },
-  "projects":{
-    "placeholderText":"Szukaj projektu...",
+  "projects": {
+    "placeholderText": "Szukaj projektu...",
     "begiedzDeveloper": "Aktualna strona, na której się znajdujesz!",
     "Clouder": "Aplikacja pogodowa API.",
     "PHP Notes": "Aplikacja CRUD w PHP.",
@@ -271,7 +271,7 @@
     "Workout Buddy": "Aplikacja Fullstack MERN CRUD.",
     "Simple JS Stopwatch": "Stoper napisany w JavaScript. Interfejs inspirowany przez Apple."
   },
-  "footer":{
+  "footer": {
     "trademark": "© 2023 Dariusz Begiedza. Wszelkie prawa zastrzeżone.",
     "react": "Zrobione z wykorzystaniem React. Biblioteka do tworzenia interfejsów użytkownika webowych i natywnych.",
     "i18next": "Użyto i18next. Framework do międzynarodowych tłumaczeń napisany w JavaScript.",
@@ -283,4 +283,3 @@
     }
   }
 }
-  

@@ -1,11 +1,11 @@
 {
-  "header":{
+  "header": {
     "hello": "hallo, ",
     "name": "Ik ben Dariusz",
     "profession": "Beginnende Webontwikkelaar",
     "description": "Welkom in mijn hoekje van de digitale wereld! Ik ben een beginnende webontwikkelaar, gedreven door een passie voor het creëren van boeiende online ervaringen. Met een achtergrond in grafisch ontwerp en een nieuw ontdekte liefde voor coderen, streef ik ernaar visueel aantrekkelijke en functionele interfaces te ontwerpen die een blijvende indruk achterlaten. Ik sta klaar om samen te werken en op transformerende reizen te gaan om digitale dromen tot leven te brengen. Laten we samen wonderen creëren!"
   },
-  "navbar":{
+  "navbar": {
     "home": "Thuis",
     "about": "Over",
     "skills": "Vaardigheden",
@@ -13,9 +13,9 @@
     "resume": "Curriculum Vitae",
     "contact": "Contact"
   },
-  "about":{
-    "heading":"Welkom in mijn hoek van het digitale rijk!",
-    "article":[
+  "about": {
+    "heading": "Welkom in mijn hoek van het digitale rijk!",
+    "article": [
       {
         "paragraph": [
           "Laat me mezelf voorstellen — een beginnende webontwikkelaar gedreven door een ",
@@ -100,170 +100,170 @@
       }
     ]
   },
-  "skills":{
+  "skills": {
     "heading": "Mijn vaardigheden",
     "technologies": [
-        {
-          "category": "HTML",
-          "sub": " (Hypertext Markup Language)",
-          "list": [
-              "Het creëren van semantisch correcte webpagina's.",
-              "Omgaan met verschillende soorten elementen zoals koppen, lijsten, formulieren en multimedia.",
-              "Begrip van de betekenis van attributen en hun invloed op de paginestructuur.",
-              "Toepassing van moderne HTML5-standaarden, inclusief canvas- en video-elementen."
-          ]
-        },
-        {
-            "category": "CSS",
-            "sub": " (Cascading Style Sheets)",
-            "list": [
-                "Het ontwerpen van aantrekkelijke en responsieve gebruikersinterfaces.",
-                "Het creëren van animatie-effecten en overgangen met CSS3.",
-                "Het gebruik van CSS-preprocessors zoals SASS of LESS voor een verhoogde efficiëntie.",
-                "Begrip van de specificiteit van selectors en de cascade-aard van CSS-stijlen."
-            ]
-        },
-        {
-            "category": "SCSS",
-            "sub": " (Sassy CSS)",
-            "list": [
-                "Het gebruik van SCSS om meer onderhoudsvriendelijke en modulaire CSS-code te schrijven.",
-                "Het benutten van variabelen, mixins en nesten in SCSS.",
-                "Het compileren van SCSS naar standaard CSS voor browsercompatibiliteit.",
-                "Het integreren van SCSS in frontend-projecten voor verbeterde vormgeving."
-            ]
-        },
-        {
-          "category": "TailwindCSS",
-          "list": [
-              "Efficiënt gebruik van Tailwind CSS voor geoptimaliseerde styling.",
-              "Schrijven van beknopte en nuttige CSS met Tailwind.",
-              "Gebruik van hulpprogrammaklassen om het stylingproces te versnellen.",
-              "Integratie van Tailwind CSS in frontend-projecten voor snelle ontwikkeling."
-          ]
+      {
+        "category": "HTML",
+        "sub": " (Hypertext Markup Language)",
+        "list": [
+          "Het creëren van semantisch correcte webpagina's.",
+          "Omgaan met verschillende soorten elementen zoals koppen, lijsten, formulieren en multimedia.",
+          "Begrip van de betekenis van attributen en hun invloed op de paginestructuur.",
+          "Toepassing van moderne HTML5-standaarden, inclusief canvas- en video-elementen."
+        ]
+      },
+      {
+        "category": "CSS",
+        "sub": " (Cascading Style Sheets)",
+        "list": [
+          "Het ontwerpen van aantrekkelijke en responsieve gebruikersinterfaces.",
+          "Het creëren van animatie-effecten en overgangen met CSS3.",
+          "Het gebruik van CSS-preprocessors zoals SASS of LESS voor een verhoogde efficiëntie.",
+          "Begrip van de specificiteit van selectors en de cascade-aard van CSS-stijlen."
+        ]
+      },
+      {
+        "category": "SCSS",
+        "sub": " (Sassy CSS)",
+        "list": [
+          "Het gebruik van SCSS om meer onderhoudsvriendelijke en modulaire CSS-code te schrijven.",
+          "Het benutten van variabelen, mixins en nesten in SCSS.",
+          "Het compileren van SCSS naar standaard CSS voor browsercompatibiliteit.",
+          "Het integreren van SCSS in frontend-projecten voor verbeterde vormgeving."
+        ]
+      },
+      {
+        "category": "TailwindCSS",
+        "list": [
+          "Efficiënt gebruik van Tailwind CSS voor geoptimaliseerde styling.",
+          "Schrijven van beknopte en nuttige CSS met Tailwind.",
+          "Gebruik van hulpprogrammaklassen om het stylingproces te versnellen.",
+          "Integratie van Tailwind CSS in frontend-projecten voor snelle ontwikkeling."
+        ]
       },
       {
         "category": "Bootstrap",
         "list": [
-            "Gebruik van Bootstrap voor het snel ontwerpen van responsieve gebruikersinterfaces.",
-            "Gebruik van kant-en-klare Bootstrap-componenten en -stijlen voor efficiënt prototypen.",
-            "Aanpassen van Bootstrap-componenten om te voldoen aan individuele projectvereisten.",
-            "Integratie van Bootstrap in frontend-projecten voor een hogere ontwikkelingssnelheid."
+          "Gebruik van Bootstrap voor het snel ontwerpen van responsieve gebruikersinterfaces.",
+          "Gebruik van kant-en-klare Bootstrap-componenten en -stijlen voor efficiënt prototypen.",
+          "Aanpassen van Bootstrap-componenten om te voldoen aan individuele projectvereisten.",
+          "Integratie van Bootstrap in frontend-projecten voor een hogere ontwikkelingssnelheid."
         ]
-    },
-        {
-            "category": "JavaScript",
-            "list": [
-                "Het programmeren van interactieve webtoepassingen.",
-                "Het gebruik van bibliotheken en frameworks zoals jQuery of Vue.js.",
-                "Asynchroon programmeren met Promises en async/await.",
-                "Werken met ES6-modules en het beheren van afhankelijkheden."
-            ]
-        },
-        {
-            "category": "TypeScript",
-            "list": [
-                "Het ontwikkelen van typeveilige JavaScript-toepassingen met TypeScript.",
-                "Het maken en gebruiken van interfaces, typen en generieke typen in TypeScript.",
-                "Het transpileren van TypeScript naar JavaScript voor browsercompatibiliteit.",
-                "Het integreren van TypeScript met populaire frontend-frameworks zoals React en Angular."
-            ]
-        },
-        {
-            "category": "React",
-            "list": [
-                "Het bouwen van moderne gebruikersinterfaces met de React-bibliotheek.",
-                "Het beheren van de staat met behulp van React Hooks en Redux.",
-                "Routeren met React Router.",
-                "Het integreren met externe API's en servercommunicatie."
-            ]
-        },
- 
-      {
-          "category": "Next.js",
-          "list": [
-              "Bouwen van krachtige en geoptimaliseerde React-applicaties met Next.js.",
-              "Gebruik van server-side rendering (SSR) en static site generation (SSG) voor snellere paginalaadtijden.",
-              "Implementatie van soepele paginatransities en client-side navigatie.",
-              "Naadloze integratie van Next.js met React voor een samenhangende ontwikkelervaring."
-          ]
       },
       {
-          "category": "Firebase",
-          "list": [
-              "Gebruik van Firebase voor schaalbare en real-time databaseoplossingen.",
-              "Implementatie van gebruikersauthenticatie en -autorisatie met Firebase Authentication.",
-              "Integratie van Firebase Cloud Firestore voor efficiënte opslag en ophalen van gegevens.",
-              "Gebruik van Firebase Hosting voor implementatie en hosting van webapplicaties."
-          ]
+        "category": "JavaScript",
+        "list": [
+          "Het programmeren van interactieve webtoepassingen.",
+          "Het onderzoeken van geavanceerde bibliotheken en frameworks, zoals React, om de interactiviteit van webapplicaties te verbeteren.",
+          "Asynchroon programmeren met Promises en async/await.",
+          "Werken met ES6-modules en het beheren van afhankelijkheden."
+        ]
       },
-        {
-            "category": "PHP",
-            "sub": "(Hypertext Preprocessor)",
-            "list": [
-                "Het bouwen van dynamische webpagina's en webtoepassingen.",
-                "Werken met databases, waaronder MySQL en PostgreSQL.",
-                "Het ontwikkelen van back-ends voor e-commerce, contentbeheer en andere toepassingen.",
-                "Het beveiligen van toepassingen tegen aanvallen zoals SQL Injection en XSS."
-            ]
-        },
-        {
-            "category": "Node.js",
-            "list": [
-                "Het creëren van servers en backend-toepassingen in de Node.js-omgeving.",
-                "Het gebruik van Express.js voor het bouwen van RESTful API's.",
-                "Het werken met WebSockets en realtime communicatie.",
-                "Efficiënt beheer van resources met npm of yarn."
-            ]
-        },
-        {
-            "category": "MongoDB",
-            "list": [
-                "Het werken met NoSQL-databases zoals MongoDB voor schaalbare en flexibele gegevensopslag.",
-                "Het maken en bevragen van MongoDB-databases en -collecties.",
-                "Het gebruik van Mongoose ODM voor Node.js om te communiceren met MongoDB.",
-                "Het ontwerpen van schema-loze gegevensstructuren voor verschillende toepassingen."
-            ]
-        },
-        {
-            "category": "MySQL",
-            "list": [
-                "Het beheren van relationele databases met MySQL.",
-                "Het maken en optimaliseren van databaseschema's en query's.",
-                "Het integreren van MySQL met backend-toepassingen voor gegevensopslag en -opvraging.",
-                "Het implementeren van databasebeveiliging en prestatieoptimalisatie."
-            ]
-        },
-        {
-            "category": "Git, GitHub",
-            "list": [
-                "Versiebeheer van broncode met Git.",
-                "Branching en samenvoegen van code.",
-                "Oplossen van conflicten en toepassen van best practices in samenwerking.",
-                "Het maken en beheren van repositories op het GitHub-platform."
-            ]
-        },
-        {
-            "category": "Visual Studio Code",
-            "list": [
-                "Efficiënt gebruik van Visual Studio Code als code-editor.",
-                "Installeren en configureren van extensies voor verbeterde productiviteit.",
-                "Aanpassen van sneltoetsen en instellingen voor een gepersonaliseerde ontwikkelomgeving.",
-                "Gebruik maken van de debugging- en versiebeheerfuncties van VS Code."
-            ]
-        }
+      {
+        "category": "TypeScript",
+        "list": [
+          "Het ontwikkelen van typeveilige JavaScript-toepassingen met TypeScript.",
+          "Het maken en gebruiken van interfaces, typen en generieke typen in TypeScript.",
+          "Het transpileren van TypeScript naar JavaScript voor browsercompatibiliteit.",
+          "Het integreren van TypeScript met populaire frontend-frameworks zoals React en Angular."
+        ]
+      },
+      {
+        "category": "React",
+        "list": [
+          "Het bouwen van moderne gebruikersinterfaces met de React-bibliotheek.",
+          "Het beheren van de staat met behulp van React Hooks en Redux.",
+          "Routeren met React Router.",
+          "Het integreren met externe API's en servercommunicatie."
+        ]
+      },
+
+      {
+        "category": "Next.js",
+        "list": [
+          "Bouwen van krachtige en geoptimaliseerde React-applicaties met Next.js.",
+          "Gebruik van server-side rendering (SSR) en static site generation (SSG) voor snellere paginalaadtijden.",
+          "Implementatie van soepele paginatransities en client-side navigatie.",
+          "Naadloze integratie van Next.js met React voor een samenhangende ontwikkelervaring."
+        ]
+      },
+      {
+        "category": "Firebase",
+        "list": [
+          "Gebruik van Firebase voor schaalbare en real-time databaseoplossingen.",
+          "Implementatie van gebruikersauthenticatie en -autorisatie met Firebase Authentication.",
+          "Integratie van Firebase Cloud Firestore voor efficiënte opslag en ophalen van gegevens.",
+          "Gebruik van Firebase Hosting voor implementatie en hosting van webapplicaties."
+        ]
+      },
+      {
+        "category": "PHP",
+        "sub": "(Hypertext Preprocessor)",
+        "list": [
+          "Het bouwen van dynamische webpagina's en webtoepassingen.",
+          "Werken met databases, waaronder MySQL en PostgreSQL.",
+          "Het ontwikkelen van back-ends voor e-commerce, contentbeheer en andere toepassingen.",
+          "Het beveiligen van toepassingen tegen aanvallen zoals SQL Injection en XSS."
+        ]
+      },
+      {
+        "category": "Node.js",
+        "list": [
+          "Het creëren van servers en backend-toepassingen in de Node.js-omgeving.",
+          "Het gebruik van Express.js voor het bouwen van RESTful API's.",
+          "Het werken met WebSockets en realtime communicatie.",
+          "Efficiënt beheer van resources met npm of yarn."
+        ]
+      },
+      {
+        "category": "MongoDB",
+        "list": [
+          "Het werken met NoSQL-databases zoals MongoDB voor schaalbare en flexibele gegevensopslag.",
+          "Het maken en bevragen van MongoDB-databases en -collecties.",
+          "Het gebruik van Mongoose ODM voor Node.js om te communiceren met MongoDB.",
+          "Het ontwerpen van schema-loze gegevensstructuren voor verschillende toepassingen."
+        ]
+      },
+      {
+        "category": "MySQL",
+        "list": [
+          "Het beheren van relationele databases met MySQL.",
+          "Het maken en optimaliseren van databaseschema's en query's.",
+          "Het integreren van MySQL met backend-toepassingen voor gegevensopslag en -opvraging.",
+          "Het implementeren van databasebeveiliging en prestatieoptimalisatie."
+        ]
+      },
+      {
+        "category": "Git, GitHub",
+        "list": [
+          "Versiebeheer van broncode met Git.",
+          "Branching en samenvoegen van code.",
+          "Oplossen van conflicten en toepassen van best practices in samenwerking.",
+          "Het maken en beheren van repositories op het GitHub-platform."
+        ]
+      },
+      {
+        "category": "Visual Studio Code",
+        "list": [
+          "Efficiënt gebruik van Visual Studio Code als code-editor.",
+          "Installeren en configureren van extensies voor verbeterde productiviteit.",
+          "Aanpassen van sneltoetsen en instellingen voor een gepersonaliseerde ontwikkelomgeving.",
+          "Gebruik maken van de debugging- en versiebeheerfuncties van VS Code."
+        ]
+      }
     ]
   },
-  "contact":{
+  "contact": {
     "heading": "Contact",
     "form": {
-        "yourName": "Je naam",
-        "yourEmail": "Je e-mailadres",
-        "message": "Bericht"
+      "yourName": "Je naam",
+      "yourEmail": "Je e-mailadres",
+      "message": "Bericht"
     }
   },
-  "projects":{
-    "placeholderText":"Zoek naar project...",
+  "projects": {
+    "placeholderText": "Zoek naar project...",
     "begiedzDeveloper": "De huidige pagina waarop je je bevindt!",
     "Clouder": "API Weer App.",
     "PHP Notes": "CRUD PHP App.",
@@ -272,7 +272,7 @@
     "Workout Buddy": "Fullstack MERN CRUD App.",
     "Simple JS Stopwatch": "Stopwatch gemaakt in JavaScript. UI geïnspireerd door Apple."
   },
-  "footer":{
+  "footer": {
     "trademark": "© 2023 Dariusz Begiedza. Alle rechten voorbehouden.",
     "react": "Gemaakt met React. De bibliotheek voor web- en native gebruikersinterfaces.",
     "i18next": "Gebruikte i18next. Een internationaliseringsframework geschreven in en voor JavaScript.",
