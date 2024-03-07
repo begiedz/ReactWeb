@@ -3,22 +3,29 @@
 
 nav {
   position: sticky;
-  top: 0;
+  top: 0.5rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   padding: 0 20px;
-  width: 100vw;
+  width: 95vw;
   height: 4rem;
   backdrop-filter: blur(5px);
-  background-color: var(--bg-trans04);
+  // background-color: var(--bg-trans04);
 
-  color: var(--text-color);
-  fill: var(--text-color);
+  // color: var(--bg-color);
+  // fill: var(--bg-color);
 
-  border-bottom: 1px solid var(--border-color-transparent);
+  color: white;
+  fill: white;
+
+  background-color: black;
+
+  border-radius: 1rem;
+
+  border: 1px solid var(--white-transparent02);
 
   z-index: 3;
 
@@ -28,6 +35,7 @@ nav {
   }
 
   .logoWrapper {
+    color: inherit;
     display: flex;
     align-items: center;
     gap: 0.6rem;
@@ -41,11 +49,13 @@ nav {
     font-size: 1.5rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     .lightfont {
+      color: inherit;
       font-weight: 300;
     }
   }
   ul {
     display: flex;
+    color: inherit;
     list-style: none;
     gap: 1rem;
 
@@ -53,10 +63,11 @@ nav {
 
     @include mixins.tablet {
       position: absolute;
-      top: -350px;
+      top: -20rem;
 
       padding: 2rem;
-      width: 100vw;
+      width: 95vw;
+      border-radius: 1rem;
       background-color: inherit;
       flex-direction: column;
       align-items: flex-start;
@@ -66,7 +77,7 @@ nav {
       backdrop-filter: blur(5px);
       opacity: 0;
 
-      border-bottom: 1px solid var(--border-color-transparent);
+      border: 1px solid var(--white-transparent02);
 
       z-index: -1;
     }
@@ -75,6 +86,7 @@ nav {
       align-items: center;
       text-align: center;
       border-radius: 5px;
+      color: inherit;
 
       a,
       a:visited {
@@ -88,15 +100,15 @@ nav {
       }
       a:hover,
       a:hover:visited {
-        background-color: var(--border-color-transparent);
+        background-color: var(--white-transparent02);
       }
     }
     li.active {
-      background-color: var(--border-color-transparent);
+      background-color: var(--white-transparent02);
     }
   }
   ul.active {
-    top: 64px;
+    top: 5rem;
     opacity: 1;
   }
   button {
@@ -109,7 +121,7 @@ nav {
     border: none;
     border-radius: 5px;
 
-    border: 1px solid var(--border-color-transparent);
+    border: 1px solid var(--white-transparent02);
 
     cursor: pointer;
     transition: background-color 300ms;
@@ -119,7 +131,7 @@ nav {
       display: flex;
     }
     svg {
-      fill: var(--text-color);
+      fill: white;
       height: 25px;
       width: auto;
     }
@@ -129,7 +141,7 @@ nav {
 
     select {
       font-size: 1.3rem;
-      background-color: var(--bg-color);
+      background-color: black;
       padding: 0 8px;
       border-radius: 5px;
       border: none;
@@ -137,7 +149,7 @@ nav {
   }
 
   button:hover {
-    background-color: var(--border-color-transparent);
+    background-color: var(--white-transparent02);
   }
   #bgdzLogo {
     fill: inherit;
@@ -146,7 +158,7 @@ nav {
 }
 
 .chromeBackground {
-  background-color: #fcfcfc;
+  background-color: black;
   @media (prefers-color-scheme: dark) {
     background-color: black;
   }
