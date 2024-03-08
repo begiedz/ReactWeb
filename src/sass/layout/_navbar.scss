@@ -63,7 +63,7 @@ nav {
 
     @include mixins.tablet {
       position: absolute;
-      top: -20rem;
+      top: -26rem;
 
       padding: 2rem;
       width: 95vw;
@@ -73,7 +73,7 @@ nav {
       align-items: flex-start;
       font-size: 1.5rem;
 
-      transition: top 200ms ease-out, opacity 400ms ease-out;
+      transition: top 250ms ease-out, opacity 500ms ease-out;
       backdrop-filter: blur(5px);
       opacity: 0;
 
@@ -154,12 +154,5 @@ nav {
   #bgdzLogo {
     fill: inherit;
     height: 35px;
-  }
-}
-
-.chromeBackground {
-  background-color: black;
-  @media (prefers-color-scheme: dark) {
-    background-color: black;
   }
 }
