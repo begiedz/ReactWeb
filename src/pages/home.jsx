@@ -9,8 +9,9 @@ const Home = () => {
     return (
         <header>
             <div className="underlay reveal" style={{ animationDelay: 200 + 'ms' }}>
-                <svg id="bgdzLogo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.06 250">
-                    <polygon points="80.24 46.83 42.52 85.07 42.52 0 0 0 0 169.23 42.52 211.75 42.52 85.1 106.06 148.22 42.52 211.75 80.25 250 182.06 148.2 80.24 46.83" />
+                <svg id="bgdzLogo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177.82 250">
+                    <path d="M87.15,77.45l-27.29,27.67,31.77,31.41c7.14,7.09,7.16,18.64,.04,25.75l-54.66,54.65,27.26,27.64c7.09,7.18,18.67,7.22,25.8,.09l82.42-82.42c7.11-7.11,7.1-18.65-.03-25.74l-59.54-59.18c-7.14-7.11-18.7-7.06-25.77,.12Z" />
+                    <path d="M45.24,52.56V225.17L5.31,185.25c-3.4-3.4-5.31-8.02-5.31-12.83V0H.21L39.92,39.7c3.41,3.41,5.33,8.03,5.33,12.86Z" />
                 </svg>
             </div>
             <div className="boxShadow"></div>
