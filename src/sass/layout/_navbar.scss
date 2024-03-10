@@ -25,7 +25,9 @@ nav {
 
   border-radius: 1rem;
 
-  border: 1px solid var(--white-transparent02);
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid var(--white-transparent02);
+  }
 
   z-index: 3;
 
@@ -39,18 +41,22 @@ nav {
     display: flex;
     align-items: center;
     gap: 0.6rem;
+
+    text-decoration: none;
+
     @include mixins.tablet {
       align-self: flex-start;
     }
   }
   span.logo {
     color: inherit;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 1.5rem;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+
     .lightfont {
       color: inherit;
-      font-weight: 300;
+      font-weight: 500;
     }
   }
   ul {
@@ -144,7 +150,7 @@ nav {
       background-color: black;
       padding: 0 8px;
       border-radius: 5px;
-      border: none;
+      border: 1px solid var(--white-transparent02);
     }
   }
 

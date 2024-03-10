@@ -10,8 +10,7 @@ const Home = () => {
         <header>
             <div className="underlay reveal" style={{ animationDelay: 200 + 'ms' }}>
                 <svg id="bgdzLogo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177.82 250">
-                    <path d="M87.15,77.45l-27.29,27.67,31.77,31.41c7.14,7.09,7.16,18.64,.04,25.75l-54.66,54.65,27.26,27.64c7.09,7.18,18.67,7.22,25.8,.09l82.42-82.42c7.11-7.11,7.1-18.65-.03-25.74l-59.54-59.18c-7.14-7.11-18.7-7.06-25.77,.12Z" />
-                    <path d="M45.24,52.56V225.17L5.31,185.25c-3.4-3.4-5.31-8.02-5.31-12.83V0H.21L39.92,39.7c3.41,3.41,5.33,8.03,5.33,12.86Z" />
+                    <path d="M172.5,162.26l-82.43,82.42c-7.13,7.13-18.71,7.09-25.8-.09l-27.26-27.64-31.7-31.7C1.91,181.85,0,177.23,0,172.42V0H.21L39.92,39.71c3.41,3.41,5.32,8.03,5.32,12.85V208.72l46.43-46.42c7.12-7.12,7.1-18.66-.04-25.76l-31.77-31.41,27.29-27.67c7.08-7.17,18.64-7.23,25.78-.12l59.54,59.18c7.13,7.1,7.14,18.63,.03,25.74Z" />
                 </svg>
             </div>
             <div className="boxShadow"></div>
@@ -40,7 +39,7 @@ const Home = () => {
 
                 </ul>
             </div >
-            <img src={bgdzImg} alt="begiedz image" className='reveal' style={{ animationDelay: 1200 + 'ms' }} />
+            <img src={bgdzImg} alt="Dariusz Begiedza" className='reveal' style={{ animationDelay: 1200 + 'ms' }} />
 
         </header>
     );

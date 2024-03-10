@@ -8,12 +8,18 @@ footer {
 
   gap: 1rem;
 
-  width: 100vw;
+  width: 95vw;
+  border-radius: 1rem;
   min-height: 115px;
   padding: 20px;
+  margin-bottom: 0.5rem;
   font-size: 12px;
 
   background-color: var(--black);
+
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid var(--white-transparent02);
+  }
 
   @include mixins.mobile {
     flex-direction: column;
