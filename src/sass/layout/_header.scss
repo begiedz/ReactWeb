@@ -97,20 +97,20 @@ header {
   }
   .underlay {
     position: absolute;
-    top: -200px;
-    left: 15%;
-    @include mixins.mobile {
-      left: 15%;
-      top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../../../public/bD24_pattern.svg');
+    @media (prefers-color-scheme: dark) {
+      background-image: url('../../../public/bD24_pattern_white.svg');
     }
 
-    svg {
-      fill: var(--overlay-color);
-      height: 1200px;
-      @include mixins.mobile {
-        height: 600px;
-      }
-    }
+    background-repeat: space round;
+    background-size: 4rem;
+
+    filter: opacity(0.1);
   }
 }
 .boxShadow {
