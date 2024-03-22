@@ -1,44 +1,44 @@
 [
-    {
-        "appName": "begiedzDeveloper",
-        "technologies": ["js", "react"],
-        "imgPath": "../images/begiedzDeveloper.png",
-        "githubURL":"https://github.com/begiedz/reactWeb"
-    },
-    {
-        "appName": "Clouder",
-        "technologies": ["js", "ts", "react"],
-        "imgPath": "../images/clouder.png",
-        "githubURL":"https://github.com/begiedz/Clouder-WeatherApp"
-    },
-    {
-        "appName": "PHP Notes",
-        "technologies": ["php", "mysql"],
-        "imgPath": "../images/phpnotes.png",
-        "githubURL":"https://github.com/begiedz/php-notes"
-    },
-    {
-        "appName": "React Chat",
-        "technologies": ["js", "react", "firebase"],
-        "imgPath": "../images/reactchat.png",
-        "githubURL":"https://github.com/begiedz/ReactChat"
-    },
-    {
-        "appName": "NodeJS Blog",
-        "technologies": ["js", "node.js", "express"],
-        "imgPath": "../images/nodejsblog.png",
-        "githubURL":"https://github.com/begiedz/Blog-nodeJS"
-    },
-    {
-        "appName": "Workout Buddy",
-        "technologies": ["js", "react", "node.js", "mongodb"],
-        "imgPath": "../images/workoutbuddy.png",
-        "githubURL":"https://github.com/begiedz/Fullstack-MERN-App"
-    },
-    {
-        "appName": "Simple JS Stopwatch",
-        "technologies": ["js"],
-        "imgPath": "images/stopwatch.png",
-        "githubURL":"https://github.com/begiedz/stopwatchApp"
-    }
+  {
+    "appName": "begiedzDeveloper",
+    "technologies": ["js", "react"],
+    "imgPath": "../images/begiedzDeveloper.jpeg",
+    "githubURL": "https://github.com/begiedz/reactWeb"
+  },
+  {
+    "appName": "Clouder",
+    "technologies": ["js", "ts", "react"],
+    "imgPath": "../images/clouder.jpeg",
+    "githubURL": "https://github.com/begiedz/Clouder-WeatherApp"
+  },
+  {
+    "appName": "PHP Notes",
+    "technologies": ["php", "mysql"],
+    "imgPath": "../images/phpnotes.jpeg",
+    "githubURL": "https://github.com/begiedz/php-notes"
+  },
+  {
+    "appName": "React Chat",
+    "technologies": ["js", "react", "firebase"],
+    "imgPath": "../images/reactchat.jpeg",
+    "githubURL": "https://github.com/begiedz/ReactChat"
+  },
+  {
+    "appName": "NodeJS Blog",
+    "technologies": ["js", "node.js", "express"],
+    "imgPath": "../images/nodejsblog.jpeg",
+    "githubURL": "https://github.com/begiedz/Blog-nodeJS"
+  },
+  {
+    "appName": "Workout Buddy",
+    "technologies": ["js", "react", "node.js", "mongodb"],
+    "imgPath": "../images/workoutbuddy.jpeg",
+    "githubURL": "https://github.com/begiedz/Fullstack-MERN-App"
+  },
+  {
+    "appName": "Simple JS Stopwatch",
+    "technologies": ["js"],
+    "imgPath": "images/stopwatch.jpeg",
+    "githubURL": "https://github.com/begiedz/stopwatchApp"
+  }
 ]
