@@ -264,14 +264,15 @@
     }
   },
   "projects": {
-    "placeholderText": "Search for project...",
-    "begiedzDeveloper": "The actual page you are on!",
-    "Clouder": "API Weather App.",
-    "PHP Notes": "CRUD PHP App.",
-    "React Chat": "Chat app using SaaS Firebase + React.",
-    "NodeJS Blog": "CRUD NodeJS App.",
-    "Workout Buddy": "Fullstack MERN CRUD App.",
-    "Simple JS Stopwatch": "Stopwatch made in JavaScript. UI inspired by Apple."
+    "placeholderText": "Search project...",
+    "begiedzDeveloper": "Current page you're on!",
+    "Clouder": "Weather forecast application. Weather API from openweathermap.",
+    "Currency Calculator": "Mobile and web application. Currency exchange rates API from exchangerate-api.",
+    "PHP Notes": "CRUD application in PHP.",
+    "React Chat": "Chat application using Firebase and React.",
+    "NodeJS Blog": "CRUD application in NodeJS.",
+    "Workout Buddy": "Fullstack MERN CRUD application.",
+    "Simple JS Stopwatch": "Stopwatch written in JavaScript. Interface inspired by Apple."
   },
   "footer": {
     "trademark": "© 2024 Dariusz Begiedza. All rights reserved.",

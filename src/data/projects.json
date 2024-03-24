@@ -6,8 +6,14 @@
     "githubURL": "https://github.com/begiedz/reactWeb"
   },
   {
+    "appName": "Currency Calculator",
+    "technologies": ["ts", "react"],
+    "imgPath": "../images/currency-calc.jpeg",
+    "githubURL": "https://github.com/begiedz/currency-calculator"
+  },
+  {
     "appName": "Clouder",
-    "technologies": ["js", "ts", "react"],
+    "technologies": ["ts", "react"],
     "imgPath": "../images/clouder.jpeg",
     "githubURL": "https://github.com/begiedz/Clouder-WeatherApp"
   },
