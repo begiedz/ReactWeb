@@ -1,6 +1,7 @@
 import React from 'react';
 
-const technologies = ['All', 'js', 'react', 'node.js', 'php'];
+// List of available filter button technologies
+const technologies = ['all', 'js', 'ts', 'react', 'react native', 'node.js', 'php'];
 
 const FilterButtons = ({ selectedTechnology, onFilterChange }) => {
   return (
@@ -11,7 +12,9 @@ const FilterButtons = ({ selectedTechnology, onFilterChange }) => {
           onClick={() => onFilterChange(tech)}
           className={tech === selectedTechnology ? 'active' : ''}
         >
-          {tech[0].toUpperCase() + tech.substring(1)}
+          {tech.includes(' ') ? tech.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ') :
+            (tech.length === 2 || tech === 'php' ? tech.toUpperCase() :
+              tech[0].toUpperCase() + tech.substring(1))}
         </button>
       ))}
     </div>

@@ -40,7 +40,7 @@ main.myWork {
     margin-bottom: 2rem;
     max-width: variables.$mobile;
     button {
-      width: 60px;
+      min-width: 60px;
       padding: 0.5rem;
       font-size: 12px;
 

@@ -4,7 +4,7 @@ import FilterButtons from '../components/FilterButtons';
 import { useTranslation } from 'react-i18next';
 
 const MyWork = () => {
-    const [selectedTechnology, setSelectedTechnology] = useState('All');
+    const [selectedTechnology, setSelectedTechnology] = useState('all');
     const [searchText, setSearchText] = useState('');
 
     const handleFilterChange = (tech) => {

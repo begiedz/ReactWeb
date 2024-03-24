@@ -7,7 +7,7 @@
   },
   {
     "appName": "Currency Calculator",
-    "technologies": ["ts", "react"],
+    "technologies": ["ts", "react native"],
     "imgPath": "../images/currency-calc.jpeg",
     "githubURL": "https://github.com/begiedz/currency-calculator"
   },
@@ -19,7 +19,7 @@
   },
   {
     "appName": "PHP Notes",
-    "technologies": ["php", "mysql"],
+    "technologies": ["php", "MySQL"],
     "imgPath": "../images/phpnotes.jpeg",
     "githubURL": "https://github.com/begiedz/php-notes"
   },
@@ -37,7 +37,7 @@
   },
   {
     "appName": "Workout Buddy",
-    "technologies": ["js", "react", "node.js", "mongodb"],
+    "technologies": ["js", "react", "node.js", "mongoDB"],
     "imgPath": "../images/workoutbuddy.jpeg",
     "githubURL": "https://github.com/begiedz/Fullstack-MERN-App"
   },
