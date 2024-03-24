@@ -259,7 +259,8 @@
     "form": {
       "yourName": "Je naam",
       "yourEmail": "Je e-mailadres",
-      "message": "Bericht"
+      "message": "Bericht",
+      "send": "Verzenden"
     }
   },
   "projects": {

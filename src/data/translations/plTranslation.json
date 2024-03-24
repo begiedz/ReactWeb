@@ -258,7 +258,8 @@
     "form": {
       "yourName": "Twoje imię",
       "yourEmail": "Twój adres e-mail",
-      "message": "Wiadomość"
+      "message": "Wiadomość",
+      "send": "Wyślij"
     }
   },
   "projects": {

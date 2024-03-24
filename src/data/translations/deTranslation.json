@@ -259,7 +259,8 @@
     "form": {
       "yourName": "Dein Name",
       "yourEmail": "Deine E-Mail",
-      "message": "Nachricht"
+      "message": "Nachricht",
+      "send": "Senden"
     }
   },
   "projects": {

@@ -1,0 +1,41 @@
+@keyframes notification {
+  0% {
+    top: 2.5rem;
+  }
+  25% {
+    top: 7rem;
+  }
+  75% {
+    top: 7rem;
+  }
+  100% {
+    top: 2.5rem;
+  }
+}
+
+.notification {
+  position: fixed;
+  top: 2.5rem;
+  // top: 7rem;
+  left: 50%;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transform: translate(-50%, -50%);
+
+  padding: 0.2rem 0.8rem;
+
+  background-color: rgb(134, 255, 134);
+  border-radius: 1rem;
+  border: 2px solid rgb(105, 202, 105);
+
+  font-weight: bold;
+
+  transition: top 250ms ease-out;
+
+  animation-name: notification;
+  animation-fill-mode: forwards;
+  // animation-delay: 1s;
+  animation-duration: 3s;
+}

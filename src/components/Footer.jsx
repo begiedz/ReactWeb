@@ -14,15 +14,15 @@ const Footer = () => {
                 {t('footer.contact.heading')}
                 <li>
                     {t('footer.contact.phone')}
-                    <a href="tel:+48782041173">+48 782 041 173</a>
+                    <a href="tel:+48782041173">{process.env.REACT_APP_TELEPHONE_NUMBER}</a>
                 </li>
                 <li>
                     {t('footer.contact.discord')}
-                    <a href="https://discordapp.com/users/689833947995046039">begiedz#5194</a>
+                    <a href={`https://discordapp.com/users/${process.env.REACT_APP_DISCORD_LINK}`} target='_blank'>{process.env.REACT_APP_DISCORD}</a>
                 </li>
                 <li>
                     {t('footer.contact.email')}
-                    <a href="mailto:begiedz.developer@gmail.com">begiedz.developer@gmail.com</a>
+                    <a href={`mailto:${process.env.REACT_APP_EMAIL}`}>{process.env.REACT_APP_EMAIL}</a>
                 </li>
             </ul>
         </footer>
