@@ -9,7 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Skills page
 - My Work portfolio page with filtering and searchbar
 - Contact page with filling form
-
 - Navbar with router links
 - Footer with contact links
 

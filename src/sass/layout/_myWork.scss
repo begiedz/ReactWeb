@@ -36,9 +36,10 @@ main.myWork {
     justify-content: space-around;
     align-self: center;
     gap: 1rem;
+    flex-wrap: wrap;
 
     margin-bottom: 2rem;
-    max-width: variables.$mobile;
+    max-width: variables.$tablet;
     button {
       min-width: 60px;
       padding: 0.5rem;
@@ -75,7 +76,7 @@ main.myWork {
         width: 100%;
       }
       .card {
-        position: relative;
+        // position: relative;
 
         display: flex;
         flex-direction: column;
