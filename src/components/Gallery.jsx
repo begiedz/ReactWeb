@@ -27,7 +27,7 @@ const Gallery = ({ selectedTechnology, searchText }) => {
         <a href={project.githubURL} key={index}>
           <div className='card'>
             <img src={project.imgPath} alt={project.appName} />
-            <h3>{project.appName}</h3>
+            <h2>{project.appName}</h2>
             <p>{t(`projects.${project.appName}`)}</p>
             <ul>
               {project.technologies.map((technology, index) => (

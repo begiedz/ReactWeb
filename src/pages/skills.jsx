@@ -65,13 +65,13 @@ const Skills = () => {
                             <div className="underlay"><SkillIcon category={skill.category} /></div>
                             <h2>
                                 <SkillIcon category={skill.category} />
-                                <span>
+                                <div>
                                     {skill.category}
                                     {skill.sub &&
-                                        <span className='light-font'>
+                                        <div className='light-font'>
                                             {skill.sub}
-                                        </span>}
-                                </span>
+                                        </div>}
+                                </div>
                             </h2>
 
                             <ul>

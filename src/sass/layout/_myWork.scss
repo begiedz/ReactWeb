@@ -114,15 +114,24 @@ main.myWork {
 
           padding-right: 1rem;
           padding-left: 1rem;
-          filter: grayscale(50%);
+          filter: grayscale(50%) opacity(85%);
           border-bottom: 1px solid var(--border-color);
           transition: filter ease-out 200ms;
+
+          @include mixins.mobile {
+            width: 250px;
+          }
         }
 
-        h3 {
+        h2 {
+          font-size: 1.3em;
           margin-top: 0.5rem;
           color: var(--text-color-secondary);
           transition: color ease-out 200ms;
+
+          @include mixins.mobile {
+            font-size: 1.5em;
+          }
         }
         p {
           font-size: 14px;
@@ -135,7 +144,13 @@ main.myWork {
 
           display: flex;
           flex-wrap: wrap;
-          gap: 1rem;
+          column-gap: 1.5rem;
+          row-gap: 0.5rem;
+
+          width: 100%;
+
+          border-top: 1px solid var(--border-color);
+          padding-top: 0.5rem;
 
           li {
             font-size: 12px;
@@ -148,25 +163,27 @@ main.myWork {
         }
       }
     }
-    .card:hover {
-      transform: translate(0, -5%);
-      background-color: var(--card-bg);
-      border: 1px solid var(--bg-color-secondary);
-      h3 {
-        color: var(--text-color);
-      }
-      p {
-        color: var(--text-color-secondary);
-      }
-      ul li {
-        color: var(--text-color-secondary);
-      }
-      img {
-        filter: grayscale(0%);
-        border-bottom: 1px solid var(--bg-color-secondary);
-      }
-      @include mixins.mobile {
-        transform: translate(0, 0);
+    @include mixins.beyond-mobile {
+      .card:hover {
+        transform: translate(0, -5%);
+        background-color: var(--card-bg);
+        border: 1px solid var(--bg-color-secondary);
+        h3 {
+          color: var(--text-color);
+        }
+        p {
+          color: var(--text-color-secondary);
+        }
+        ul {
+          border-top: 1px solid var(--bg-color-secondary);
+        }
+        li {
+          color: var(--text-color-secondary);
+        }
+        img {
+          filter: grayscale(0%) opacity(100%);
+          border-bottom: 1px solid var(--bg-color-secondary);
+        }
       }
     }
   }
