@@ -52,6 +52,14 @@ const Contact = () => {
     };
 
     const { t } = useTranslation()
+
+    const formFields = [
+        { type: "text", name: "user_name", placeholder: "contact.form.yourName" },
+        { type: "email", name: "user_email", placeholder: "contact.form.yourEmail" },
+        { type: "textarea", name: "message", placeholder: "contact.form.message" },
+        { type: "submit", value: "contact.form.send" }
+    ];
+
     return (
         <main className="contact">
             <h1>{t('contact.heading')}</h1>
@@ -62,27 +70,36 @@ const Contact = () => {
                 />}
 
             <form ref={form} onSubmit={sendEmail}>
-                <input
-                    type="text"
-                    name="user_name"
-                    placeholder={t('contact.form.yourName')}
-                    onChange={(e) => {
-                        setUserName(e.target.value);
-                    }} />
-                <input
-                    type="email"
-                    name="user_email"
-                    placeholder={t('contact.form.yourEmail')}
-                    onChange={(e) => {
-                        setUserEmail(e.target.value);
-                    }} />
-                <textarea
-                    name="message"
-                    placeholder={t('contact.form.message')}
-                    onChange={(e) => {
-                        setMessage(e.target.value);
-                    }} />
-                <input type="submit" value={t('contact.form.send')} />
+                {formFields.map((field, index) => {
+                    if (field.type === 'textarea') {
+                        return (
+                            <textarea
+                                key={index}
+                                name={field.name}
+                                placeholder={t(field.placeholder)}
+                                onChange={(e) => {
+                                    setMessage(e.target.value);
+                                }}
+                                className="reveal"
+                                style={{ animationDelay: index * 200 + "ms" }}
+                            />)
+
+                    } else {
+                        return (
+                            <input
+                                key={index}
+                                type={field.type}
+                                name={field.name && field.name}
+                                placeholder={field.placeholder && t(field.placeholder)}
+                                value={field.value && t(field.value)}
+                                onChange={(e) => {
+                                    if (field.name === "user_name") setUserName(e.target.value)
+                                    else if (field.name === "user_email") setUserName(e.target.value)
+                                }}
+                                className="reveal"
+                                style={{ animationDelay: index * 200 + "ms" }} />)
+                    }
+                })}
             </form>
         </main>
     );

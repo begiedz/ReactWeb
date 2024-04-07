@@ -25,7 +25,9 @@ const Gallery = ({ selectedTechnology, searchText }) => {
     <div className="gallery">
       {filteredProjects.map((project, index) => (
         <a href={project.githubURL} key={index}>
-          <div className='card'>
+          <div
+            className='card reveal'
+            style={{ animationDelay: index * 200 + 'ms' }}>
             <img src={project.imgPath} alt={project.appName} />
             <h2>{project.appName}</h2>
             <p>{t(`projects.${project.appName}`)}</p>

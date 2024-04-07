@@ -120,6 +120,7 @@ main.myWork {
 
           @include mixins.mobile {
             width: 250px;
+            filter: grayscale(0%) opacity(100%);
           }
         }
 
@@ -168,7 +169,12 @@ main.myWork {
         transform: translate(0, -5%);
         background-color: var(--card-bg);
         border: 1px solid var(--bg-color-secondary);
-        h3 {
+
+        // animation: none;
+        // animation-fill-mode: none;
+        // animation-play-state: paused;
+        // opacity: 1;
+        h2 {
           color: var(--text-color);
         }
         p {
