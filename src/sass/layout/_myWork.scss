@@ -40,6 +40,7 @@ main.myWork {
 
     margin-bottom: 2rem;
     max-width: variables.$tablet;
+
     button {
       min-width: 60px;
       padding: 0.5rem;
@@ -69,126 +70,136 @@ main.myWork {
     flex-wrap: wrap;
     gap: 1rem;
 
-    a {
-      text-decoration: none;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      gap: 0.5rem;
+
+      min-height: 300px;
+
+      padding: 1rem;
+      width: 232px;
+
+      background-color: var(--card-bg);
+      border-radius: 0.25rem;
+
+      box-shadow: 0px 0px 8px transparent;
+      border: 1px solid var(--border-color);
+
+      aspect-ratio: 3/4;
+      overflow: hidden;
+
+      transition: transform ease-out 200ms, color ease-out 200ms, border ease-out 200ms,
+        background-color 200ms, box-shadow ease-out 200ms;
 
       @include mixins.mobile {
         width: 100%;
       }
-      .card {
-        // position: relative;
 
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
+      img {
+        width: 200px;
+        aspect-ratio: 2/1;
+        object-fit: cover;
+        object-position: top;
+        align-self: center;
 
-        gap: 0.5rem;
-
-        padding: 1.5rem;
-        min-height: 300px;
-        width: 232px;
-
-        // transform-origin: bottom;
-
-        background-color: var(--bg-color);
-        border-radius: 0.25rem;
-
-        box-shadow: 0px 0px 8px transparent;
-        border: 1px solid var(--border-color);
-        cursor: pointer;
-
-        transition: transform ease-out 200ms, color ease-out 200ms, border ease-out 200ms,
-          background-color 200ms, box-shadow ease-out 200ms;
+        filter: grayscale(20%) opacity(85%);
+        border-bottom: 1px solid var(--border-color);
+        transition: filter ease-out 200ms;
 
         @include mixins.mobile {
-          width: 100%;
+          width: 90%;
         }
+      }
 
-        img {
-          width: 200px;
-          aspect-ratio: 2/1;
-          object-fit: cover;
-          object-position: top;
-          align-self: center;
+      h2 {
+        font-size: 1.3em;
+        margin-top: 0.5rem;
+        color: var(--text-color);
 
-          padding-right: 1rem;
-          padding-left: 1rem;
-          filter: grayscale(50%) opacity(85%);
-          border-bottom: 1px solid var(--border-color);
-          transition: filter ease-out 200ms;
+        transition: color ease-out 200ms;
 
-          @include mixins.mobile {
-            width: 250px;
-            filter: grayscale(0%) opacity(100%);
-          }
+        @include mixins.mobile {
+          font-size: 1.8em;
         }
+      }
+      p {
+        font-size: 14px;
+        color: var(--text-color-secondary);
 
-        h2 {
-          font-size: 1.3em;
-          margin-top: 0.5rem;
+        transition: color ease-out 200ms;
+        @include mixins.mobile {
+          font-size: 1.2em;
+        }
+      }
+      ul {
+        list-style: none;
+
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 0.5rem;
+
+        width: 100%;
+
+        border-top: 1px solid var(--border-color);
+        padding-top: 0.5rem;
+
+        li {
+          font-size: 12px;
           color: var(--text-color-secondary);
-          transition: color ease-out 200ms;
 
+          font-family: monospace;
+
+          transition: color ease-out 200ms;
           @include mixins.mobile {
-            font-size: 1.5em;
-          }
-        }
-        p {
-          font-size: 14px;
-          color: var(--text-color-tertiary);
-
-          transition: color ease-out 200ms;
-        }
-        ul {
-          list-style: none;
-
-          display: flex;
-          flex-wrap: wrap;
-          column-gap: 1.5rem;
-          row-gap: 0.5rem;
-
-          width: 100%;
-
-          border-top: 1px solid var(--border-color);
-          padding-top: 0.5rem;
-
-          li {
-            font-size: 12px;
-            color: var(--text-color-tertiary);
-
-            font-family: monospace;
-
-            transition: color ease-out 200ms;
+            font-size: 1.2em;
           }
         }
       }
-    }
-    @include mixins.beyond-mobile {
-      .card:hover {
-        transform: translate(0, -5%);
-        background-color: var(--card-bg);
-        border: 1px solid var(--bg-color-secondary);
+      .linkWrapper {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
 
-        // animation: none;
-        // animation-fill-mode: none;
-        // animation-play-state: paused;
-        // opacity: 1;
-        h2 {
+        a,
+        a:visited {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          padding: 0.25rem;
+          height: 100%;
+
+          text-decoration: none;
+
           color: var(--text-color);
+          border: 1px solid var(--text-color);
+          border-radius: 0.25rem;
+
+          opacity: 50%;
+          transition: opacity 200ms ease-out;
+
+          @include mixins.mobile {
+            font-size: 1.2em;
+          }
         }
-        p {
-          color: var(--text-color-secondary);
+        a:hover,
+        a:visited:hover {
+          opacity: 100%;
         }
-        ul {
-          border-top: 1px solid var(--bg-color-secondary);
-        }
-        li {
-          color: var(--text-color-secondary);
-        }
-        img {
-          filter: grayscale(0%) opacity(100%);
-          border-bottom: 1px solid var(--bg-color-secondary);
+        a {
+          svg {
+            width: 1.5rem;
+            height: auto;
+
+            fill: var(--text-color);
+            @include mixins.mobile {
+              width: 2.2rem;
+            }
+          }
         }
       }
     }

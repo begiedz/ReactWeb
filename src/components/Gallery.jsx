@@ -1,5 +1,6 @@
 import projectsData from '../data/projects.json';
 import { useTranslation } from 'react-i18next';
+import { FaGithub } from 'react-icons/fa';
 
 const Gallery = ({ selectedTechnology, searchText }) => {
 
@@ -24,26 +25,32 @@ const Gallery = ({ selectedTechnology, searchText }) => {
   return (
     <div className="gallery">
       {filteredProjects.map((project, index) => (
-        <a href={project.githubURL} key={index}>
-          <div
-            className='card reveal'
-            style={{ animationDelay: index * 200 + 'ms' }}>
-            <img src={project.imgPath} alt={project.appName} />
-            <h2>{project.appName}</h2>
-            <p>{t(`projects.${project.appName}`)}</p>
-            <ul>
-              {project.technologies.map((technology, index) => (
-                <li key={index}>{
-                  technology.includes(' ') ? technology.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ') :
-                    (technology.length === 2 || technology === 'php' ? technology.toUpperCase() :
-                      technology[0].toUpperCase() + technology.substring(1))
-                }</li>
-              ))}
-            </ul>
-          </div>
-        </a>
-      ))}
-    </div>
+        // <a href={project.githubURL} key={index}>
+        <section
+          key={index}
+          className='card reveal'
+          style={{ animationDelay: index * 200 + 'ms' }}>
+          <img src={project.imgPath} alt={project.appName} />
+          <h2>{project.appName}</h2>
+          <p>{t(`projects.${project.appName}`)}</p>
+          <ul>
+            {project.technologies.map((technology, index) => (
+              <li key={index}>{
+                technology.includes(' ') ? technology.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ') :
+                  (technology.length === 2 || technology === 'php' ? technology.toUpperCase() :
+                    technology[0].toUpperCase() + technology.substring(1))
+              }</li>
+            ))}
+          </ul>
+          {project.githubURL || project.demoURL ?
+            <div className='linkWrapper'>
+              {project.githubURL && <a href={project.githubURL}><FaGithub /></a>}
+              {project.demoURL && <a href={project.demoURL}>Demo</a>}
+            </div> : null}
+        </section>
+      ))
+      }
+    </div >
   );
 };
 

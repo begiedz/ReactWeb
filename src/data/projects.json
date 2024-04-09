@@ -9,13 +9,15 @@
     "appName": "Currency Calculator",
     "technologies": ["ts", "react native"],
     "imgPath": "../images/currency-calc.jpeg",
-    "githubURL": "https://github.com/begiedz/currency-calculator"
+    "githubURL": "https://github.com/begiedz/currency-calculator",
+    "demoURL": "https://currency-calculator-delta.vercel.app"
   },
   {
     "appName": "Clouder",
     "technologies": ["ts", "react"],
     "imgPath": "../images/clouder.jpeg",
-    "githubURL": "https://github.com/begiedz/Clouder-WeatherApp"
+    "githubURL": "https://github.com/begiedz/Clouder-WeatherApp",
+    "demoURL": "https://clouder-nine.vercel.app"
   },
   {
     "appName": "PHP Notes",
@@ -45,6 +47,7 @@
     "appName": "Simple JS Stopwatch",
     "technologies": ["js"],
     "imgPath": "images/stopwatch.jpeg",
-    "githubURL": "https://github.com/begiedz/stopwatchApp"
+    "githubURL": "https://github.com/begiedz/stopwatchApp",
+    "demoURL": "https://codepen.io/begiedz/pen/YzJWKgz"
   }
 ]
