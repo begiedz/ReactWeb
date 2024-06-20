@@ -34,8 +34,8 @@ header {
   img {
     height: 350px;
     width: auto;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    border: 1px solid var(--bg-color-secondary);
+    border-radius: 54% 46% 35% 65% / 46% 37% 63% 54%;
+    border: 1px solid lightgray;
 
     @include mixins.mobile {
       height: 200px;

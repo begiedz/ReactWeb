@@ -1,5 +1,4 @@
-import React from 'react';
-import bgdzImg from '../img/IMG_0002.jpg'
+import bgdzImg from '../img/github_avatar.jpg'
 import { useTranslation } from 'react-i18next';
 
 import { FaGithub, FaCodepen, FaLinkedin } from 'react-icons/fa';
