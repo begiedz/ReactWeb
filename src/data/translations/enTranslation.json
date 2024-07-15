@@ -265,7 +265,7 @@
     "all": "All",
     "begiedzDeveloper": "Current page you're on!",
     "Clouder": "Weather forecast application. Weather API from openweathermap.",
-    "Currency Calculator": "Mobile and web application. Currency exchange rates API from exchangerate-api.",
+    "Currency Calculator": "Mobile and web application. Currency exchange rates API from weatherapi.com.",
     "PHP Notes": "CRUD application in PHP.",
     "React Chat": "Chat application using Firebase and React.",
     "NodeJS Blog": "CRUD application in NodeJS.",

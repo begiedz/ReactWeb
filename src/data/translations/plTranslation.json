@@ -265,7 +265,7 @@
     "all": "Wszystko",
     "begiedzDeveloper": "Aktualna strona, na której się znajdujesz!",
     "Clouder": "Aplikacja z prognozą pogody. API pogody z openweathermap.",
-    "Currency Calculator": "Aplikacja mobilna i internetowa. API kursów walut z exchangerate-api",
+    "Currency Calculator": "Aplikacja mobilna i internetowa. API kursów walut z weatherapi.com.",
     "PHP Notes": "Aplikacja CRUD w PHP.",
     "React Chat": "Aplikacja czat z użyciem Firebase i React.",
     "NodeJS Blog": "Aplikacja CRUD w NodeJS.",

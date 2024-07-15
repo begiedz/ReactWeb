@@ -10,14 +10,14 @@
     "technologies": ["ts", "react native"],
     "imgPath": "../images/currency-calc.jpeg",
     "githubURL": "https://github.com/begiedz/currency-calculator",
-    "demoURL": "https://currency-calculator-delta.vercel.app"
+    "demoURL": "https://curr-calc.vercel.app"
   },
   {
     "appName": "Clouder",
     "technologies": ["ts", "react"],
     "imgPath": "../images/clouder.jpeg",
     "githubURL": "https://github.com/begiedz/Clouder-WeatherApp",
-    "demoURL": "https://clouder-nine.vercel.app"
+    "demoURL": "https://clouder-forecast.vercel.app"
   },
   {
     "appName": "PHP Notes",
