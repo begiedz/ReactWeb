@@ -18,11 +18,11 @@
     "article": [
       {
         "paragraph": [
-          "Allow me to introduce myself — a budding web developer fueled by a ",
+          "Allow me to introduce myself — I am an emerging web developer fueled by a ",
           {
             "strong": "relentless passion"
           },
-          " for creating captivating online experiences. While my journey may not follow a straight path, it has been an adventure filled with twists and turns, ultimately leading me to the fascinating world of web development."
+          " for creating captivating online experiences. My journey has not been straightforward, but it has been filled with twists and turns that ultimately led me to the fascinating world of web development."
         ]
       },
       {
@@ -31,16 +31,16 @@
           {
             "strong": "art of graphic design"
           },
-          ", attending a high school focused on this creative discipline. The allure of visual storytelling captivated me, inspiring dreams of crafting stunning visuals that would captivate audiences. Eager to explore my artistic inclinations further, I pursued studies in sculpture and computer graphics during my college years. However, as fate would have it, I realized that these paths weren't my true calling."
+          ", attending a high school focused on this creative discipline. The allure of visual storytelling captivated me, inspiring dreams of crafting stunning visuals that captivate audiences. Eager to explore my artistic inclinations further, I studied sculpture and computer graphics during my college years. However, as fate would have it, I realized that these paths weren't my true calling."
         ]
       },
       {
         "paragraph": [
-          "It was during this introspective period that I stumbled upon ",
+          "During this introspective period, I stumbled upon ",
           {
             "strong": "web development"
           },
-          "—an enchanting fusion of artistry and technical wizardry. Intrigued by the power to shape the digital landscape, I decided to redirect my efforts and delve into the realm of web development."
+          " — a magical fusion of artistry and technical finesse. Intrigued by the power to shape the digital landscape, I decided to redirect my efforts towards web development."
         ]
       },
       {
@@ -53,7 +53,7 @@
           {
             "strong": "CSS"
           },
-          ", embracing the foundational elements of web design. But my hunger for knowledge didn't stop there. I eagerly delved into the world of ",
+          ", mastering the foundational elements of web design. But my hunger for knowledge didn't stop there. I eagerly delved into the world of ",
           {
             "strong": "JavaScript"
           },
@@ -70,7 +70,7 @@
           {
             "strong": "React Native"
           },
-          ". These powerful frameworks became my allies, enabling me to breathe life into my visions and bring them to fruition on both web and mobile platforms."
+          ". These powerful frameworks became my allies, allowing me to breathe life into my visions and bring them to fruition on both web and mobile platforms."
         ]
       },
       {
@@ -108,7 +108,7 @@
         "sub": " (Hypertext Markup Language)",
         "list": [
           "Creating semantically correct web pages.",
-          "Handling various types of elements such as headers, lists, forms, and multimedia.",
+          "Handling various elements such as headers, lists, forms, and multimedia.",
           "Understanding the significance of attributes and their impact on page structure.",
           "Applying modern HTML5 standards, including canvas and video elements."
         ]
@@ -119,7 +119,7 @@
         "list": [
           "Designing attractive and responsive user interfaces.",
           "Creating animation effects and transitions using CSS3.",
-          "Using CSS preprocessors such as SASS or LESS for increased efficiency.",
+          "Using CSS preprocessors such as SASS for increased efficiency.",
           "Understanding selector specificity and the cascading nature of CSS styles."
         ]
       },
@@ -166,7 +166,7 @@
           "Developing type-safe JavaScript applications using TypeScript.",
           "Creating and using interfaces, types, and generics in TypeScript.",
           "Transpiling TypeScript to JavaScript for browser compatibility.",
-          "Integrating TypeScript with popular frontend frameworks like React and Angular."
+          "Integrating TypeScript with popular frontend frameworks like React."
         ]
       },
       {
@@ -178,7 +178,6 @@
           "Integrating with external APIs and server communication."
         ]
       },
-
       {
         "category": "Next.js",
         "list": [
@@ -202,8 +201,7 @@
         "sub": "(Hypertext Preprocessor)",
         "list": [
           "Building dynamic web pages and web applications.",
-          "Working with databases, including MySQL and PostgreSQL.",
-          "Developing backends for e-commerce, content management, and other applications.",
+          "Working with databases, including MySQL.",
           "Securing applications against attacks such as SQL Injection and XSS."
         ]
       },
@@ -212,7 +210,6 @@
         "list": [
           "Creating servers and backend applications in the Node.js environment.",
           "Using Express.js to build RESTful APIs.",
-          "Working with WebSockets and real-time communication.",
           "Efficiently managing resources using npm or yarn."
         ]
       },
@@ -265,6 +262,7 @@
   },
   "projects": {
     "placeholderText": "Search project...",
+    "all": "All",
     "begiedzDeveloper": "Current page you're on!",
     "Clouder": "Weather forecast application. Weather API from openweathermap.",
     "Currency Calculator": "Mobile and web application. Currency exchange rates API from exchangerate-api.",

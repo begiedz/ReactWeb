@@ -14,38 +14,38 @@
     "contact": "Kontakt"
   },
   "about": {
-    "heading": "Witaj w moim zakątku cyfrowego świata!",
+    "heading": "Witaj w moim cyfrowym zakątku!",
     "article": [
       {
         "paragraph": [
-          "Pozwól, że się przedstawię — jestem początkującym programistą webowym, napędzanym ",
+          "Pozwól, że się przedstawię — jestem rozwijającym się web developerem, napędzanym ",
           {
-            "strong": "nieustanną pasją"
+            "strong": "nieustającą pasją"
           },
-          " do tworzenia fascynujących doświadczeń online. Choć moja droga nie biegnie prosto, to pełna zakrętów przygoda, która ostatecznie zaprowadziła mnie do fascynującego świata tworzenia stron internetowych."
+          " do tworzenia fascynujących doświadczeń online. Moja droga nie była prosta, ale pełna zwrotów i niespodzianek, które ostatecznie doprowadziły mnie do fascynującego świata web developmentu."
         ]
       },
       {
         "paragraph": [
-          "W młodych latach zanurzyłem się w ",
+          "Na początku mojej przygody zanurzyłem się w ",
           {
             "strong": "sztuce projektowania graficznego"
           },
-          ", uczęszczając do szkoły średniej skoncentrowanej na tej dziedzinie twórczej. Magnesem dla mnie był wizualny storytelling, inspirując mnie do marzeń o tworzeniu oszałamiających wizualizacji, które zachwycą widownię. Chcąc zgłębić moje artystyczne zainteresowania, studiowałem rzeźbę i grafikę komputerową podczas studiów. Jednak, jak to bywa z losem, zdałem sobie sprawę, że te ścieżki nie są moim prawdziwym powołaniem."
+          ", uczęszczając do liceum plastycznego skoncentrowanego na tej kreatywnej dyscyplinie. Urok wizualnego opowiadania historii mnie zafascynował, inspirując marzenia o tworzeniu oszałamiających wizualizacji, które zachwycają odbiorców. Chętny do dalszego eksplorowania moich artystycznych skłonności, studiowałem rzeźbę i grafikę komputerową w czasie studiów. Jednakże, jak to bywa, los miał dla mnie inne plany."
         ]
       },
       {
         "paragraph": [
-          "To w czasie tej introspektywnej fazy natknąłem się na ",
+          "W okresie refleksji natknąłem się na ",
           {
-            "strong": "tworzenie stron internetowych"
+            "strong": "web development"
           },
-          "—zaczarowujące połączenie sztuki i technicznego czarodziejstwa. Zafascynowany potencjałem kształtowania cyfrowego krajobrazu, postanowiłem przekierować swoje wysiłki i zagłębić się w dziedzinę tworzenia stron internetowych."
+          " — magiczne połączenie artyzmu i technicznej finezji. Zaintrygowany mocą kształtowania cyfrowego krajobrazu, postanowiłem skierować swoje wysiłki w stronę web developmentu."
         ]
       },
       {
         "paragraph": [
-          "Z pasją i determinacją wziąłem udział w serii intensywnych kursów i samouczków online. Dzięki tym doświadczeniom doskonaliłem swoje umiejętności w zakresie ",
+          "Z zapałem i determinacją rozpocząłem serię intensywnych kursów i tutoriali online. Dzięki tym doświadczeniom nauczyłem się ",
           {
             "strong": "HTML"
           },
@@ -53,33 +53,33 @@
           {
             "strong": "CSS"
           },
-          ", omijając podstawy projektowania stron internetowych. Ale moje pragnienie wiedzy się tu nie zatrzymało. Chętnie zanurzyłem się w świat ",
+          ", opanowując podstawowe elementy web designu. Ale moje pragnienie wiedzy na tym się nie skończyło. Z entuzjazmem zanurzyłem się w świat ",
           {
-            "strong": "JavaScriptu"
+            "strong": "JavaScript"
           },
-          ", zafascynowany jego wszechstronnością i nieskończonymi możliwościami, które oferował."
+          ", zafascynowany jego wszechstronnością i nieograniczonymi możliwościami, jakie oferuje."
         ]
       },
       {
         "paragraph": [
-          "Z motywacją do tworzenia płynnych i angażujących interfejsów użytkownika zapuściłem się w obszar ",
+          "Napędzany pragnieniem tworzenia płynnych i angażujących doświadczeń użytkowników, wkroczyłem do świata ",
           {
-            "strong": "Reacta"
+            "strong": "React"
           },
           " i ",
           {
             "strong": "React Native"
           },
-          ". Te potężne frameworki stały się moimi sojusznikami, umożliwiając ożywienie moich wizji i przekształcenie ich w rzeczywistość na platformach webowych i mobilnych."
+          ". Te potężne frameworki stały się moimi sprzymierzeńcami, pozwalając mi tchnąć życie w moje wizje i realizować je na platformach zarówno webowych, jak i mobilnych."
         ]
       },
       {
         "paragraph": [
-          "Jako programista webowy moja pasja tkwi w tworzeniu ",
+          "Jako web developer, moja pasja polega na tworzeniu ",
           {
             "strong": "funkcjonalnych i wizualnie atrakcyjnych interfejsów"
           },
-          ", które pozostawiają trwały ślad u użytkowników. Połączenie mojego tła w projektowaniu graficznym z nowo zdobytą wiedzą techniczną pozwala mi tworzyć harmonijne przestrzenie cyfrowe, które łączą ",
+          ", które pozostawiają trwały ślad na użytkownikach. Połączenie mojego doświadczenia w projektowaniu graficznym i nowo nabytej wiedzy technicznej pozwala mi tworzyć harmonijne przestrzenie cyfrowe, które łączą ",
           {
             "strong": "estetykę z użytecznością"
           },
@@ -88,15 +88,15 @@
       },
       {
         "paragraph": [
-          "Jeśli więc szukasz ",
+          "Więc jeśli szukasz ",
           {
             "strong": "zdeterminowanego i elastycznego"
           },
-          " programisty webowego do współpracy, chętnie się przyłączę. Razem możemy wyruszyć w transformacyjną podróż, tworząc nadzwyczajne doświadczenia cyfrowe, które zostawią ślad na wirtualnym krajobrazie."
+          " web developera do swojego zespołu, byłbym zachwycony możliwością współpracy. Razem możemy wyruszyć w transformacyjną podróż, tworząc niezwykłe doświadczenia cyfrowe, które pozostawią ślad na wirtualnym krajobrazie."
         ]
       },
       {
-        "paragraph": "Dajmy życiu naszym cyfrowym marzeniom!"
+        "paragraph": "Zrealizujmy razem nasze cyfrowe marzenia!"
       }
     ]
   },
@@ -108,9 +108,9 @@
         "sub": " (Hypertext Markup Language)",
         "list": [
           "Tworzenie semantycznie poprawnych stron internetowych.",
-          "Obsługa różnych rodzajów elementów, takich jak nagłówki, listy, formularze i multimedia.",
+          "Obsługa różnych elementów takich jak nagłówki, listy, formularze i multimedia.",
           "Zrozumienie znaczenia atrybutów i ich wpływu na strukturę strony.",
-          "Zastosowanie nowoczesnych standardów HTML5, w tym elementów canvas i wideo."
+          "Stosowanie nowoczesnych standardów HTML5, w tym elementów canvas i video."
         ]
       },
       {
@@ -118,82 +118,82 @@
         "sub": " (Cascading Style Sheets)",
         "list": [
           "Projektowanie atrakcyjnych i responsywnych interfejsów użytkownika.",
-          "Tworzenie efektów animacyjnych i przejść za pomocą CSS3.",
-          "Użycie preprocesorów CSS, takich jak SASS lub LESS, dla zwiększenia wydajności.",
-          "Zrozumienie specyficzności selektorów i kaskadowego charakteru stylów CSS."
+          "Tworzenie efektów animacji i przejść przy użyciu CSS3.",
+          "Korzystanie z preprocesorów CSS, takich jak SASS, dla zwiększenia wydajności.",
+          "Zrozumienie specyfiki selektorów i kaskadowej natury stylów CSS."
         ]
       },
       {
         "category": "SCSS",
         "sub": " (Sassy CSS)",
         "list": [
-          "Użycie SCSS do pisania bardziej czytelnego i modułowego kodu CSS.",
-          "Wykorzystywanie zmiennych, miksyn i zagnieżdżania w SCSS.",
-          "Kompilowanie SCSS do standardowego CSS dla zgodności przeglądarek.",
-          "Integracja SCSS w projektach frontendowych w celu poprawy stylizacji."
+          "Korzystanie z SCSS w celu pisania bardziej zrównoważonego i modułowego kodu CSS.",
+          "Wykorzystywanie zmiennych, mixinów i zagnieżdżeń w SCSS.",
+          "Kompilowanie SCSS do standardowego CSS dla zgodności z przeglądarkami.",
+          "Integracja SCSS w projekty frontendowe dla lepszego stylowania."
         ]
       },
       {
         "category": "TailwindCSS",
         "list": [
-          "Efektywne wykorzystanie Tailwind CSS do zoptymalizowanego stylowania.",
-          "Pisanie zwięzłego i użytecznego CSS za pomocą Tailwind.",
-          "Używanie klas narzędziowych w celu przyspieszenia procesu stylizacji.",
+          "Efektywne korzystanie z Tailwind CSS dla usprawnionego stylowania.",
+          "Pisanie zwięzłego i zorientowanego na użyteczność CSS z Tailwind.",
+          "Wykorzystywanie klas użyteczności do przyspieszenia procesu stylowania.",
           "Integracja Tailwind CSS w projekty frontendowe dla szybkiego rozwoju."
         ]
       },
       {
         "category": "Bootstrap",
         "list": [
-          "Wykorzystywanie Bootstrap do szybkiego projektowania responsywnych interfejsów użytkownika.",
-          "Korzystanie z gotowych komponentów i stylów Bootstrap dla efektywnego prototypowania.",
-          "Dostosowywanie komponentów Bootstrap do spełniania indywidualnych wymagań projektu.",
-          "Integracja Bootstrap z projektami frontendowymi dla zwiększenia szybkości rozwoju."
+          "Wykorzystanie Bootstrap do szybkiego projektowania responsywnych interfejsów użytkownika.",
+          "Używanie gotowych komponentów i stylów Bootstrap do efektywnego prototypowania.",
+          "Dostosowywanie komponentów Bootstrap do indywidualnych wymagań projektu.",
+          "Integracja Bootstrap w projekty frontendowe w celu przyspieszenia rozwoju."
         ]
       },
       {
         "category": "JavaScript",
         "list": [
           "Programowanie interaktywnych aplikacji internetowych.",
-          "Badanie zaawansowanych bibliotek i frameworków, takich jak React, celem wzbogacenia interaktywności aplikacji internetowych.",
-          "Programowanie asynchroniczne przy użyciu Promises i async/await.",
+          "Eksploracja zaawansowanych bibliotek i frameworków, takich jak React, w celu zwiększenia interaktywności aplikacji internetowych.",
+          "Programowanie asynchroniczne z użyciem Promises i async/await.",
           "Praca z modułami ES6 i zarządzanie zależnościami."
         ]
       },
       {
         "category": "TypeScript",
         "list": [
-          "Rozwijanie bezpiecznych typów aplikacji JavaScript za pomocą TypeScript.",
-          "Tworzenie i korzystanie z interfejsów, typów i ogólników w TypeScript.",
-          "Transpilacja TypeScript do JavaScript dla zgodności przeglądarek.",
-          "Integracja TypeScript z popularnymi frameworkami frontendowymi, takimi jak React i Angular."
+          "Tworzenie aplikacji JavaScript z typami bezpieczeństwa przy użyciu TypeScript.",
+          "Tworzenie i używanie interfejsów, typów i generików w TypeScript.",
+          "Transpilacja TypeScript do JavaScript w celu zgodności z przeglądarkami.",
+          "Integracja TypeScript z popularnymi frameworkami frontendowymi, takimi jak React."
         ]
       },
       {
         "category": "React",
         "list": [
           "Budowanie nowoczesnych interfejsów użytkownika przy użyciu biblioteki React.",
-          "Zarządzanie stanem za pomocą React Hooks i Redux.",
+          "Zarządzanie stanem przy użyciu hooków React i Redux.",
           "Routing za pomocą React Router.",
-          "Integracja z zewnętrznymi interfejsami API i komunikacja z serwerem."
+          "Integracja z zewnętrznymi API i komunikacja z serwerem."
         ]
       },
       {
         "category": "Next.js",
         "list": [
-          "Budowanie wydajnych i zoptymalizowanych aplikacji React za pomocą Next.js.",
-          "Wykorzystywanie renderowania po stronie serwera (SSR) i generowania statycznych stron (SSG) dla szybszego ładowania stron.",
+          "Budowanie wydajnych i zoptymalizowanych aplikacji React przy użyciu Next.js.",
+          "Wykorzystanie renderowania po stronie serwera (SSR) i statycznego generowania stron (SSG) dla szybszego ładowania stron.",
           "Implementacja płynnych przejść między stronami i nawigacji po stronie klienta.",
-          "Całościowa integracja Next.js z React dla spójnego doświadczenia programistycznego."
+          "Bezproblemowa integracja Next.js z React dla spójnego doświadczenia deweloperskiego."
         ]
       },
       {
         "category": "Firebase",
         "list": [
-          "Użycie Firebase do skalowalnych i czasu rzeczywistego rozwiązań baz danych.",
+          "Wykorzystanie Firebase do skalowalnych i czasu rzeczywistego, rozwiązań baz danych.",
           "Implementacja uwierzytelniania i autoryzacji użytkowników za pomocą Firebase Authentication.",
           "Integracja Firebase Cloud Firestore do efektywnego przechowywania i pobierania danych.",
-          "Wykorzystywanie Firebase Hosting do wdrażania i hostowania aplikacji internetowych."
+          "Wykorzystanie Firebase Hosting do wdrażania i hostowania aplikacji internetowych."
         ]
       },
       {
@@ -201,8 +201,7 @@
         "sub": "(Hypertext Preprocessor)",
         "list": [
           "Tworzenie dynamicznych stron internetowych i aplikacji internetowych.",
-          "Praca z bazami danych, w tym MySQL i PostgreSQL.",
-          "Rozwijanie backendów dla e-commerce, zarządzania treścią i innych aplikacji.",
+          "Praca z bazami danych, w tym MySQL.",
           "Zabezpieczanie aplikacji przed atakami takimi jak SQL Injection i XSS."
         ]
       },
@@ -210,34 +209,33 @@
         "category": "Node.js",
         "list": [
           "Tworzenie serwerów i aplikacji backendowych w środowisku Node.js.",
-          "Używanie Express.js do tworzenia interfejsów API typu RESTful.",
-          "Praca z WebSockets i komunikacja w czasie rzeczywistym.",
+          "Korzystanie z Express.js do tworzenia RESTful API.",
           "Efektywne zarządzanie zasobami za pomocą npm lub yarn."
         ]
       },
       {
         "category": "MongoDB",
         "list": [
-          "Praca z bazami danych NoSQL, takimi jak MongoDB, do skalowalnego i elastycznego przechowywania danych.",
-          "Tworzenie i zapytywanie baz danych i kolekcji MongoDB.",
-          "Użycie Mongoose ODM dla Node.js do interakcji z MongoDB.",
-          "Projektowanie struktur danych bez schematu dla różnych aplikacji."
+          "Praca z bazami danych NoSQL, takimi jak MongoDB, dla skalowalnego i elastycznego przechowywania danych.",
+          "Tworzenie i wyszukiwanie baz danych i kolekcji MongoDB.",
+          "Wykorzystanie Mongoose ODM dla Node.js do interakcji z MongoDB.",
+          "Projektowanie bezszkieletowych struktur danych dla różnych aplikacji."
         ]
       },
       {
         "category": "MySQL",
         "list": [
-          "Zarządzanie bazami danych relacyjnymi za pomocą MySQL.",
+          "Zarządzanie relacyjnymi bazami danych za pomocą MySQL.",
           "Tworzenie i optymalizacja schematów baz danych i zapytań.",
-          "Integracja MySQL z aplikacjami backendowymi do przechowywania i pobierania danych.",
-          "Wdrażanie zabezpieczeń baz danych i optymalizacja wydajności."
+          "Integracja MySQL z aplikacjami backendowymi w celu przechowywania i pobierania danych.",
+          "Implementacja zabezpieczeń baz danych i optymalizacja wydajności."
         ]
       },
       {
         "category": "Git, GitHub",
         "list": [
           "Kontrola wersji kodu źródłowego za pomocą Git.",
-          "Tworzenie i łączenie kodu w gałęziach.",
+          "Tworzenie i scalanie branchy.",
           "Rozwiązywanie konfliktów i stosowanie najlepszych praktyk w pracy zespołowej.",
           "Tworzenie i zarządzanie repozytoriami na platformie GitHub."
         ]
@@ -246,9 +244,9 @@
         "category": "Visual Studio Code",
         "list": [
           "Efektywne korzystanie z Visual Studio Code jako edytora kodu.",
-          "Instalowanie i konfigurowanie rozszerzeń dla zwiększenia wydajności.",
-          "Dostosowywanie skrótów klawiszowych i ustawień dla spersonalizowanego środowiska programistycznego.",
-          "Wykorzystywanie funkcji debugowania i kontroli wersji w VS Code."
+          "Instalowanie i konfigurowanie rozszerzeń w celu zwiększenia wydajności.",
+          "Dostosowywanie skrótów klawiaturowych i ustawień dla spersonalizowanego środowiska programistycznego.",
+          "Korzystanie z funkcji debugowania i kontroli wersji w VS Code."
         ]
       }
     ]
@@ -264,6 +262,7 @@
   },
   "projects": {
     "placeholderText": "Szukaj projektu...",
+    "all": "Wszystko",
     "begiedzDeveloper": "Aktualna strona, na której się znajdujesz!",
     "Clouder": "Aplikacja z prognozą pogody. API pogody z openweathermap.",
     "Currency Calculator": "Aplikacja mobilna i internetowa. API kursów walut z exchangerate-api",

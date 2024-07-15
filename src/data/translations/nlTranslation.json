@@ -14,38 +14,38 @@
     "contact": "Contact"
   },
   "about": {
-    "heading": "Welkom in mijn hoek van het digitale rijk!",
+    "heading": "Welkom in mijn digitale hoek!",
     "article": [
       {
         "paragraph": [
-          "Laat me mezelf voorstellen — een beginnende webontwikkelaar gedreven door een ",
+          "Laat me mezelf voorstellen — ik ben een opkomende webontwikkelaar, gedreven door een ",
           {
-            "strong": "onvermoeibare passie"
+            "strong": "onophoudelijke passie"
           },
-          " voor het creëren van boeiende online ervaringen. Hoewel mijn reis misschien niet rechtlijnig verloopt, is het een avontuur geweest vol wendingen en bochten, dat me uiteindelijk heeft geleid naar de fascinerende wereld van webontwikkeling."
+          " voor het creëren van boeiende online ervaringen. Mijn reis was niet rechtlijnig, maar vol wendingen en verrassingen die me uiteindelijk naar de fascinerende wereld van webontwikkeling leidden."
         ]
       },
       {
         "paragraph": [
-          "In de vroege dagen verdiepte ik me in de ",
+          "In de beginperiode dook ik onder in de ",
           {
             "strong": "kunst van grafisch ontwerp"
           },
-          " en volgde ik een middelbare school die zich richtte op deze creatieve discipline. De aantrekkingskracht van visuele verhalen boeide me, en inspireerde dromen over het maken van verbluffende visuals die het publiek zouden betoveren. Gedreven om mijn artistieke neigingen verder te verkennen, studeerde ik beeldhouwkunst en computergraphics tijdens mijn studententijd. Maar, zoals het lot het zou hebben, besefte ik dat deze paden niet mijn ware roeping waren."
+          ", terwijl ik een middelbare school bezocht die zich op deze creatieve discipline richtte. De aantrekkingskracht van visuele verhalen betoverde me en inspireerde dromen om verbluffende visuals te maken die het publiek zouden boeien. Graag mijn artistieke neigingen verder verkennend, studeerde ik beeldhouwkunst en computergrafiek tijdens mijn studiejaren. Echter, zoals het lot het wilde, besefte ik dat deze paden niet mijn ware roeping waren."
         ]
       },
       {
         "paragraph": [
-          "Het was tijdens deze introspectieve periode dat ik stuitte op ",
+          "Tijdens deze introspectieve periode kwam ik toevallig ",
           {
             "strong": "webontwikkeling"
           },
-          "—een betoverende samensmelting van artisticiteit en technische vaardigheid. Intrigerend door de kracht om het digitale landschap te vormgeven, besloot ik mijn inspanningen te heroriënteren en me te verdiepen in de wereld van webontwikkeling."
+          " tegen — een magische fusie van artistieke en technische finesse. Geïntrigeerd door de kracht om het digitale landschap vorm te geven, besloot ik mijn inspanningen te richten op webontwikkeling."
         ]
       },
       {
         "paragraph": [
-          "Met vuur en vastberadenheid begon ik aan een reeks intensieve cursussen en online tutorials. Tijdens deze leerervaringen verfijnde ik mijn vaardigheden in ",
+          "Met enthousiasme en vastberadenheid begon ik aan een reeks intensieve cursussen en online tutorials. Door deze leerervaringen verbeterde ik mijn vaardigheden in ",
           {
             "strong": "HTML"
           },
@@ -53,7 +53,7 @@
           {
             "strong": "CSS"
           },
-          ", waarbij ik de basisprincipes van webdesign omarmde. Maar mijn honger naar kennis hield daar niet op. Ik dook enthousiast in de wereld van ",
+          ", waarbij ik de fundamentele elementen van webdesign beheerste. Maar mijn honger naar kennis stopte daar niet. Ik dook gretig in de wereld van ",
           {
             "strong": "JavaScript"
           },
@@ -62,7 +62,7 @@
       },
       {
         "paragraph": [
-          "Gedreven door de wens om naadloze en boeiende gebruikerservaringen te creëren, waagde ik me in de wereld van ",
+          "Gedreven door een verlangen om naadloze en boeiende gebruikerservaringen te creëren, waagde ik me in de wereld van ",
           {
             "strong": "React"
           },
@@ -70,7 +70,7 @@
           {
             "strong": "React Native"
           },
-          ". Deze krachtige frameworks werden mijn bondgenoten, waardoor ik leven kon blazen in mijn visies en ze kon verwezenlijken op zowel web- als mobiele platforms."
+          ". Deze krachtige frameworks werden mijn bondgenoten, waardoor ik mijn visies tot leven kon brengen en ze kon realiseren op zowel web- als mobiele platforms."
         ]
       },
       {
@@ -79,20 +79,20 @@
           {
             "strong": "functionele en visueel aantrekkelijke interfaces"
           },
-          " die een blijvende indruk achterlaten bij gebruikers. De samensmelting van mijn achtergrond in grafisch ontwerp en mijn nieuwe technische vaardigheden stelt me in staat harmonieuze digitale ruimtes te creëren die ",
+          " die een blijvende indruk op gebruikers achterlaten. De combinatie van mijn achtergrond in grafisch ontwerp en mijn nieuw verworven technische bekwaamheid stelt me in staat om harmonieuze digitale ruimtes te creëren die ",
           {
-            "strong": "esthetiek met gebruiksgemak"
+            "strong": "esthetiek met bruikbaarheid"
           },
           " combineren."
         ]
       },
       {
         "paragraph": [
-          "Dus, als u een ",
+          "Dus als je op zoek bent naar een ",
           {
             "strong": "vastberaden en aanpasbare"
           },
-          " webontwikkelaar zoekt om zich bij uw team aan te sluiten, zou ik graag samenwerken. Samen kunnen we een transformerende reis beginnen en buitengewone digitale ervaringen creëren die een stempel drukken op het virtuele landschap."
+          " webontwikkelaar om je team te versterken, zou ik graag met je samenwerken. Samen kunnen we een transformatieve reis beginnen en buitengewone digitale ervaringen creëren die een blijvende indruk achterlaten in het virtuele landschap."
         ]
       },
       {
@@ -107,10 +107,10 @@
         "category": "HTML",
         "sub": " (Hypertext Markup Language)",
         "list": [
-          "Het creëren van semantisch correcte webpagina's.",
-          "Omgaan met verschillende soorten elementen zoals koppen, lijsten, formulieren en multimedia.",
-          "Begrip van de betekenis van attributen en hun invloed op de paginestructuur.",
-          "Toepassing van moderne HTML5-standaarden, inclusief canvas- en video-elementen."
+          "Het maken van semantisch correcte webpagina's.",
+          "Omgaan met verschillende elementen zoals headers, lijsten, formulieren en multimedia.",
+          "Het begrijpen van de betekenis van attributen en hun invloed op de pagina-indeling.",
+          "Toepassen van moderne HTML5-standaarden, inclusief canvas- en video-elementen."
         ]
       },
       {
@@ -119,137 +119,134 @@
         "list": [
           "Het ontwerpen van aantrekkelijke en responsieve gebruikersinterfaces.",
           "Het creëren van animatie-effecten en overgangen met CSS3.",
-          "Het gebruik van CSS-preprocessors zoals SASS of LESS voor een verhoogde efficiëntie.",
-          "Begrip van de specificiteit van selectors en de cascade-aard van CSS-stijlen."
+          "Gebruik van CSS-preprocessors zoals SASS voor verhoogde efficiëntie.",
+          "Het begrijpen van selector-specificiteit en de cascade-natuur van CSS-stijlen."
         ]
       },
       {
         "category": "SCSS",
         "sub": " (Sassy CSS)",
         "list": [
-          "Het gebruik van SCSS om meer onderhoudsvriendelijke en modulaire CSS-code te schrijven.",
-          "Het benutten van variabelen, mixins en nesten in SCSS.",
-          "Het compileren van SCSS naar standaard CSS voor browsercompatibiliteit.",
-          "Het integreren van SCSS in frontend-projecten voor verbeterde vormgeving."
+          "Gebruik van SCSS om beter onderhoudbare en modulaire CSS-code te schrijven.",
+          "Gebruik van variabelen, mixins en nesting in SCSS.",
+          "Compileren van SCSS naar standaard CSS voor browsercompatibiliteit.",
+          "Integratie van SCSS in frontendprojecten voor verbeterde styling."
         ]
       },
       {
         "category": "TailwindCSS",
         "list": [
-          "Efficiënt gebruik van Tailwind CSS voor geoptimaliseerde styling.",
-          "Schrijven van beknopte en nuttige CSS met Tailwind.",
-          "Gebruik van hulpprogrammaklassen om het stylingproces te versnellen.",
-          "Integratie van Tailwind CSS in frontend-projecten voor snelle ontwikkeling."
+          "Efficiënt gebruik van Tailwind CSS voor gestroomlijnde styling.",
+          "Schrijven van beknopte en utility-first CSS met Tailwind.",
+          "Gebruik van utility classes om het stylingproces te versnellen.",
+          "Integratie van Tailwind CSS in frontendprojecten voor snelle ontwikkeling."
         ]
       },
       {
         "category": "Bootstrap",
         "list": [
-          "Gebruik van Bootstrap voor het snel ontwerpen van responsieve gebruikersinterfaces.",
-          "Gebruik van kant-en-klare Bootstrap-componenten en -stijlen voor efficiënt prototypen.",
-          "Aanpassen van Bootstrap-componenten om te voldoen aan individuele projectvereisten.",
-          "Integratie van Bootstrap in frontend-projecten voor een hogere ontwikkelingssnelheid."
+          "Gebruik van Bootstrap voor snel ontwerp van responsieve gebruikersinterfaces.",
+          "Gebruik van voorgebouwde Bootstrap-componenten en -stijlen voor efficiënt prototyping.",
+          "Aanpassen van Bootstrap-componenten om aan individuele projectvereisten te voldoen.",
+          "Integratie van Bootstrap in frontendprojecten om de ontwikkelingssnelheid te verhogen."
         ]
       },
       {
         "category": "JavaScript",
         "list": [
-          "Het programmeren van interactieve webtoepassingen.",
-          "Het onderzoeken van geavanceerde bibliotheken en frameworks, zoals React, om de interactiviteit van webapplicaties te verbeteren.",
-          "Asynchroon programmeren met Promises en async/await.",
-          "Werken met ES6-modules en het beheren van afhankelijkheden."
+          "Programmeren van interactieve webapplicaties.",
+          "Verkennen van geavanceerde bibliotheken en frameworks, zoals React, om de interactiviteit van webapplicaties te verbeteren.",
+          "Asynchrone programmering met Promises en async/await.",
+          "Werken met ES6-modules en beheren van afhankelijkheden."
         ]
       },
       {
         "category": "TypeScript",
         "list": [
-          "Het ontwikkelen van typeveilige JavaScript-toepassingen met TypeScript.",
-          "Het maken en gebruiken van interfaces, typen en generieke typen in TypeScript.",
-          "Het transpileren van TypeScript naar JavaScript voor browsercompatibiliteit.",
-          "Het integreren van TypeScript met populaire frontend-frameworks zoals React en Angular."
+          "Ontwikkelen van type-veilige JavaScript-applicaties met TypeScript.",
+          "Maken en gebruiken van interfaces, types en generieken in TypeScript.",
+          "Transpileren van TypeScript naar JavaScript voor browsercompatibiliteit.",
+          "Integratie van TypeScript met populaire frontend-frameworks zoals React."
         ]
       },
       {
         "category": "React",
         "list": [
           "Het bouwen van moderne gebruikersinterfaces met de React-bibliotheek.",
-          "Het beheren van de staat met behulp van React Hooks en Redux.",
+          "Beheren van state met React Hooks en Redux.",
           "Routeren met React Router.",
-          "Het integreren met externe API's en servercommunicatie."
+          "Integratie met externe API's en servercommunicatie."
         ]
       },
-
       {
         "category": "Next.js",
         "list": [
-          "Bouwen van krachtige en geoptimaliseerde React-applicaties met Next.js.",
-          "Gebruik van server-side rendering (SSR) en static site generation (SSG) voor snellere paginalaadtijden.",
-          "Implementatie van soepele paginatransities en client-side navigatie.",
-          "Naadloze integratie van Next.js met React voor een samenhangende ontwikkelervaring."
+          "Het bouwen van performante en geoptimaliseerde React-applicaties met Next.js.",
+          "Gebruik van server-side rendering (SSR) en static site generation (SSG) voor snellere paginaladingen.",
+          "Implementeren van soepele paginovergangen en client-side navigatie.",
+          "Naadloze integratie van Next.js met React voor een samenhangende ontwikkelingservaring."
         ]
       },
       {
         "category": "Firebase",
         "list": [
-          "Gebruik van Firebase voor schaalbare en real-time databaseoplossingen.",
-          "Implementatie van gebruikersauthenticatie en -autorisatie met Firebase Authentication.",
-          "Integratie van Firebase Cloud Firestore voor efficiënte opslag en ophalen van gegevens.",
-          "Gebruik van Firebase Hosting voor implementatie en hosting van webapplicaties."
+          "Gebruik van Firebase voor schaalbare en realtime databasoplossingen.",
+          "Implementeren van gebruikersauthenticatie en -autorisatie met Firebase Authentication.",
+          "Integratie van Firebase Cloud Firestore voor efficiënte gegevensopslag en -opvraging.",
+          "Gebruik van Firebase Hosting voor het inzetten en hosten van webapplicaties."
         ]
       },
       {
         "category": "PHP",
         "sub": "(Hypertext Preprocessor)",
         "list": [
-          "Het bouwen van dynamische webpagina's en webtoepassingen.",
-          "Werken met databases, waaronder MySQL en PostgreSQL.",
-          "Het ontwikkelen van back-ends voor e-commerce, contentbeheer en andere toepassingen.",
-          "Het beveiligen van toepassingen tegen aanvallen zoals SQL Injection en XSS."
+          "Het bouwen van dynamische webpagina's en webapplicaties.",
+          "Werken met databases, inclusief MySQL.",
+          "Beveiligen van applicaties tegen aanvallen zoals SQL Injection en XSS."
         ]
       },
       {
         "category": "Node.js",
         "list": [
-          "Het creëren van servers en backend-toepassingen in de Node.js-omgeving.",
-          "Het gebruik van Express.js voor het bouwen van RESTful API's.",
-          "Het werken met WebSockets en realtime communicatie.",
-          "Efficiënt beheer van resources met npm of yarn."
+          "Het creëren van servers en backendapplicaties in de Node.js-omgeving.",
+          "Gebruik van Express.js om RESTful API's te bouwen.",
+          "Efficiënt beheren van bronnen met npm of yarn."
         ]
       },
       {
         "category": "MongoDB",
         "list": [
-          "Het werken met NoSQL-databases zoals MongoDB voor schaalbare en flexibele gegevensopslag.",
-          "Het maken en bevragen van MongoDB-databases en -collecties.",
-          "Het gebruik van Mongoose ODM voor Node.js om te communiceren met MongoDB.",
-          "Het ontwerpen van schema-loze gegevensstructuren voor verschillende toepassingen."
+          "Werken met NoSQL-databases zoals MongoDB voor schaalbare en flexibele gegevensopslag.",
+          "Maken en opvragen van MongoDB-databases en -collecties.",
+          "Gebruik van Mongoose ODM voor Node.js om te communiceren met MongoDB.",
+          "Ontwerpen van schema-loze datastructuren voor verschillende toepassingen."
         ]
       },
       {
         "category": "MySQL",
         "list": [
-          "Het beheren van relationele databases met MySQL.",
-          "Het maken en optimaliseren van databaseschema's en query's.",
-          "Het integreren van MySQL met backend-toepassingen voor gegevensopslag en -opvraging.",
-          "Het implementeren van databasebeveiliging en prestatieoptimalisatie."
+          "Beheren van relationele databases met MySQL.",
+          "Maken en optimaliseren van databaseschema's en -query's.",
+          "Integratie van MySQL met backendapplicaties voor gegevensopslag en -opvraging.",
+          "Implementeren van databasesecurity en prestatie-optimalisatie."
         ]
       },
       {
         "category": "Git, GitHub",
         "list": [
           "Versiebeheer van broncode met Git.",
-          "Branching en samenvoegen van code.",
+          "Branching en mergen van code.",
           "Oplossen van conflicten en toepassen van best practices in samenwerking.",
-          "Het maken en beheren van repositories op het GitHub-platform."
+          "Maken en beheren van repositories op het GitHub-platform."
         ]
       },
       {
         "category": "Visual Studio Code",
         "list": [
           "Efficiënt gebruik van Visual Studio Code als code-editor.",
-          "Installeren en configureren van extensies voor verbeterde productiviteit.",
-          "Aanpassen van sneltoetsen en instellingen voor een gepersonaliseerde ontwikkelomgeving.",
-          "Gebruik maken van de debugging- en versiebeheerfuncties van VS Code."
+          "Installeren en configureren van extensies voor verhoogde productiviteit.",
+          "Aanpassen van sneltoetsen en instellingen voor een gepersonaliseerde coderingsomgeving.",
+          "Gebruik van de debugging- en versiebeheerfuncties van VS Code."
         ]
       }
     ]
@@ -265,6 +262,7 @@
   },
   "projects": {
     "placeholderText": "Project zoeken...",
+    "all": "Alles",
     "begiedzDeveloper": "Huidige pagina waarop je je bevindt!",
     "Clouder": "Weervoorspellingsapplicatie. Weer-API van openweathermap.",
     "Currency Calculator": "Mobiele en webapplicatie. Valutakoersen-API van exchangerate-api.",
