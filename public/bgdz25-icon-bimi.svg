@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg viewBox="0 0 512 512" version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg">
+  <title>bimi-svg-tiny-12-ps</title>
+  <defs>
+    <radialGradient id="d" cx="341.43" cy="357.48" r="524.7" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g>
+    <g id="c">
+      <rect x="0" y="0" width="512" height="512"/>
+      <circle cx="341.43" cy="357.48" r="524.7" fill="url(#d)"/>
+      <g>
+        <path d="M329.25,237.11h-94.1s35.5,30.92,35.5,30.92l-88.33,114.33,43.29,43.89c6.86,6.96,18.08,7,24.98,.09l125.35-125.34c6.91-6.91,6.87-18.12-.08-24.98l-34.26-33.82c-3.29-3.25-7.74-5.08-12.37-5.08Z" fill="#fff"/>
+        <path d="M173.91,129.27l51.71,296.99-89.58-90.57c-3.3-3.3-5.16-7.78-5.16-12.45V80.51h.29l37.63,37.63c2.98,2.98,4.79,6.93,5.11,11.13Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
